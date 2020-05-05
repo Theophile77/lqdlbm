@@ -1,0 +1,565 @@
+namespace = dragonborn
+
+###New Dragonborn System
+#on_birth; everyone has a very low chance of being tagged as a potential dragonborn
+character_event = {
+	id = dragonborn.0
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 3450
+		NOT = { year = 4435 } #No more dragonborn candidates can be born after
+		
+		NOR = { #No "Special" traits prior to becoming dragonborn.
+
+			is_dragonblood = yes #Descedants of dragonborns cannot become candidates as they technically already are.
+			has_character_flag = daedric_herald #This person leads a Daedric invasion of Nirn, not exactly someone who'd be favored by the Divines
+		}
+	}
+	
+	immediate = {
+		random_list = {
+			1 = {
+
+			#Certain religions get a bonus
+				modifier = {
+					OR = {
+						religion = eight_divines
+						religion = nine_divines
+					}
+					factor = 1.25
+				}
+				modifier = {
+					religion_group = reach_faiths
+					factor = 0.75
+				}
+			#Negative Congenitals
+				modifier = {
+					OR = {
+						trait = imbecile
+						trait = inbred
+						trait = hunchback
+						trait = harelip
+						trait = clubfooted
+					}
+					factor = 0.1
+				}
+				modifier = {
+					OR = {
+						trait = slow
+						trait = weak
+						trait = stutter
+						trait = lisp
+						trait = feeble
+						trait = dull
+					}
+					factor = 0.5
+				}
+				modifier = {
+					trait = dwarf
+					factor = 0.95
+				}
+			#Positive Congenitals
+				modifier = {
+					OR = {
+						trait = genius
+						trait = quick
+						trait = strong
+						trait = robust
+						trait = shrewd
+					}
+					factor = 1.2
+				}
+			#Player characters get a bonus
+				modifier = {
+					mother_even_if_dead = { ai = no }
+					factor = 1.1
+				}
+				modifier = {
+					father_even_if_dead = { ai = no }
+					factor = 1.1
+				}
+				modifier = {
+					ai = no
+					mother_even_if_dead = {
+						NOR = { has_character_flag = dragonborn_candidate is_dragonblood = yes }
+					}
+					true_father_even_if_dead = {
+						NOR = { has_character_flag = dragonborn_candidate is_dragonblood = yes }
+					}
+					factor = 1.1
+				}
+				set_character_flag = dragonborn_candidate
+			}
+			99 = { } #Do nothing
+		}
+	}
+}
+###Dragonborn Descendents are now "levelled", the closer your descent to a dragonborn the higher your level of dragonblood.
+#on_birth
+character_event = {
+	id = dragonborn.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			true_father_even_if_dead = {
+				is_dragonblood = yes
+			}
+			mother_even_if_dead = {
+				is_dragonblood = yes
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { true_father_even_if_dead = { NOT = { is_dragonblood = yes } } mother_even_if_dead = { is_dragonblood = yes } }
+			mother_even_if_dead = {
+				trigger_switch = {
+					on_trigger = trait
+					dragonborn				= { PREV = { add_trait = dragonborn_g_1 } }
+					dragonborn_g_1			= { PREV = { add_trait = dragonborn_g_2 } }
+					dragonborn_g_2			= { PREV = { add_trait = dragonborn_g_3 } }
+					dragonborn_g_3			= { PREV = { add_trait = dragonborn_g_4 } }
+					dragonborn_g_4			= { PREV = { add_trait = dragonborn_g_5 } }
+					dragonborn_g_5			= { PREV = { add_trait = dragonborn_descendant } }
+					dragonborn_descendant	= { PREV = { add_trait = dragonborn_descendant } }
+				}
+			}
+		}
+		else_if = {
+			limit = { mother_even_if_dead = { NOT = { is_dragonblood = yes } } true_father_even_if_dead = { is_dragonblood = yes } }
+			true_father_even_if_dead = {
+				trigger_switch = {
+					on_trigger = trait
+					dragonborn				= { PREV = { add_trait = dragonborn_g_1 } }
+					dragonborn_g_1			= { PREV = { add_trait = dragonborn_g_2 } }
+					dragonborn_g_2			= { PREV = { add_trait = dragonborn_g_3 } }
+					dragonborn_g_3			= { PREV = { add_trait = dragonborn_g_4 } }
+					dragonborn_g_4			= { PREV = { add_trait = dragonborn_g_5 } }
+					dragonborn_g_5			= { PREV = { add_trait = dragonborn_descendant } }
+					dragonborn_descendant	= { PREV = { add_trait = dragonborn_descendant } }
+				}
+			}
+		}
+		else_if = { limit = { mother_even_if_dead = { trait = dragonborn } true_father_even_if_dead = { trait = dragonborn } } add_trait = dragonborn_g_1 }
+		else_if = {
+			limit = { mother_even_if_dead = { is_dragonblood = yes NOT = { trait = dragonborn } } true_father_even_if_dead = { is_dragonblood = yes NOT = { trait = dragonborn } } }
+			set_variable = { which = dragonblood_counter value = 0 }
+			mother_even_if_dead = {
+				trigger_switch = {
+					on_trigger = trait
+					dragonborn_g_1			= { PREV = { change_variable = { which = dragonblood_counter value = 1 } } }
+					dragonborn_g_2			= { PREV = { change_variable = { which = dragonblood_counter value = 2 } } }
+					dragonborn_g_3			= { PREV = { change_variable = { which = dragonblood_counter value = 3 } } }
+					dragonborn_g_4			= { PREV = { change_variable = { which = dragonblood_counter value = 4 } } }
+					dragonborn_g_5			= { PREV = { change_variable = { which = dragonblood_counter value = 5 } } }
+					dragonborn_descendant	= { PREV = { change_variable = { which = dragonblood_counter value = 6 } } }
+				}
+			}
+			true_father_even_if_dead = {
+				trigger_switch = {
+					on_trigger = trait
+					dragonborn_g_1			= { PREV = { change_variable = { which = dragonblood_counter value = 1 } } }
+					dragonborn_g_2			= { PREV = { change_variable = { which = dragonblood_counter value = 2 } } }
+					dragonborn_g_3			= { PREV = { change_variable = { which = dragonblood_counter value = 3 } } }
+					dragonborn_g_4			= { PREV = { change_variable = { which = dragonblood_counter value = 4 } } }
+					dragonborn_g_5			= { PREV = { change_variable = { which = dragonblood_counter value = 5 } } }
+					dragonborn_descendant	= { PREV = { change_variable = { which = dragonblood_counter value = 6 } } }
+				}
+			}
+			divide_variable = { which = dragonblood_counter value = 2 }
+			if = { limit = { check_variable = { which = dragonblood_counter value = 0 } check_variable = { which = dragonblood_counter value < 2 } } add_trait = dragonborn_g_1 }
+			else_if = { limit = { check_variable = { which = dragonblood_counter value = 2 } check_variable = { which = dragonblood_counter value < 3 } } add_trait = dragonborn_g_2 }
+			else_if = { limit = { check_variable = { which = dragonblood_counter value = 3 } check_variable = { which = dragonblood_counter value < 4 } } add_trait = dragonborn_g_3 }
+			else_if = { limit = { check_variable = { which = dragonblood_counter value = 4 } check_variable = { which = dragonblood_counter value < 5 } } add_trait = dragonborn_g_4 }
+			else_if = { limit = { check_variable = { which = dragonblood_counter value = 5 } check_variable = { which = dragonblood_counter value < 6 } } add_trait = dragonborn_g_5 }
+			else_if = { limit = { check_variable = { which = dragonblood_counter value = 6 } } add_trait = dragonborn_descendant }
+		}
+	}
+}
+##########
+##########Dragonborn Candidate Childhood Events, dragonborn.100 to 199
+##########
+####Gently boost dragonborn candidates. If someone wants to fluff these up with descriptions and event chains, feel free.
+####For now I'm just doing hidden events.
+#Childhood Prodigy, Martial
+character_event = {
+	id = dragonborn.100
+	hide_window = yes
+	is_triggered_only = yes
+	min_age = 8
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		martial < 12
+	}
+	
+	immediate = {
+		random_list = {
+			25 = { change_martial = 1 }
+			25 = { change_martial = 2 }
+			25 = { change_martial = 3 }
+			25 = { change_martial = 4 }
+		}
+	}
+}
+#Intrigue
+character_event = {
+	id = dragonborn.101
+	hide_window = yes
+	is_triggered_only = yes
+	min_age = 8
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		intrigue < 12
+	}
+	
+	immediate = {
+		random_list = {
+			25 = { change_intrigue = 1 }
+			25 = { change_intrigue = 2 }
+			25 = { change_intrigue = 3 }
+			25 = { change_intrigue = 4 }
+		}
+	}
+}
+#Learning
+character_event = {
+	id = dragonborn.102
+	hide_window = yes
+	is_triggered_only = yes
+	min_age = 8
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		learning < 12
+	}
+	
+	immediate = {
+		random_list = {
+			25 = { change_learning = 1 }
+			25 = { change_learning = 2 }
+			25 = { change_learning = 3 }
+			25 = { change_learning = 4 }
+		}
+	}
+}
+#Diplomacy
+character_event = {
+	id = dragonborn.103
+	hide_window = yes
+	is_triggered_only = yes
+	min_age = 8
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		diplomacy < 12
+	}
+	
+	immediate = {
+		random_list = {
+			25 = { change_diplomacy = 1 }
+			25 = { change_diplomacy = 2 }
+			25 = { change_diplomacy = 3 }
+			25 = { change_diplomacy = 4 }
+		}
+	}
+}
+#Stewardship
+character_event = {
+	id = dragonborn.104
+	hide_window = yes
+	is_triggered_only = yes
+	min_age = 8
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		stewardship < 12
+	}
+	
+	immediate = {
+		random_list = {
+			25 = { change_stewardship = 1 }
+			25 = { change_stewardship = 2 }
+			25 = { change_stewardship = 3 }
+			25 = { change_stewardship = 4 }
+		}
+	}
+}
+#Health
+character_event = {
+	id = dragonborn.105
+	hide_window = yes
+	is_triggered_only = yes
+	min_age = 8
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		health < 8
+	}
+	
+	immediate = {
+		random_list = {
+			25 = { health = 0.25 }
+			25 = { health = 0.5 }
+			25 = { health = 0.75 }
+			25 = { health = 1 }
+		}
+	}
+}
+
+#Dragonborn Manifests
+character_event = {
+	id = dragonborn.150
+	desc = dragonborn.1.desc
+	picture = GFX_evt_dragonborn
+	
+	min_age = 16
+	capable_only = yes
+	
+	trigger = {
+		OR = {
+			is_dragonblood = yes
+			has_character_flag = dragonborn_candidate
+		}
+		NOT = { trait = dragonborn }
+		NOT = { 
+			trait = dragonborn
+		}
+		OR = {
+			NOT = {
+				event_target:current_dragonborn = {
+					is_alive = yes
+				}
+			}
+			event_target:current_dragonborn = {
+				is_alive = yes
+				#If Dragonborn becomes immortal, there should be a chance for another to arise. See Miraak and the Last Dragonborn (Skyrim:Dragonborn DLC)
+				trait = immortal
+				
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		years = 1000
+		
+		modifier = { #In times of great crisis, a greater Dragonborn may be revealed
+			factor = 0.1
+		}
+		modifier = {
+			factor = 5
+			NOT = { combat_rating = 20 }
+		}
+		modifier = {
+			factor = 0.5
+			combat_rating = 40
+		}
+		modifier = {
+			factor = 0.5
+			combat_rating = 60
+		}
+		modifier = {
+			factor = 0.5
+			combat_rating = 80
+		}
+		modifier = {
+			factor = 0.5
+			combat_rating = 100
+		}
+	}
+	
+	option = {
+		name = dragonborn.1.1
+		hidden_tooltip = {
+			remove_trait = dragonborn_g_1
+			remove_trait = dragonborn_g_2
+			remove_trait = dragonborn_g_3
+			remove_trait = dragonborn_g_4
+			remove_trait = dragonborn_g_5
+			remove_trait = dragonborn_descendant
+		}
+		add_trait = dragonborn
+		save_global_event_target_as = current_dragonborn #Because there's ONE Dragonborn who should be hanging around
+		hidden_tooltip = {
+			any_child_even_if_dead = {
+				limit = { 
+					trait = dragonborn
+				}
+				add_trait = dragonborn_g_1
+				any_child_even_if_dead = {
+					limit = { 
+						NOR = { 
+							trait = dragonborn
+							trait = dragonborn_g_1
+						} 
+					}
+					add_trait = dragonborn_g_2
+					any_child_even_if_dead = {
+						limit = { 
+							NOR = {
+								trait = dragonborn
+								trait = dragonborn_g_1
+								trait = dragonborn_g_2
+							} 
+						}
+						add_trait = dragonborn_g_3
+						any_child_even_if_dead = {
+							limit = { 
+								NOR = {
+									trait = dragonborn
+									trait = dragonborn_g_1
+									trait = dragonborn_g_2
+									trait = dragonborn_g_3
+								} 
+							}
+							add_trait = dragonborn_g_4
+							any_child_even_if_dead = {
+								limit = { 
+									NOR = {
+										trait = dragonborn
+										trait = dragonborn_g_1
+										trait = dragonborn_g_2
+										trait = dragonborn_g_3
+										trait = dragonborn_g_4
+									} 
+								}
+								add_trait = dragonborn_g_5
+								any_child_even_if_dead = {
+									limit = { 
+										NOR = {
+											trait = dragonborn
+											trait = dragonborn_g_1
+											trait = dragonborn_g_2
+											trait = dragonborn_g_3
+											trait = dragonborn_g_4
+											trait = dragonborn_g_5
+										} 
+									}
+									add_trait = dragonborn_descendant
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		narrative_event = { id = dragonborn.1 }
+	}
+}
+
+narrative_event = {
+	id = dragonborn.1
+	major = yes
+	only_rulers = yes
+	title = dragonborn.2.title
+	desc = dragonborn.2.desc
+	picture = GFX_evt_dragonborn
+	is_triggered_only = yes
+	option = {
+		name = dragonborn.2.1
+	}
+}
+
+character_event = {
+	id = dragonborn.5
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = { #Will not fire on loading a savegame, use for init but not maintenance.
+		is_save_game = no
+		year = 499
+		is_dragonblood = yes #Descedants of dragonborns cannot become candidates as they technically already are.
+			
+	}
+	
+	immediate = {	
+		random_list = {
+			1 = {
+
+
+			#Certain religions get a bonus
+				modifier = {
+					OR = {
+						religion = eight_divines
+						religion = nine_divines
+					}
+					factor = 1.25
+				}
+				modifier = {
+					religion_group = reach_faiths
+					factor = 0.75
+				}
+			#Negative Congenitals
+				modifier = {
+					OR = {
+						trait = imbecile
+						trait = inbred
+						trait = hunchback
+						trait = harelip
+						trait = clubfooted
+					}
+					factor = 0.1
+				}
+				modifier = {
+					OR = {
+						trait = slow
+						trait = weak
+						trait = stutter
+						trait = lisp
+						trait = feeble
+						trait = dull
+					}
+					factor = 0.5
+				}
+				modifier = {
+					trait = dwarf
+					factor = 0.95
+				}
+			#Positive Congenitals
+				modifier = {
+					OR = {
+						trait = genius
+						trait = quick
+						trait = strong
+						trait = robust
+						trait = shrewd
+					}
+					factor = 1.2
+				}
+				modifier = { 	#Player characters get a bonus
+					ai = no
+					factor = 2.5
+				}
+				set_character_flag = dragonborn_candidate
+			}
+			99 = { } #Do nothing
+		}
+	}
+}

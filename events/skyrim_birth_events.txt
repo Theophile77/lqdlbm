@@ -1,0 +1,28 @@
+namespace = dbbirth
+#on_birth events
+character_event = { 
+	id = dbbirth.100
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {		
+		if = { #Dragonborn
+			limit = {
+				NOR = {
+					father_even_if_dead = { is_dragonblood = yes }
+					mother_even_if_dead = { is_dragonblood = yes }
+				}
+			}
+			character_event = { id = dragonborn.0 }
+		}
+		if = { #Dragonborn
+			limit = {
+				OR = {
+					father_even_if_dead = { is_dragonblood = yes }
+					mother_even_if_dead = { is_dragonblood = yes }
+				}
+			}
+			character_event = { id = dragonborn.2 }
+		}
+	}
+}

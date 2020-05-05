@@ -1,0 +1,807 @@
+namespace = eksocieties
+#Contents
+#EK Joining Guilds - eksocieties 10-12
+#EK Specializations - eksocieties 50-100
+#EK Guild Education - eksocieties 110
+
+
+#Guild Joining events based on initial Hermetics events from MnM
+#From on_character_ask_to_join_society
+####This is a general event used for all public societies such as the Mages Guild and Companions
+character_event = {
+    id = eksocieties.10
+	hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+		OR = {
+			FROM = { leader = { society_member_of = companions_tamriel } }
+			FROM = { leader = { society_member_of = greybeards_tamriel } }
+		}
+    }
+    immediate = {
+		if = {
+			limit = { FROM = { leader = { society_member_of = greybeards_tamriel } } }
+			set_character_flag = greybeards_initiation
+		}
+    	FROM = { leader = { character_event = { id = eksocieties.11 } } }
+    }
+}
+
+#Ping event
+character_event = {
+    id = eksocieties.11
+	hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+    	FROM = { letter_event = { id = eksocieties.12 } }
+    }
+}
+
+#Welcome letter
+letter_event = {
+    id = eksocieties.12
+	desc = { #Companions letter
+		text = EKSocieties12Companions
+		trigger = {
+			has_character_flag = companions_tamriel_acceptance
+		}
+	}
+	desc = { #Greybeards letter
+		text = EKSocieties12Greybeards
+		trigger = {
+			has_character_flag = greybeards_tamriel_acceptance
+		}
+	}
+
+    is_triggered_only = yes
+	
+	immediate = { 
+		set_character_flag = society_join_block 
+		if = {
+			limit = {
+				FROMFROMFROM = { leader = { society_member_of = companions_tamriel } }
+			}
+			set_character_flag = companions_tamriel_acceptance
+		}
+		if = {
+			limit = {
+				FROMFROMFROM = { leader = { society_member_of = greybeards_tamriel } }
+			}
+			set_character_flag = greybeards_tamriel_acceptance
+		}
+	}
+
+    option = {
+        name = EKSocieties12Acknowledge
+
+		if = {
+			limit = { has_character_flag = companions_tamriel_acceptance }
+			join_society = companions_tamriel
+		}
+		if = {
+			limit = { has_character_flag = greybeards_tamriel_acceptance }
+			clr_character_flag = greybeards_tamriel_acceptance
+			character_event = { id = ekgreybeards.1 }
+		}
+		
+		if = {
+			limit = { is_in_society = yes }
+			clr_character_flag = society_join_block
+			clr_character_flag = companions_tamriel_acceptance
+		}
+    }
+}
+
+#A high-ranking society member asks the Grandmaster to retire...for a price
+letter_event = {
+    id = eksocieties.20
+	desc = EKSocieties20
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EKSocieties20Accept
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				trait = greedy
+			}
+			modifier = {
+				factor = 2.5
+				trait = humble
+			}
+			modifier = {
+				factor = 2.5
+				trait = slothful
+			}
+			modifier = {
+				factor = 2.5
+				trait = trusting
+			}
+			modifier = {
+				factor = 5
+				is_ruler = yes
+				NOT = { wealth = 25 }
+			}
+			modifier = {
+				factor = 5
+				NOT = { tier = count }
+			}
+		}
+		wealth = 500
+		FROM = { letter_event = { id = eksocieties.21 days = 3 } }
+   }
+   option = {
+		name = EKSocieties20Decline
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				trait = stubborn
+			}
+			modifier = {
+				factor = 2.5
+				trait = proud
+			}
+			modifier = {
+				factor = 2.5
+				trait = diligent
+			}
+			modifier = {
+				factor = 2.5
+				trait = paranoid
+			}
+			modifier = {
+				factor = 2.5
+				trait = patient
+			}
+			modifier = {
+				factor = 2.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2.5
+				trait = ambitious
+			}
+			modifier = {
+				factor = 5
+				is_ruler = yes
+				wealth = 100
+			}
+			modifier = {
+				factor = 2.5
+				tier = duke
+			}
+			modifier = {
+				factor = 5
+				tier = king
+			}
+			modifier = {
+				factor = 10
+				tier = emperor
+			}
+		}
+		add_character_modifier = {
+			name = denied_retirement_timer
+			days = 1095
+		}
+		FROM = { letter_event = { id = eksocieties.22 days = 3 } }
+   }
+}
+letter_event = {
+    id = eksocieties.21
+	desc = EKSocieties21
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EKSocieties21Accept
+		set_society_grandmaster = yes
+		clr_character_flag = requesting_society_retirement
+		FROM = {
+			leave_society = yes
+			add_character_modifier = {
+				name = ek_society_pension
+				days = -1
+			}
+		}
+   }
+}
+letter_event = {
+    id = eksocieties.22
+	desc = EKSocieties22
+	
+	is_triggered_only = yes
+
+	option = {
+		name = EKSocieties22Accept
+		wealth = 700
+		clr_character_flag = requesting_society_retirement
+   }
+}
+
+#AI characters will join the relevant societies - based on "Force join AI characters to societies" event from MNM
+character_event = {
+	id = eksocieties.30
+	hide_window = yes
+	
+	only_rulers = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				ai = yes
+				is_adult = yes
+				prisoner = no
+				is_inaccessible_trigger = no
+				is_in_society = no
+				controls_religion = no
+				NOT = { trait = incapable }
+				block_general_event_trigger = no
+			}
+			character_event = { id = eksocieties.31 }
+		}
+		any_courtier = {
+			limit = {
+				ai = yes
+				is_adult = yes
+				prisoner = no
+				is_inaccessible_trigger = no
+				is_in_society = no
+				controls_religion = no
+				NOT = { trait = incapable }
+				block_general_event_trigger = no
+			}
+			character_event = { id = eksocieties.31 }
+		}
+	}
+}
+character_event = {
+	id = eksocieties.31
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			95 = { # do nothing
+			}
+			5 = { # try to join a society
+				modifier = {
+					factor = 2
+					higher_tier_than = BARON
+				}
+				
+				random_list = {
+					700 = { } # Fall back dead weight
+					100 = {
+						trigger = {
+							can_join_society = companions_tamriel
+						}
+						modifier = {
+							factor = 2
+							OR = {
+								
+								AND = {
+									combat_rating = 40
+									martial = 15
+								}
+								
+								trait = dragonborn
+							}
+						}
+						modifier = {
+							factor = 4
+							OR = {
+								
+								AND = {
+									combat_rating = 100
+									martial = 30
+								}
+								
+								trait = dragonborn
+							}
+						}
+						join_society = companions_tamriel
+						random_list = { # Artificially increase society influence for balance purposes
+							75 = {
+								modifier = {
+									factor = 0
+									society_influence >= 30
+								}
+								add_mission_succeed_influence_effect = yes
+							}
+							25 = {
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									society = {
+										any_society_member = {
+											is_society_grandmaster = yes
+										}
+									}
+								}
+							}
+							set_society_grandmaster = yes
+						}
+					}
+					50 = {
+						trigger = {
+							can_join_society = greybeards_tamriel
+						}
+						modifier = {
+							factor = 4
+							OR = {
+								learning = 15
+								trait = monk
+								trait = nun
+								trait = celibate
+							}
+						}
+						modifier = {
+							factor = 0.1
+							NOT = { religion_group = human_pantheon }
+						}
+						join_society = greybeards_tamriel
+						random_list = { # Artificially increase society influence for balance purposes
+							75 = {
+								modifier = {
+									factor = 0
+									society_influence >= 30
+								}
+								add_mission_succeed_influence_effect = yes
+							}
+							25 = {
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									society = {
+										any_society_member = {
+											is_society_grandmaster = yes
+										}
+									}
+								}
+							}
+							set_society_grandmaster = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+#### I'm studying at the guild, time to choose a specialization! ####
+character_event = {
+	id = eksocieties.50
+	picture = GFX_evt_comet #Placeholder
+	desc = {
+		text = eksocieties50Fighters
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+	}
+	desc = {
+		text = eksocieties50Monks
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_in_society = yes
+		NOT = { has_character_modifier = denied_specialization_timer }
+		
+		OR = {
+			society_member_of = companions_tamriel
+			society_member_of = greybeards_tamriel
+		}
+	}
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	#Fighters Guild Options#
+	option = { #Become an Assassin
+		name = eksocieties50Assassin
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = assassin_study_tooltip }
+		set_character_flag = fighters_guild_assassin
+	}
+	option = { #Become a Barbarian
+		name = eksocieties50Barbarian
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = barbarian_study_tooltip }
+		set_character_flag = fighters_guild_barbarian
+	}
+	option = { #Become a Battlemage
+		name = eksocieties50Battlemage
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = battlemage_study_tooltip }
+		set_character_flag = fighters_guild_battlemage
+	}
+	#Monastic Options
+	option = { #Become a Bard
+		name = eksocieties50Bard
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = bard_study_tooltip }
+		set_character_flag = monastic_order_bard
+	}
+	option = { #Become a Battlemage
+		name = eksocieties50Battlemage
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = battlemage_study_tooltip }
+		set_character_flag = monastic_order_battlemage
+	}
+	option = { #Become a Crusader
+		name = eksocieties50Crusader
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = crusader_study_tooltip }
+		set_character_flag = monastic_order_crusader
+	}
+	
+	option = { #More options
+		name = eksocieties50Wrap
+		character_event = { id = eksocieties.51 }
+	}
+}
+character_event = {
+	id = eksocieties.51
+	picture = GFX_evt_comet #Placeholder
+	desc = {
+		text = eksocieties50Fighters
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+	}
+	
+	desc = {
+		text = eksocieties50Monks
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+	}
+	
+	
+	is_triggered_only = yes
+	
+	#Fighters Guild Options#
+	option = { #Become a Crusader
+		name = eksocieties50Crusader
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = crusader_study_tooltip }
+		set_character_flag = fighters_guild_crusader
+	}
+	option = { #Become a Knight
+		name = eksocieties50Knight
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = knight_study_tooltip }
+		set_character_flag = fighters_guild_knight
+	}
+	option = { #Become a Monk
+		name = eksocieties50Monk
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = monk_study_tooltip }
+		set_character_flag = fighters_guild_monk
+	}
+	
+	#Monastic Options
+	option = { #Become a Healer
+		name = eksocieties50Healer
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = healer_study_tooltip }
+		set_character_flag = monastic_order_healer
+	}
+	option = { #Become a Monk
+		name = eksocieties50Monk
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = monk_study_tooltip }
+		set_character_flag = monastic_order_monk
+	}
+	option = { #Become a Priest
+		name = eksocieties50Priest
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = priest_study_tooltip }
+		set_character_flag = monastic_order_priest
+	}
+	
+	option = { #More options
+		name = eksocieties50Wrap
+		character_event = { id = eksocieties.52 }
+	}
+}
+character_event = {
+	id = eksocieties.52
+	picture = GFX_evt_comet #Placeholder
+	desc = {
+		text = eksocieties50Fighters
+		picture = GFX_evt_library
+		trigger = {
+				society_member_of = companions_tamriel
+		}
+	}
+	
+	desc = {
+		text = eksocieties50Monks
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+	}
+	
+	
+	is_triggered_only = yes
+	
+	#Fighters Guild Options#
+	option = { #Become a Rogue
+		name = eksocieties50Rogue
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = rogue_study_tooltip }
+		set_character_flag = fighters_guild_rogue
+	}
+	option = { #Become a Scout
+		name = eksocieties50Scout
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = scout_study_tooltip }
+		set_character_flag = fighters_guild_scout
+	}
+	option = { #Become a Spellsword
+		name = eksocieties50Spellsword
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = spellsword_study_tooltip }
+		set_character_flag = fighters_guild_spellsword
+	}
+	
+	#Monastic Options
+	option = { #Become a Savant
+		name = eksocieties50Savant
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = savant_study_tooltip }
+		set_character_flag = monastic_order_savant
+	}
+	option = { #Become a Spellsword
+		name = eksocieties50Spellsword
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = spellsword_study_tooltip }
+		set_character_flag = monastic_order_spellsword
+	}
+	option = { #Become a Wayfarer
+		name = eksocieties50Wayfarer
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = wayfarer_study_tooltip }
+		set_character_flag = monastic_order_wayfarer
+	}
+	option = { #More options
+		name = eksocieties50Wrap
+		character_event = { id = eksocieties.53 }
+	}
+}
+character_event = {
+	id = eksocieties.53
+	picture = GFX_evt_comet #Placeholder
+	desc = {
+		text = eksocieties50Fighters
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+	}
+	desc = {
+		text = eksocieties50Monks
+		picture = GFX_evt_library
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Fighters Guild Options#
+	option = { #Become a Wayfarer
+		name = eksocieties50Wayfarer
+		trigger = {
+			society_member_of = companions_tamriel
+		}
+		custom_tooltip = { text = wayfarer_study_tooltip }
+		set_character_flag = fighters_guild_wayfarer
+	}
+	
+	#Monastic Options
+	option = { #Become a Witchhunter
+		name = eksocieties50Witchhunter
+		trigger = {
+			society_member_of = greybeards_tamriel
+		}
+		custom_tooltip = { text = witchhunter_study_tooltip }
+		set_character_flag = monastic_order_witchhunter
+	}
+	
+	option = { #More options
+		name = eksocieties50Wrap
+		character_event = { id = eksocieties.50 }
+	}
+	
+	option = { #Failsafe
+		name = eksocieties50Decline
+		trigger = {
+		}
+		clr_character_flag = guild_specialization_ongoing
+		add_character_modifier = {
+			name = denied_specialization_timer
+			months = 12
+			hidden = yes
+		}
+	}
+}
+
+# Specialization Traits for the AI : Automatically chooses and assigns a relevant flag for specialization
+character_event = {
+	id = eksocieties.55
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	ai = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_in_society = yes
+		OR = {
+			society_member_of = companions_tamriel
+			society_member_of = greybeards_tamriel
+		}
+		
+	}
+	
+	immediate = {
+		if = {
+			limit = { 
+				society_member_of = companions_tamriel
+			}
+			random_list = {
+				10 = {
+					set_character_flag = fighters_guild_assassin
+				}
+				10 = {
+					set_character_flag = fighters_guild_barbarian
+				}
+				10 = {
+					set_character_flag = fighters_guild_battlemage
+				}
+				10 = {
+					set_character_flag = fighters_guild_crusader
+				}
+				10 = {
+					set_character_flag = fighters_guild_knight
+				}
+				10 = {
+					set_character_flag = fighters_guild_monk
+				}
+				10 = {
+					set_character_flag = fighters_guild_rogue
+				}
+				10 = {
+					set_character_flag = fighters_guild_scout
+				}
+				10 = {
+					set_character_flag = fighters_guild_spellsword
+				}
+				10 = {
+					set_character_flag = fighters_guild_wayfarer
+				}
+			}
+		}
+		
+		if = {
+			limit = { 
+				society_member_of = greybeards_tamriel
+			}
+			random_list = {
+				10 = {					
+					set_character_flag = monastic_order_bard
+				}
+				10 = {					
+					set_character_flag = monastic_order_battlemage
+				}
+				10 = {					
+					set_character_flag = monastic_order_crusader
+				}
+				10 = {
+					set_character_flag = monastic_order_healer
+				}
+				10 = {
+					set_character_flag = monastic_order_monk
+				}
+				10 = {
+					set_character_flag = monastic_order_priest
+				}
+				10 = {
+					set_character_flag = monastic_order_savant
+				}
+				10 = {
+					set_character_flag = monastic_order_spellsword
+				}
+				10 = {
+					set_character_flag = monastic_order_wayfarer
+				}
+				10 = {
+					set_character_flag = monastic_order_witchhunter
+				}
+			}
+		}
+		else = {
+			clr_character_flag = guild_specialization_ongoing
+			clear_specialization_flags = yes
+		}
+	}
+}
+
+#### Character cancels specialization training ####
+character_event = {
+	id = eksocieties.70
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		add_character_modifier = {
+			name = denied_specialization_timer
+			months = 12
+			hidden = yes
+		}
+		
+		clr_character_flag = guild_specialization_ongoing
+		clear_specialization_flags = yes
+	}
+}
