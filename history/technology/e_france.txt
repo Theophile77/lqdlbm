@@ -1,0 +1,31 @@
+#FRANCE
+technology = {
+	titles = {
+		d_aquitaine
+		d_champagne
+		d_poitou
+		d_alsace_lorraine
+		d_anjou
+		d_auvergne
+		d_belgique
+		d_bourgogne
+		d_dauphine_provence
+		d_france
+		d_gascogne
+		d_languedoc
+		d_normandie
+		d_pays_bas
+		d_picardie
+		d_savoie
+	}
+	500 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

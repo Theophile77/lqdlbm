@@ -1,0 +1,26 @@
+#BRITANNIA
+technology = {
+	titles = {
+		d_avalon
+		d_caledonie
+		d_carmelide
+		d_connaught
+		d_cornouailles
+		d_haute_bretagne
+		d_leinster
+		d_munster
+		d_northumbria
+		d_orcanie
+		d_ulster
+	}
+	500 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

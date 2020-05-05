@@ -1,0 +1,25 @@
+#CYRODIIL
+technology = {
+	titles = {
+		d_bassin_de_nibenay
+		d_boisnoir
+		d_capitole
+		d_cote_dor
+		d_kvatch
+		d_la_grande_foret
+		d_marais_noir
+		d_montagne_de_jerall
+		d_vallee_de_nibenay
+		d_weal_occidantal
+	}
+	500 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

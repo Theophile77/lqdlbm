@@ -1,0 +1,49 @@
+#SKYRIM
+technology = {
+	titles = {
+		d_haafingar
+		d_ansilvund
+		d_bleakwind
+		d_brittleshin
+		d_coldrock
+		d_eastmarch
+		d_falkreath
+		d_greymarch
+		d_hjaalmarch
+		d_ironbind
+		d_korvanjund
+		d_morvunskar
+		d_nilheim
+		d_scarhammer
+		d_sunderstone
+		d_the_pale
+		d_the_reach
+		d_the_rift
+		d_valtgard
+		d_volkihar
+		d_volskygge
+		d_whiterun
+		d_winterhold
+		d_snowhawk
+		d_bannermist
+		d_greywinter
+		d_saarthal
+		d_hrothgar_titular
+		d_bleakrock
+		d_ustunspass
+		d_markarth
+		d_karthspire
+		d_ravenhall
+		d_ingmarok
+	}
+	500 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

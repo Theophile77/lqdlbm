@@ -1,0 +1,18 @@
+#LA MARCHE DE L'OUEST
+technology = {
+	titles = {
+		d_la_marche
+		d_cotes_dargent
+		d_druadach
+	}
+	500 = {
+		military = 2.0
+		economy = 2.0
+		culture = 2.0
+	}
+	2500 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
