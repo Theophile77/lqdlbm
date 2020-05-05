@@ -1,0 +1,902 @@
+1000 = {
+	name = Ulfric #Ulfric Sombrage de Vendeaume
+	dynasty = 70072
+	religion = nine_divines
+	culture = nord
+	460.2.4 = {birth = yes}
+	532.12.24 = {death = yes}
+}
+
+1001 = {
+	name = Élisif #Élisif de Solitude
+	female = yes
+	religion = eight_divines
+	culture = nord
+	480.10.5 = {birth = yes}
+	537.11.2 = {death = yes}
+}
+1002 = {
+	name = Baalgruf #Jarl de Blancherive TRouvé une dynasty
+	religion = nine_divines
+	culture = nord
+	460.7.4 = {birth = yes}
+	480.1.1 = {
+		give_nickname = nick_the_great
+	}
+	521.12.24 = {death = yes}
+}
+
+1003 = {
+	name = Idgrod #Ailedejais Jarl de Morthal 
+	female = yes
+	dynasty = 70466
+	religion = eight_divines
+	culture = nord
+	450.2.25 = {birth = yes}
+	480.1.1 = {
+		add_matrilineal_spouse = 1057
+	}
+	512.11.2 = {death = yes}
+}
+
+1004 = {
+	name = Igmund #Jarl de Markarth
+	religion = eight_divines
+	culture = nord
+	465.10.5 = {birth = yes}
+	537.11.2 = {death = yes}
+}
+
+1005 = {
+	name = Siddgeir #Jarl d'Epervine
+	dynasty = 70079
+	father = 1070
+	religion = eight_divines
+	culture = nord
+	465.10.5 = {birth = yes}
+	537.11.2 = {death = yes}
+}
+
+1006 = {
+	name = Skald #Skald l'ainée Jarl d'Aubétoile
+	dynasty = 70456
+	religion = nine_divines
+	culture = nord
+	465.2.4 = {birth = yes}
+	495.1.1 = {
+		give_nickname = nick_the_old
+	}
+	532.12.24 = {death = yes}
+}
+
+1007 = {
+	name = Korir #Jarl de Fortdhiver
+	dynasty = 70344
+	religion = nine_divines
+	culture = nord
+	465.2.4 = {birth = yes}
+	490.1.1 = {
+		add_spouse = 1085
+	}
+	532.12.24 = {death = yes}
+}
+
+1008 = {
+	name = Laila #Jarl de Faillaise
+	female = yes
+	dynasty = 70262
+	religion = nine_divines
+	culture = nord
+	465.2.4 = {birth = yes}
+	532.12.24 = {death = yes}
+}
+1009 = {
+	name = Maven
+	female = yes
+	dynasty = 70117
+	religion = eight_divines
+	culture = nord
+	455.2.4 = {birth = yes}
+	532.12.24 = {death = yes}
+}
+1010 = {
+	name = Olfrid
+	dynasty = 70111 #guerrier-né
+	religion = eight_divines
+	culture = nord
+	440.1.1 = {birth = yes}
+	460.1.1 = {add_spouse = 1011}
+	512.1.1 = {death = yes}
+}
+1011 = {
+	name = Bergritte
+	female = yes
+	religion = eight_divines
+	culture = nord
+	440.1.1 = {birth = yes}
+	460.1.1 = {add_spouse = 1010}
+	512.1.1 = {death = yes}
+}
+1012 = {
+	name = Idolaf
+	father = 1010
+	mother = 1011
+	dynasty = 70111 #guerrier-né
+	religion = eight_divines
+	culture = nord
+	465.1.1 = {birth = yes}
+	484.1.1 = {add_spouse = 1014}
+	530.1.1 = {death = yes}
+}
+1013 = {
+	name = Jon
+	father = 1010
+	mother = 1011
+	dynasty = 70111 #guerrier-né
+	religion = eight_divines
+	culture = nord
+	468.1.1 = {birth = yes}
+	538.1.1 = {death = yes}
+}
+1014 = {
+	name = Alfhid
+	female = yes
+	religion = eight_divines
+	culture = nord
+	468.1.1 = {birth = yes}
+	484.1.1 = {add_spouse = 1012}
+	520.1.1 = {death = yes}
+}
+1015 = {
+	name = Lars
+	father = 1012
+	mother = 1014
+	dynasty = 70111 #guerrier-né
+	religion = eight_divines
+	culture = nord
+	490.1.1 = {birth = yes}
+	540.1.1 = {death = yes}
+}
+1016 = {
+	name =Eorlund
+	religion = nine_divines
+	culture = nord
+	father = 1053
+	dynasty = 70472 #Grisetoise
+	440.1.1 = {birth = yes}
+	460.1.1 = {add_spouse = 1017}
+	512.1.1 = {death = yes}
+}
+1017 = {
+	name = Fralia #Grisetoise
+	female = yes
+	religion = nine_divines
+	culture = nord
+	440.1.1 = {birth = yes}
+	460.1.1 = {add_spouse = 1016}
+	512.1.1 = {death = yes}
+}
+1018 = {
+	name = Vignar
+	father = 1053
+	religion = nine_divines
+	culture = nord
+	dynasty = 70472 #Grisetoise
+	459.1.1 = {birth = yes}
+	512.1.1 = {death = yes}
+}
+1019 = {
+	name = Olfina
+	female = yes
+	father = 1016
+	mother = 1017
+	religion = nine_divines
+	culture = nord
+	dynasty = 70472 #Grisetoise
+	468.1.1 = {birth = yes}
+	501.1.1 = {death = yes}
+}
+1020 = {
+	name = Avulstein
+	dynasty = 70472 #Grisetoise
+	father = 1016
+	mother = 1017
+	religion = nine_divines
+	culture = nord 
+	470.1.1 = {birth = yes}
+	532.1.1 = {death = yes}
+}
+1021 = {
+	name = Thorald
+	dynasty = 70472 #Grisetoison
+	father = 1016
+	mother = 1017
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	501.1.1 = {death = yes}
+}
+
+1022 = {
+	name = Asgeir #Chausseneige (Estemarche?) #TODO
+	dynasty = 70345
+	religion = nine_divines
+	culture = nord
+	470.1.1 = {birth = yes}
+	501.1.1 = {death = yes}
+}
+
+1023 = {
+	name = Galmar #Rudepoing (Estemarche?)
+	dynasty = 70467
+	religion = nine_divines
+	culture = nord
+	add_trait = "skilled_tactician"
+	450.1.1 = {birth = yes}
+	500.1.1 = {
+		employer = 1000
+		give_job_title = job_marshal
+	}
+	501.1.1 = {death = yes}
+}
+
+1024 = {
+	name = Gerdur #Rivebois
+	female = yes
+	dynasty = 70468
+	father = 1027
+	religion = nine_divines
+	culture = nord
+	470.1.1 = {birth = yes}
+	490.1.1 = {add_matrilineal_spouse = 1025}
+	520.1.1 = {death = yes}
+}
+1025 = {
+	name = Hod #Rivebois
+	religion = nine_divines
+	culture = nord
+	470.1.1 = {birth = yes}
+	490.1.1 = {add_matrilineal_spouse = 1024}
+	520.1.1 = {death = yes}
+}
+
+1026 = {
+	name = Frodnar #Rivebois
+	dynasty = 70468
+	religion = nine_divines
+	culture = nord
+	mother = 1024
+	father = 1025
+	490.1.1 = {birth = yes}
+	540.1.1 = {death = yes}
+}
+
+1027 = {
+	name = Géralt #Rivebois
+	dynasty = 70468
+	religion = nine_divines
+	culture = nord
+	440.1.1 = {birth = yes}
+	490.1.1 = {death = yes}
+}
+
+1028 = {
+	name = Ralof
+	dynasty = 70468
+	father = 1027
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	500.1.1 = {employer = 1000}
+	520.1.1 = {death = yes}
+}
+
+1029 = {
+	name = Gonnar # Bon-Serment soldat dans la Brèche
+	dynasty = 70469
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	520.1.1 = {death = yes}
+}
+
+1030 = {
+	name = Halbarn # Fertoison (retraite de Bujold) Lui donner bleakrock (Mornepierre?)
+	dynasty = 70252
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	520.1.1 = {death = yes}
+}
+
+1031 = {
+	name = Hjornskar #CasseTête, Assiège Blancherive pour les sombrages 
+	dynasty = 70224
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	520.1.1 = {death = yes}
+}
+
+1032 = {
+	name = Kai # Garde-Mouillée, Fordhiver
+	dynasty = 70410
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	520.1.1 = {death = yes}
+}
+
+1033 = {
+	name = Kodlak #Chef des compagnons (peut être donner une terre près de blancherive
+	dynasty = 70414
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	520.1.1 = {death = yes}
+}
+
+1034 = {
+	name = Mjoll #La lionne à mettre qqpart dans faillaise
+	female = yes
+	#dynasty = Trouvé une dynastie
+	religion = nine_divines
+	culture = nord
+	475.1.1 = {birth = yes}
+	495.1.1 = {
+		give_nickname = nick_the_lioness
+	}
+	520.1.1 = {death = yes}
+}
+
+1035 = {
+	name = Aerin #Compagnon de Mjoll peut etre lui donner une terre en faillaise ou proche
+	religion = eight_divines
+	culture = roman #Modifier pour romain plus tard
+	475.1.1 = {birth = yes}
+	520.1.1 = {death = yes}
+}
+
+1036 = {
+	name = Skjor #Membre des compagnons
+	religion = eight_divines
+	culture = nord
+	455.1.1 = {birth = yes}
+	501.1.1 = {death = yes}
+}
+
+1037 = {
+	name = Sylgia #Pierre de Shor
+	female = yes
+	culture = nord
+	religion = nine_divines
+	475.1.1 = {birth = yes}
+	491.1.1 = {add_spouse = 1038}
+	540.1.1 = {death = yes}
+}
+
+1038 = {
+	name = Filnjar #Pierre de Shor
+	dynasty = 70296
+	culture = nord
+	religion = nine_divines
+	455.1.1 = {birth = yes}
+	491.1.1 = {add_spouse = 1037}
+	510.1.1 = {death = yes}
+}
+
+1039 = {
+	name =Temba #Grand bras de fort Ivar
+	female = yes
+	dynasty = 70418
+	religion = nine_divines
+	culture = nord
+	462.1.1 = {birth = yes}
+	510.1.1 = {death = yes}
+}
+
+1040 = {
+	name = Thorygg #Astre-Mort attaque épervine pour les sombrages
+	dynasty = 70369
+	culture = nord
+	religion = nine_divines
+	455.1.1 = {birth = yes}
+	510.1.1 = {death = yes}
+}
+
+1041 = {
+	name = Yrsarald #Triple-Entaille Défend Estemarche
+	dynasty = 70386
+	culture = nord
+	religion = nine_divines
+	455.1.1 = {birth = yes}
+	510.1.1 = {death = yes}
+}
+
+1042 = {
+	name = Esbern #Mettre à Havreciel ajouter delphine ?
+	culture = nord
+	dynasty = 70289 # Purelame
+	religion = eight_divines
+	455.1.1 = {birth = yes}
+	510.1.1 = {death = yes}
+}
+
+1043 = {
+	name = Frokmar #Terne-Bannière Sombrages dans le Clos
+	dynasty = 70470
+	culture = nord
+	religion = nine_divines
+	455.1.1 = {birth = yes}
+	510.1.1 = {death = yes}
+}
+
+1044 = {
+	name = Bryling #Thane de solitude (mine de vaseroc)
+	female = yes
+	dynasty = 70396 #Vaseroc
+	culture = nord
+	religion = eight_divines
+	470.1.1 = {birth = yes}
+	532.1.1 = {death = yes}
+}
+
+1045 = {
+	name = Falk #Barbebraise Chambellan de Solitude
+	dynasty = 70179
+	religion = eight_divines
+	culture = nord
+	add_trait = "grey_eminence"
+	462.1.1 = {birth = yes}
+	500.1.1 = {
+		employer = 1001
+		give_job_title = job_chancellor
+	} 
+	530.1.1 = {death = yes}
+}
+
+1046 = {
+	name = Bolgeir # Griffe d'ours Huscarl d'élisif
+	dynasty = 70438
+	culture = nord
+	religion = eight_divines
+	470.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1047 = {
+	name = Erikur #Thane de Solitude
+	dynasty = 70434
+	culture = nord
+	father = 1048
+	religion = eight_divines
+	460.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1048 = {
+	name = Hamsdel #Thane de Solitude père d'érikur pour le relié à sa sœur
+	dynasty = 70434
+	culture = nord
+	religion = nine_divines
+	426.1.1 = {birth = yes}
+	492.1.1 = {death = yes}
+}
+
+1049 = {
+	name = Gislis #Thane de Solitude sœur d'érikur
+	female = yes
+	dynasty = 70434
+	culture = nord
+	father = 1048
+	religion = eight_divines
+	460.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1050 = {
+	name = Angi #Vivais à Helgen
+	female = yes
+	dynasty = 70471
+	culture = nord
+	religion = eight_divines
+	482.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1051 = {
+	name = Tullius
+	culture = roman #A changer par romain
+	religion = eight_divines
+	add_trait = "brilliant_strategist"
+	450.1.1 = {birth = yes}
+	500.1.1 = {
+		employer = 1001
+		give_job_title = job_marshal
+	}
+	530.1.1 = {death = yes}
+}
+
+1052 = {
+	name = Rorik # de RorikBourg captain obvious
+	culture = nord
+	religion = eight_divines
+	462.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1053 = {
+	name = Vilkar #Gristoison pour relié les deux frere
+	dynasty = 70472
+	culture = nord
+	religion = nine_divines
+	412.1.1 = {birth = yes}
+	490.1.1 = {death = yes}
+}
+1054 = {
+	name = Roggi #Barbe-Nouée Bosquet de Kyne
+	dynasty = 70260
+	culture = nord
+	religion = nine_divines
+	465.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+
+
+1055 = {
+	name = Idgrod #Ailedejais file de la Jarl de Morthal 
+	female = yes
+	dynasty = 70466
+	religion = eight_divines
+	culture = nord
+	mother = 1003
+	father = 1057
+	481.2.25 = {birth = yes}
+	485.2.25 = {
+		give_nickname = nick_the_young
+	}
+	530.11.2 = {death = yes}
+}
+1056 = {
+	name = Joric #Ailedejais
+	dynasty = 70466
+	religion = eight_divines
+	culture = nord
+	mother = 1003
+	father = 1057
+	490.3.21 = {birth = yes}
+	530.11.2 = {death = yes}
+}
+1057 = {
+	name = Asflur
+	religion = eight_divines
+	culture = nord
+	460.3.21 = {birth = yes}
+	480.1.1 = {
+		add_matrilineal_spouse = 1003
+	}
+	530.11.2 = {death = yes}
+}
+
+1058 = {
+	name = Gorm # Huscarl de Morthal
+	dynasty = 70461
+	religion = eight_divines
+	culture = nord
+	460.3.21 = {birth = yes}
+	530.11.2 = {death = yes}
+}
+
+1059 = {
+	name = Lami #Alchimiste de morthal (on lui donne Antésang)
+	female = yes
+	dynasty = 70451
+	religion = eight_divines
+	culture = nord
+	475.3.21 = {birth = yes}
+	495.1.1 = { add_matrilineal_spouse = 1060}
+	530.11.2 = {death = yes}
+}
+
+1060 = {
+	name = Jorgen #Marié à Lami
+	religion = eight_divines
+	culture = nord
+	475.3.21 = {birth = yes}
+	495.1.1 = { add_matrilineal_spouse = 1059}
+	530.11.2 = {death = yes}
+}
+
+1061 = {
+	name = Grungar #Volciel
+	religion = eight_divines
+	culture = nord
+	475.3.21 = {birth = yes}
+	530.11.2 = {death = yes}
+}
+
+1062 = {
+	name = Hroggar  #Orotheim et Rochefoide
+	religion = eight_divines
+	culture = nord
+	470.3.21 = {birth = yes}
+	530.11.2 = {death = yes}
+}
+
+1063 = {
+	name = Tassius #Tragus
+	dynasty = 70473
+	culture = roman
+	religion = eight_divines
+	465.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+1064 = {
+	name = Harkon
+	dynasty = 70474
+	culture = nord
+	religion = eight_divines
+	450.1.1 = {birth = yes}
+	468.1.1 = {add_spouse = 1065} 
+	488.1.1 = {add_trait = immortal}
+	530.1.1 = {death = yes}
+}
+
+1065 = {
+	name = Valerica
+	female = yes
+	culture = nord
+	religion = eight_divines
+	450.1.1 = {birth = yes}
+	468.1.1 = {add_spouse = 1064} 
+	488.1.1 = {add_trait = immortal}
+	530.1.1 = {death = yes}
+}
+1066 = {
+	name = Sérana
+	dynasty = 70474
+	culture = nord
+	female = yes
+	father = 1064
+	mother = 1065
+	religion = eight_divines
+	470.1.1 = {birth = yes}
+	488.1.1 = {add_trait = immortal}
+	530.1.1 = {death = yes}
+}
+1067 = {
+	name = Verner 
+	dynasty = 70300
+	culture = nord
+	religion = nine_divines
+	460.1.1 = {birth = yes}
+	480.1.1 = {add_spouse = 1068}
+	530.1.1 = {death = yes}
+}
+
+1068 = {
+	name = Annekke 
+	culture = nord
+	female = yes
+	religion = nine_divines
+	dynasty = 70146
+	460.1.1 = {birth = yes}
+	480.1.1 = {add_spouse = 1067}
+	530.1.1 = {death = yes}
+}
+
+1069 = {
+	name = Sylgia
+	dynasty = 70300
+	culture = nord
+	religion = nine_divines
+	father = 1067
+	mother = 1068
+	482.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1070 = {
+	name = Dengeir #Père du jarl d'épervine
+	dynasty = 70079
+	religion = eight_divines
+	culture = nord
+	father = 1072
+	443.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+1071 = {
+	name = Thadgeir
+	dynasty = 70079
+	religion = eight_divines
+	culture = nord
+	father = 1072
+	447.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+1072 = {
+	name = Geirhuld
+	dynasty = 70079
+	religion = eight_divines
+	culture = nord
+	413.1.1 = {birth = yes}
+	462.1.1 = {death = yes}
+}
+
+1073 = {
+	name = Skulnar #legat à epervine
+	dynasty = 70118 #Clou noir
+	religion = eight_divines
+	culture = nord
+	468.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1074 = {
+	name = Thongvor
+	dynasty = 70329
+	religion = nine_divines
+	culture = nord
+	father = 1077
+	468.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1075 = {
+	name = Thonar # Sang d'agent
+	dynasty = 70329
+	father = 1077
+	religion = eight_divines
+	culture = nord
+	470.1.1 = {birth = yes}
+	490.1.1 = {add_spouse = 1076}
+	530.1.1 = {death = yes}
+}
+1076 = {
+	name = Bétrid
+	female = yes
+	religion = eight_divines
+	culture = nord
+	472.1.1 = {birth = yes}
+	490.1.1 = {add_spouse = 1075}
+	530.1.1 = {death = yes}
+}
+1077 = {
+	name = Thonning
+	dynasty = 70329
+	religion = eight_divines
+	culture = nord
+	435.1.1 = {birth = yes}
+	490.1.1 = {death = yes}
+}
+1078 = {
+	name = Hamal
+	female = yes
+	religion = eight_divines
+	culture = nord
+	455.1.1 = {birth = yes}
+	530.1.1 = {death = yes}
+}
+
+1079 = {
+	name = Brina #Merilis dans le clos
+	dynasty = 70475
+	female = yes
+	add_trait = "skilled_tactician"
+	religion = eight_divines
+	culture = nord
+	455.1.1 = {birth = yes}
+	#490.1.1 = {add_friend = 1080}
+	530.1.1 = {death = yes}
+}
+
+1080 = {
+	name = Horik #Homme de main de Brina 
+	dynasty = 70218
+	add_trait = "skilled_tactician"
+	religion = eight_divines
+	culture = nord
+	455.1.1 = {birth = yes}	
+	490.1.1 = {
+		#add_friend = 1079
+		employer = 1079
+	}
+	530.1.1 = {death = yes}
+}
+
+1081 = {
+	name = Madena
+	culture = breton
+	religion = nine_divines
+	465.1.1 = {birth = yes}	
+	530.1.1 = {death = yes}
+}
+
+1082 = {
+	name = Leigelf 
+	culture = nord
+	religion = nine_divines
+	465.1.1 = {birth = yes}	
+	530.1.1 = {death = yes}
+} 
+
+1083 = {
+	name = Jod
+	dynasty = 70208
+	culture = nord
+	religion = nine_divines
+	add_trait = "skilled_tactician"
+	465.1.1 = {birth = yes}	
+	530.1.1 = {death = yes}
+}
+
+1084 = {
+	name = Kraldar #Candidat jarl fordhiver
+	dynasty = 70094
+	culture = nord
+	religion = eight_divines
+	452.1.1 = {birth = yes}	
+	530.1.1 = {death = yes}
+}
+
+1085 = {
+	name = Thaenna #Korir Wife
+	female = yes
+	culture = nord
+	religion = nine_divines
+	470.1.1 = {birth = yes}	
+	490.1.1 = {
+		add_spouse = 1007
+	}
+	530.1.1 = {death = yes}
+}
+
+1086 = {
+	name = Assur #fils de Korir
+	father = 1007
+	mother = 1085
+	dynasty = 70344
+	culture = nord
+	religion = nine_divines
+	490.9.30 = {birth = yes}	
+	550.1.1 = {death = yes}
+}
+
+1087 = {
+	name = Dagur
+	culture = nord
+	religion = nine_divines
+	470.9.30 = {birth = yes}
+	490.1.1 = {add_spouse = 1088}	
+	530.1.1 = {death = yes}
+}
+
+1088 = {
+	name = Haran 
+	female = yes
+	culture = nord
+	religion = nine_divines
+	470.9.30 = {birth = yes}
+	490.1.1 = {add_spouse = 1087}		
+	530.1.1 = {death = yes}
+}
+
+1089 = {
+	name = Eirid
+	culture = nord
+	father = 1087
+	mother = 1088
+	religion = nine_divines
+	490.1.1 = {birth = yes}		
+	550.1.1 = {death = yes}
+}
+
+1090 = {
+	name = Thonjolf
+	dynasty = 70393
+	culture = nord
+	religion = nine_divines
+	445.1.1 = {birth = yes}		
+	520.1.1 = {death = yes}
+}

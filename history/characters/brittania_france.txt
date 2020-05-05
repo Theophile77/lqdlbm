@@ -1,0 +1,116 @@
+1 = {
+    name=Théa
+    dynasty=80001
+  
+    religion=catholic
+    culture=frankish
+	female = yes
+  
+    480.01.15 = { birth=yes }
+    560.09.09 = { death=yes }
+}
+
+2 = {
+	name = Arthur
+	dynasty = 80002
+	religion = catholic
+	culture = breton
+	
+	475.2.4 = {birth = yes}
+	498.1.1 = {add_spouse = 7}
+	532.12.24 = {death = yes}
+}
+3= {
+	name = Marc'h
+	religion = pagan
+	culture = breton
+	460.7.2 = {birth = yes}
+	510.4.5 = {death = yes}
+
+}
+
+4 = {
+	name = Calogrenant
+	religion = pagan
+	culture = scottish
+	465.5.12 = {birth = yes}
+	523.4.6 = {death = yes}
+}
+
+5 = {
+	name = Loth
+	religion = pagan
+	culture = pictish
+	470.4.26 = { birth = yes}
+	513.10.25 = { death = yes}
+}
+
+6 = {
+	name = Léodagan
+	religion =  catholic
+	culture = breton
+	dynasty = 80003
+	450.2.4 = {birth =yes}
+	520.3.6 = {death = yes}
+}
+
+7 = {
+	name = Guenièvre
+	religion = catholic
+	culture = breton
+	female = yes
+	dynasty = 80003
+	father = 6 
+	480.7.8 = {birth = yes}
+	498.1.1 = {add_spouse = 2}
+	540.6.7 = {death = yes}
+}
+8 = {
+	name = Yvain
+	religion = catholic
+	culture = breton
+	employer = 2
+	dynasty = 80003
+	father = 6 
+	483.6.24 = {birth = yes}
+	562.6.4 = {death = yes}
+}
+9 = {
+	name = Christian
+	religion = catholic
+	culture = occitan
+	dynasty = 80004
+	460.9.15 = {birth = yes}
+	520.2.7 = {death = yes}
+}
+10 = {
+	name = Ketchatar
+	religion = catholic
+	culture = irish
+	455.3.14 ={birth = yes}
+	510.8.6 = {death = yes}
+}
+11={
+	name = Hoël
+	religion = catholic
+	culture = breton
+	472.8.6 ={birth = yes}
+	536.7.14 = {death = yes}
+	
+}
+12={
+	name = Guillaume
+	religion = catholic
+	culture = frankish
+	480.5.6 = {birth = yes}
+	520.4.7 = {death = yes}
+}
+
+13={
+	name = Luc
+	dynasty = 80005
+	religion = catholic
+	culture = frankish
+	480.6.5 = {birth = yes}
+	532.12.24 = {death = yes}
+}
