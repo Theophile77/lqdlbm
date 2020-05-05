@@ -1,0 +1,34 @@
+nirn_tamriel_the_reach = {
+	duchies = {
+		d_the_reach d_bleakwind d_scarhammer d_volskygge d_sunderstone
+	}
+}
+nirn_tamriel_eastern_skyrim = {
+	duchies = {
+		d_eastmarch d_morvunskar d_the_rift d_ansilvund d_korvanjund d_nilheim d_valtgard d_ironbind
+		d_winterhold
+	}
+}
+nirn_tamriel_western_skyrim = {
+	counties = {
+		c_solitude c_ravenscar c_dragonbridge c_coldstone c_whiteflow
+	}
+	duchies = {
+		d_volkihar d_greymarch d_whiterun d_hjaalmarch d_the_pale d_falkreath d_brittleshin
+		d_coldrock
+	}
+	regions = {
+		nirn_tamriel_the_reach
+	}
+}
+nirn_tamriel_skyrim = {
+	regions = {
+		nirn_tamriel_western_skyrim nirn_tamriel_eastern_skyrim
+	}
+}
+
+nirn_tamriel = {
+	regions = {
+		nirn_tamriel_skyrim
+	}
+}

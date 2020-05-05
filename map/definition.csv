@@ -1,0 +1,306 @@
+province;red;green;blue;x;x
+1;237;28;36;Camelot;x
+2;230;98;220;Galles;x
+3;152;18;75;Lancashire;x
+4;245;126;133;Cumbria;x
+5;157;13;20;Manchester;x
+6;187;38;53;Avalon;x
+7;174;52;113;Cornouaille;x
+8;230;170;200;Sommerset;x
+9;172;81;202;Dorset;x
+10;209;73;169;Wiltshire;x
+11;207;65;86;Northumberland;x
+12;237;186;193;Durham;x
+13;206;60;82;Cleveland;x
+14;128;32;47;Hawick;x
+15;138;5;226;Glasgow;x
+16;157;4;179;Galloway;x
+17;108;4;179;Highland;x
+18;203;129;252;Skye;x
+19;132;218;255;Orcanie;x
+20;0;162;232;Tayside;x
+21;106;210;255;Lothian;x
+22;243;58;128;Dun na nGall;x
+23;174;38;113;Tir Eoghain;x
+24;233;82;162;Gaillimh;x
+25;233;69;82;Liatroim;x
+26;250;154;204;Clar;x
+27;253;121;233;Corcaigh;x
+28;151;62;64;Mi;x
+29;255;149;152;Baile Atha Cliath;x
+30;184;27;125;Poher;x
+31;228;73;170;Cornouailles;x
+32;180;31;87;Nantes;x
+33;115;20;55;Porhoet;x
+34;154;5;50;Guyenne;x
+35;140;40;55;Saintonge;x
+36;115;20;56;Perigord;x
+37;175;63;55;Angouleme;x
+38;154;60;50;Lusignan;x
+39;248;169;23;Bearn;x
+40;251;130;19;Tarbes;x
+41;98;155;172;Toulouse;x
+42;153;191;202;Carcassonne;x
+43;251;155;68;Roussillon;x
+44;220;120;10;Nimes;x
+45;111;159;153;Gevaudan;x
+46;181;97;68;Auvergne;x
+47;158;126;90;Limousin;x
+48;205;153;44;La Marche;x
+49;19;1;248;Paris;x
+50;15;91;234;Orleans;x
+51;47;36;251;Blois;x
+52;1;162;232;Dreux;x
+53;64;0;128;Vendee;x
+54;80;10;118;Poitou;x
+55;200;120;243;Tourraine;x
+56;224;0;128;Brie;x
+57;78;5;211;Troyes;x
+58;210;6;205;Sens;x
+59;117;6;164;Reims;x
+60;1;137;35;Montois;x
+61;133;35;45;Rouen;x
+62;244;21;27;Bayeux;x
+63;204;62;75;Mortain;x
+64;128;30;236;Anjou;x
+65;107;17;206;Maine;x
+66;107;26;198;Alencon;x
+67;31;17;206;Chartres;x
+68;125;101;45;Amiens;x
+69;140;94;30;Artois;x
+70;105;124;46;Ponthieu;x
+71;27;188;83;Lorraine;x
+72;9;217;186;Metz;x
+73;73;248;221;Verdun;x
+74;149;190;24;Alsace;x
+75;209;22;27;Dijon;x
+76;9;23;208;Auxerre;x
+77;240;117;120;Macon;x
+78;193;21;26;Savoie;x
+79;128;9;206;Genevois;x
+80;176;21;193;Tarentaise;x
+81;109;12;14;Aoste;x
+82;97;108;118;Lyon;x
+83;213;131;49;Provence;x
+84;68;147;121;Viennois;x
+85;134;142;72;Forez;x
+86;184;107;31;Avignon;x
+87;251;175;162;Brabant;x
+88;248;129;20;Bruge;x
+89;244;56;23;Liege;x
+90;185;39;32;Hollande;x
+91;217;124;0;Frise;x
+92;245;164;73;Gueldre;x
+93;238;79;55;Essex;x
+94;28;115;6;Hampshire;x
+95;255;164;102;Kent;x
+96;255;127;39;Sussex;x
+97;228;196;12;York;x
+98;255;242;0;Leicester;x
+99;252;60;3;Suffolk;x
+100;238;105;17;Norfolk;x
+101;101;167;165;Luxembourg;x
+102;0;160;250;Solitude;x
+103;255;215;23;Ravenscar;x
+104;0;180;250;Dragonbridge;x
+105;123;245;255;Coldstone;x
+106;123;235;255;Whiteflow;x
+107;0;190;250;Volskygge;x
+108;255;235;23;Hraggstad;x
+109;123;225;255;Ustunhall;x
+110;0;170;250;Northwatch;x
+111;255;245;23;Haalfingar;x
+112;111;101;223;Volkihar;x
+113;123;115;255;Greymarch;x
+114;0;240;250;Rorikstead;x
+115;50;150;250;Greymoor;x
+116;10;150;250;Whiterun;x
+117;120;23;255;Greywinter;x
+118;60;150;250;Riverwood;x
+119;123;105;255;Whitewatch;x
+120;20;150;250;Scarstone;x
+121;0;150;250;Morthal;x
+122;255;225;23;Snowhawk;x
+123;20;23;255;Ustungrav;x
+124;40;23;255;Eldersblood;x
+125;123;255;255;Coldwind;x
+126;0;23;255;Coldrock;x
+127;30;23;255;Skyborn;x
+128;10;23;255;Orotheim;x
+129;100;150;250;Winterhold;x
+130;220;85;130;Alftand;x
+131;255;185;23;Kastav;x
+132;255;205;23;Saarthal;x
+133;123;240;255;Bannerwatch;x
+134;255;195;23;Ironbind;x
+135;255;165;23;Fellhammer;x
+136;255;175;23;Frostflow;x
+137;120;150;250;Windhelm;x
+138;110;150;250;Eastmarch;x
+139;123;170;255;Shearstone;x
+140;123;190;255;Shorflow;x
+141;123;200;255;Coldwinter;x
+142;12;250;199;Bleakrock;x
+143;255;145;23;Morvunskar;x
+144;255;135;23;Mistwatch;x
+145;123;180;255;Valtheim;x
+146;255;155;23;Amol;x
+147;90;150;250;Winterwind;x
+148;250;250;110;Ansilvund;x
+149;123;140;255;Falkhammer;x
+150;123;150;255;Bleakwall;x
+151;80;150;250;Falkreath;x
+152;70;150;250;Helgen;x
+153;40;150;250;Bannermist;x
+154;123;155;255;Morgate;x
+155;123;145;255;Ironpoint;x
+156;100;23;255;Neugrad;x
+157;80;23;255;Brittleshin;x
+158;123;125;255;Dunmarch;x
+159;70;23;255;Sunderstone;x
+160;90;23;255;Glenmoril;x
+161;123;135;255;Skymarch;x
+162;150;150;250;Riften;x
+163;255;115;23;Forelhost;x
+164;123;210;255;Ravenstead;x
+165;123;160;255;Ustunpass;x
+166;255;105;23;Rkund;x
+167;200;180;200;Shorstone;x
+168;255;125;23;Nilheim;x
+169;123;230;255;Snowgrad;x
+170;140;150;250;Bthalft;x
+171;123;220;255;Valtgard;x
+172;130;150;250;Ivarstead;x
+173;0;210;250;Markarth;x
+174;0;200;250;Karthwasten;x
+175;180;200;70;Karthspire;x
+176;50;23;255;Harmugstalh;x
+177;0;220;250;Reachcliff;x
+178;123;215;255;Ravenhall;x
+179;123;205;255;Westmarch;x
+180;123;195;255;Skyhammer;x
+181;0;230;250;Sungard;x
+182;60;23;255;Bleakwind;x
+183;123;175;255;Scarhammer;x
+184;123;185;255;Hraggen;x
+185;123;165;255;Ironheim;x
+186;30;150;250;Dawnstar;x
+187;255;255;23;Highgate;x
+188;180;200;100;Dunstad;x
+189;160;23;255;Volunruud;x
+190;123;250;255;Morvunhall;x
+191;140;23;255;Shearpoint;x
+192;150;23;255;Korvanjund;x
+193;130;23;255;Fellglow;x
+194;52;224;172;Antionine;x
+195;82;226;223;Toinyriance;x
+196;184;230;79;Papohaille;x
+197;157;88;184;Antotonie;x
+198;241;31;31;Patatonie;x
+199;235;116;37;Kartofia;x
+200;235;190;37;Terres de Pommes;x
+201;192;248;24;Clorec;x
+202;210;100;234;Nouvelle Antionine;x
+203;241;92;197;La Seconde Toyniriance;x
+204;226;10;226;Nouvelle Kartoffelie;x
+205;251;45;158;La Cite Imperiale;x
+206;141;3;80;La Riviere Blanche;x
+207;251;17;23;LAnneau Rouge;x
+208;15;33;200;Skingrad;x
+209;46;128;250;Gotelle;x
+210;5;87;209;La Route de lOr;x
+211;85;101;242;Linchal;x
+212;174;57;75;Anvil;x
+213;186;46;88;Havre Corneille;x
+214;121;30;105;Sutch;x
+215;172;13;113;Strand;x
+216;114;57;232;Kvatch;x
+217;207;111;244;Wariel;x
+218;40;14;192;Hastrel;x
+219;79;95;242;Istirius;x
+220;148;121;253;Chorrol;x
+221;179;47;249;Epis-Froid;x
+222;118;49;247;La Foret Noire;x
+223;5;41;209;La Route Noire;x
+224;79;9;136;Bravil;x
+225;252;131;198;La Vallee de la Niben;x
+226;135;10;113;Niben;x
+227;253;168;132;Bruma;x
+228;221;0;0;Sancre Tor;x
+229;175;39;20;La Route dArgent;x
+230;228;172;41;Leyawiin;x
+231;134;11;48;LHomme Rouge;x
+232;135;46;20;Boisnoir;x
+233;237;33;95;La Route Jaune;x
+234;230;103;81;Cheydinhal;x
+235;188;51;27;Arrius;x
+236;166;84;49;Urasek;x
+237;238;198;57;Scina;x
+238;194;45;1;Naso;x
+239;204;209;5;Facian;x
+240;214;146;116;Eau Rouge;x
+241;200;154;15;Lit de Roche;x
+242;30;184;210;La Porte de lOuest;x
+243;106;215;234;Konakri;x
+244;31;237;248;Raidlorn;x
+245;143;71;102;Druadach;x
+246;197;18;148;Orsimer;x
+247;199;141;166;Balach;x
+248;36;74;204;La Cote Blanche;x
+249;33;109;237;La Cote Grise;x
+250;33;142;207;Terre Humide;x
+251;110;23;255;;x#Haut Hrothgar
+252;23;1;255;;x#Lake Illinalta
+253;19;1;255;;x#Lake Geir
+254;21;1;255;;x#Lake Honrich
+255;17;1;255;;x#Lake Yorgrim
+256;116;128;192;Mer Egee Nord;x
+257;136;128;192;Mer Egee Sud;x
+258;76;128;192;Est Grece;x
+259;56;128;192;Cote Turque;x
+260;76;168;192;Cote Athenienne;x
+261;76;128;232;Mer du Peloponnese;x
+262;76;148;192;Mer de Chypres;x
+263;76;128;172;Mer de Syrie;x
+264;76;128;212;Mer de Palestines;x
+265;96;108;232;Detroit de la Mer Rouge;x
+266;96;108;212;Delta du Nil;x
+267;96;128;232;Golfe de Sparte;x
+268;86;118;212;Ouest Grece;x
+269;86;118;192;Mer de Macedoine;x
+270;106;118;192;Mer dAlbanie;x
+271;106;98;192;Mer de Serbie;x
+272;106;78;182;Adriatique Sud;x
+273;96;118;182;Adriatique Centre;x
+274;136;118;182;Adriatique Nord;x
+275;116;108;192;Mer Slavo-Italienne;x
+276;116;108;172;Mer de la Pointe;x
+277;106;128;192;Mediterranee Interieur Est;x
+278;96;128;192;Mediterranee Interieur Ouest;x
+279;86;118;182;Mer dEgypte;x
+280;96;138;192;Golfe de Tripolie;x
+281;96;138;182;Baie de Djerba;x
+282;136;148;182;Mer de Tunis;x
+283;116;98;162;Mer du Sud Italien;x
+284;86;128;192;Baie de Sicile;x
+285;136;148;162;Mer de Sicile;x
+286;96;148;162;Detroit de Malte;x
+287;116;118;182;Mer Sardaigno-Sicilienne;x
+288;106;118;182;Mer Napolitaine;x
+289;116;128;182;Mare Nostrum;x
+290;106;128;182;Golfe de Genes;x
+291;96;128;182;Mer Provencal;x
+292;136;208;182;Golfe du Lyon;x
+293;116;188;192;Mer Corso-Sardaignoise;x
+294;136;148;202;Mer de Sardaigne;x
+295;96;148;202;Mer de Barcelone;x
+296;136;168;202;Mer de Valence;x
+297;136;158;202;Mer du Magrheb;x
+298;146;168;212;Mer de Grenade;x
+299;146;178;222;Detroit de Gibraltar;x
+300;146;168;202;Mer dalger;x
+301;146;178;212;Mer du maroc;x
+302;202;223;247;Mer Fantome;x
+303;166;202;240;Atlantique;x
+304;64;96;192;Pacifique;x
+305;32;64;192;Mer Noire;x
