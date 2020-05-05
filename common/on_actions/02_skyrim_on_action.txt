@@ -1,0 +1,30 @@
+on_startup = {
+	events = {
+		dragonborn.5 #Dragonborn Candidates
+	}
+}
+on_birth = {
+	events = {
+		dbbirth.100
+	}
+}
+on_yearly_childhood_pulse = {
+	random_events = {
+		25 = dragonborn.100
+		25 = dragonborn.101
+		25 = dragonborn.102
+		25 = dragonborn.103
+		25 = dragonborn.104
+		25 = dragonborn.105
+	}
+}
+on_character_ask_to_join_society = {
+	events = {
+		eksocieties.10 #Universal event for joining societies
+	}
+}
+on_five_year_pulse = {
+	events = {
+		eksocieties.30 #AI characters will join societies
+	}
+}

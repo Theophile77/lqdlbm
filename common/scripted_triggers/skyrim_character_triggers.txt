@@ -1,0 +1,24 @@
+is_indisposed = {
+	OR = {
+		trait = in_hiding
+		trait = on_pilgrimage
+	}
+}
+is_dragonblood = {
+	OR = {
+		trait = dragonborn
+		trait = dragonborn_g_1
+		trait = dragonborn_g_2
+		trait = dragonborn_g_3
+		trait = dragonborn_g_4
+		trait = dragonborn_g_5
+		trait = dragonborn_descendant
+	}
+}
+
+is_lycan = {
+	trait = lycan
+}
+is_disease_immune = {
+	trait = lycan
+}

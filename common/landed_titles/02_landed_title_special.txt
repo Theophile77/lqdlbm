@@ -1,0 +1,1877 @@
+e_roman_empire ={
+	color={ 143 12 100 }
+	color2={ 255 255 20 }
+	short_name = yes
+	
+	purple_born_heirs = yes
+	
+	culture = roman
+	#religion = orthodox
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}
+
+k_armorique = {
+	color = { 35 240 240}
+}
+
+k_stormcloaks = {
+	color = {31 72 237}
+	color2={ 255 255 20 }
+	capital = 129
+	dignity = 98
+}
+d_hashshashin = {
+
+	color={ 100 100 0 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = hashshashingfx
+	
+	#capital = 693 # Baghdad TODO
+	
+	title = "GRANDHEADMASTER"
+	foa = "GRANDHEADMASTER_FOA"
+	
+	holy_order = yes
+
+	# Always exists
+	landless = yes
+	
+	culture = persian
+	
+	# Parent Religion 
+	religion = shiite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+		
+	# Cannot be vassalized
+	independent = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+
+	mercenary_type = hashshashin_composition
+}
+
+e_golden_horde = {
+	color = { 243 180 17 }
+	
+	short_name = yes
+	
+	#capital = 619 # Saray TODO
+	
+	# Always exists
+	landless = yes
+	
+	allow = {
+		always = no
+	}
+	
+	#tribe = yes
+	
+	culture = mongol
+	religion = tengri_pagan
+}
+e_il-khanate = {
+	color = { 140 180 20 }
+	
+	short_name = yes
+	
+	#capital = 646 # Esfahan TODO
+	
+	# Always exists
+	landless = yes
+	
+	allow = {
+		always = no
+	}
+	
+	#tribe = yes
+	
+	culture = mongol
+	religion = tengri_pagan
+}
+
+e_mongol_empire = {
+	color = { 130 180 240 }
+	color2 = { 255 20 20 }
+	
+	short_name = yes
+	
+	#capital = 1457 # Kara-khorum TODO
+	
+	landless = yes
+	
+	allow = {
+		always = no
+	}
+	
+	culture = mongol
+	religion = tengri_pagan
+}
+#Bordeciel
+	#High Kingdom
+	k_skyrim = {
+		color={ 255 255 255 }
+		color2={ 255 255 20 }
+		capital = 102 # Solitude
+		title = high_king
+		title_female = high_queen
+		foa = lord_high_king
+		# #foa_female = "Lady High Queen"
+		dignity = 100 # Never want to change primary title
+		
+		
+		allow = {
+		}
+		
+		#k_solitude
+		d_haafingar = {
+			color={ 0 50 135 }
+			color2={ 255 255 255 }
+			capital = 102
+			dignity = 98
+			
+			c_solitude = {
+				color={ 0 50 135 }
+				color2={ 255 255 255 }
+				b_solitude = {}
+				b_wolfskull = {}
+				b_dour = {}
+				b_bluepalace = {
+
+				}
+				b_brinewater = {}
+				b_brokenoar = {}
+				b_clawleg = {}
+			}
+			c_ravenscar = {
+				color={ 0 30 135 }
+				color2={ 255 255 255 }
+				
+				b_ravenscar = {}
+				b_widowswatch = {}
+				b_whitemoon = {}
+				b_shadowgreen = {}
+				b_gangerstone = {}
+				b_horm = {}
+				b_halveske = {}
+			}
+			c_dragonbridge = {
+				color={ 20 50 135 }
+				color2={ 255 255 255 }
+
+				b_dragonbridge = {}
+				b_kilkreath = {
+
+				}
+				b_bryling = {}
+				b_karth = {}
+				b_brugge = {}
+				b_spittleback = {}
+				b_proudspire = {}
+				b_ovanakar = {}
+			}
+			c_coldstone = {
+				color = { 30 30 135 }
+				color2 = { 255 255 255 }
+					
+				b_coldstone = {}
+				b_glenmarch = {}
+				b_brittlestead = {}
+				b_dungar = {}
+				b_coldstone_5 = {}
+				b_coldstone_6 = {}
+				b_coldstone_7 = {}
+			}
+			c_whiteflow = {
+				color = { 50 50 135 }
+				color2 = { 255 255 255 }
+				
+				b_whiteflow = {}
+				b_valthammer = {}
+				b_shorthal = {}
+				b_helstead = {}
+				b_whiteflow_5 = {}
+				b_whiteflow_6 = {}
+				b_whiteflow_7 = {}
+			}
+		}
+		d_volskygge = {
+			color={ 60 135 185 }
+			color2={ 255 255 255 }
+			capital = 107
+			
+			c_volskygge = {
+				color={ 60 135 185 }
+				color2={ 255 255 255 }
+				
+				b_volskygge = {}
+				b_hagsend = {}
+				b_hagridshelm = {}
+				b_weathercap = {}
+				b_clearpine = {}
+				b_pinemoon = {}
+				b_deepwoodredoubt = {}
+			}
+			c_hraggstad = {
+				color={ 45 125 185 }
+				color2={ 255 255 255 }
+
+				holy_site = old_gods
+				
+				b_hraggstad = {}
+				b_fridrika = {}
+				b_jallenheim = {}
+				b_advar = {}
+				b_harnosand = {}
+				b_ragnarswatch = {}
+				b_holdar = {}
+			}
+			c_ustunhall = {
+				color = { 50 145 185 }
+				color2 = { 255 255 255 }
+				
+				b_ustunhall = {}
+				b_shorwatch = {}
+				b_helgar = {}
+				b_fellrund = {}
+				b_ustunhall_5 = {}
+				b_ustunhall_6 = {}
+				b_ustunhall_7 = {}
+			}
+			c_northwatch = {
+				color={ 80 135 185 }
+				color2={ 255 255 255 }
+
+				
+				b_northwatch = {}
+				b_pinefrost = {}
+				b_rimerock = {}
+				b_frostbite = {}
+				b_clamdigger = {}
+				b_widowspeak = {}
+				b_nidhogg = {}
+			}
+			c_haalfingar = {
+				color={ 40 135 185 }
+				color2={ 255 255 255 }
+				
+				reachmen = "Hagsend"
+				
+				b_haalfingar = {
+					reachmen = "Hag's End"
+				}
+				b_stromsbruck = {}
+				b_snilling = {}
+				b_geimund = {}
+				b_torengard = {}
+				b_spellheim = {}
+				b_djelsbo = {}
+			}
+		}
+		d_volkihar = {
+			color={ 100 0 0 }
+			color2={ 255 255 255 }
+			
+			capital = 112
+			
+			c_volkihar = {
+				color={ 40 135 185 }
+				color2={ 255 255 255 }
+
+				b_volkiharkeep = {
+					short_name = yes
+				}
+				b_volkiharcathedral = {
+					short_name = yes
+
+				}
+				b_bloodstone_volkihar = {}
+				b_coffinrest = {}
+				b_volkihar_5 = {}
+				b_volkihar_6 = {}
+				b_volkihar_7 = {}
+			}
+		}
+		#k_whiterun
+		d_greymarch = {
+			color = { 150 150 200 }
+			color2 = { 255 255 255 }
+			capital = 113
+			
+			c_greymarch = {
+				color = { 150 150 200 }
+				color2 = { 255 255 255 }
+
+				b_greymarch = {
+
+				}
+				b_bleakhammer = {}
+				b_ansilheim = {}
+				b_sundsvall = {}
+				b_greymarch_5 = {}
+				b_greymarch_6 = {}
+				b_greymarch_7 = {}
+			}
+			c_rorikstead = {
+				color={ 155 135 200 }
+				color2={ 255 255 255 }
+				
+				b_rorikstead = {}
+				b_lundshut = {}
+				b_norden2 = {}
+				b_hagermarsch = {}
+				b_holtgast = {}
+				b_gjukar = {}
+				b_talkingstone = {}
+			}
+			c_greymoor = {
+				color={ 150 150 150 }
+				color2={ 255 255 255 }
+				
+				b_greymoor = {}
+				b_hamvirsrest = {}
+				b_redoransretreat = {}
+				b_greenspringhollow = {}
+				b_swindlersden = {}
+				b_wangerland = {}
+				b_ravngard = {}
+			}
+		}
+		d_whiterun = {
+			color={ 225 245 255 }
+			color2={ 255 255 255 }
+			capital = 116
+			dignity = 98
+			
+			c_whiterun = {
+				color={ 225 245 255 }
+				color2={ 255 255 255 }
+				
+				b_whiterun = {}
+				b_dragonsreach = {}
+				b_battleborn = {}
+				b_chillfurrow = {}
+				b_honningbrew = {}
+				b_bockhorn = {}
+				b_ochtersum = {}
+			}
+			c_greywinter = {
+				color={ 235 235 255 }
+				color2={ 255 255 255 }
+				
+				b_greywinter = {}
+				b_whiteriver = {}
+				b_ritualstone = {}
+				b_stormcloak = {}
+				b_krumhorn = {}
+				b_osterstede = {}
+				b_forthost = {}
+			}
+			c_riverwood = {
+				color={ 225 225 255 }
+				color2={ 255 255 255 }
+				
+				b_riverwood = {}
+				b_skybound = {}
+				b_bleakfalls = {}
+				b_sleepingtree = {}
+				b_secundas = {}
+				b_gardval = {}
+				b_fortbrucke = {}
+			}
+			c_whitewatch = {
+				color={ 205 245 255 }
+				color2={ 255 255 255 }
+				
+				b_whitewatch = {}
+				b_shimmermist = {}
+				b_gastenheim = {}
+				b_gravenwatch = {}
+				b_dustmanscairn = {}
+				b_hildrheim = {}
+				b_silentmoon = {}
+			}
+			c_scarstone = {
+				color = { 215 230 255 }
+				color2 = { 255 255 255 }
+				
+				b_scarstone = {}
+				b_alesund = {}
+				b_bleakmarch = {}
+				b_fellheim = {}
+				b_guldunrock = {}
+				b_scarstone_6 = {}
+				b_scarstone_7 = {}
+			}
+		}
+		#k_hjaalmarch
+		d_hjaalmarch = {
+			color={ 90 180 230 }
+			color2={ 255 255 255 }
+			capital = 121
+			dignity = 98
+			
+			c_morthal = {
+				color={ 90 180 230 }
+				color2={ 255 255 255 }
+				
+				b_morthal = {}
+				b_kjenstag = {}
+				b_morvath = {}
+				b_kjanenheim = {}
+				b_hradec = {}
+				b_heilbronn = {}
+				b_mulheim = {}
+			}
+			c_snowhawk = {
+				color={ 70 180 230 }
+				color2={ 255 255 255 }
+				
+				b_snowhawk = {}
+				b_einherjar = {}
+				b_mannheim = {}
+				b_pforzheim = {}
+				b_ogrun = {}
+				b_freiburg = {}
+				b_winterthur = {}
+			}
+			c_ustungrav = {
+				color={ 85 190 230 }
+				color2={ 255 255 255 }
+				
+				b_ustungrav = {}
+				b_folgunthur = {}
+				b_hjaalmarch = {}
+				b_hammerhall = {}
+				b_wolgast = {}
+				b_griefswald = {}
+				b_putgarten = {}
+			}
+			c_eldersblood = {
+				color={ 90 200 230 }
+				color2={ 255 255 255 }
+				
+				b_eldersblood = {}
+				b_wolfenbuttel = {}
+				b_wildungen = {}
+				b_dorsten = {}
+				b_gladbach = {}
+				b_vanaheim = {}
+				b_midgard = {}
+			}
+			c_coldwind = {
+				color = { 70 195 230 }
+				color2 = { 255 255 255 }
+				
+				b_coldwind = {}
+				b_volgen = {}
+				b_shearwatch = {}
+				b_morvunrun = {}
+				b_coldwind_5 = {}
+				b_coldwind_6 = {}
+				b_coldwind_7 = {}
+			}
+		}
+		d_coldrock = {
+			color={ 120 130 150 }
+			color2={ 255 255 255 }
+			capital = 126
+			
+			c_coldrock = {
+				color={ 120 130 150 }
+				color2={ 255 255 255 }
+				
+				b_coldrock = {}
+				b_rannveig = {}
+				b_drelas = {}
+				b_bloodstone = {}
+				b_trollheim = {}
+				b_valhill = {}
+				b_whitegard = {}
+			}
+			c_skyborn = {
+				color={ 130 125 150 }
+				color2={ 255 255 255 }
+
+				b_skyborn = {}
+				b_stonehills = {}
+				b_valkygg = {}
+				b_sagard = {}
+				b_bitterfeld = {}
+				b_valhalla = {}
+				b_stonegard = {}
+				b_labyrinthian = {}
+			}
+			c_orotheim = {
+				color={ 120 110 150 }
+				color2={ 255 255 255 }
+				
+				b_orotheim = {}
+				b_deadmenrespite = {}
+				b_robbersgorge = {}
+				b_niflheim = {}
+				b_broodheim = {}
+				b_crabbergrad = {}
+				b_liberec = {}
+			}
+		}
+		#k_winterhold
+		d_winterhold = {
+			color={ 150 200 255 }
+			color2={ 255 255 255 }
+			capital = 129
+			dignity = 98
+			
+			c_winterhold = {
+				color={ 150 200 255 }
+				color2={ 255 255 255 }
+				
+				b_winterhold = {}
+				b_skytemple = {}
+				b_hagsfjord = {}
+				b_japhetsfolly = {}
+				b_pilgrimstrench = {}
+				b_bleakcoast = {}
+				b_snowveil = {}
+			}
+			c_alftand = {
+				color={ 170 200 255 }
+				color2={ 255 255 255 }
+				
+				b_alftand = {}
+				b_snowpoint = {}
+				b_hodorsheim = {}
+				b_waywardpass = {}
+				b_kraldar = {}
+				b_elvenrum = {}
+				b_alftand_7 = {}
+			}
+			c_kastav = {
+				color={ 135 200 255 }
+				color2={ 255 255 255 }
+				
+				b_kastav = {}
+				b_stillborn = {}
+				b_stjordal = {}
+				b_hudiksvall = {}
+				b_horgrsgard = {}
+				b_kastav_6 = {}
+				b_kastav_7 = {}
+			}
+			c_saarthal = {
+				color={ 140 215 255 }
+				color2={ 255 255 255 }
+				
+				b_saarthal = {}
+				b_varheim = {}
+				b_halmstad = {}
+				b_trollhatten = {}
+				b_stromheim = {}
+				b_joetnar = {}
+				b_dvegar = {}
+			}
+			c_bannerwatch = {
+				color = { 150 180 255 }
+				color2 = { 255 255 255 }
+				
+				b_bannerwatch = {}
+				b_volungar = {}
+				b_markthal = {}
+				b_halfrun = {}
+				b_bannerwatch_5 = {}
+				b_bannerwatch_6 = {}
+				b_bannerwatch_7 = {}
+			}
+		}
+		d_ironbind = {
+			color={ 160 170 200 }
+			color2={ 255 255 255 }
+			capital = 134
+			
+			c_ironbind = {
+				color={ 160 170 200 }
+				color2={ 255 255 255 }
+				
+				b_ironbind = {}
+				b_silverdrift = {}
+				b_borgholm = {}
+				b_kalmar = {}
+				b_askursund = {}
+				b_skovde = {}
+				b_skuld = {}
+			}
+			c_fellhammer = {
+				color={ 140 170 200 }
+				color2={ 255 255 255 }
+				
+				b_fellhammer = {}
+				b_duskglow = {}
+				b_falkenheim = {}
+				b_helsingborg = {}
+				b_skagen = {}
+				b_erolgard = {}
+				b_skuldenheim = {}
+				b_gulfjell = {}
+			}
+			c_frostflow = {
+				color={ 160 190 200 }
+				color2={ 255 255 255 }
+				
+				b_frostflow = {}
+				b_hobsfall = {}
+				b_yngvild = {}
+				b_vanir = {}
+				b_driftshade = {}
+				b_helasfolly = {}
+				b_trollhutten = {}
+			}
+		}
+		#k_eastmarch
+		d_eastmarch = {
+			color={ 0 100 250 }
+			color2={ 255 255 255 }
+			capital = 137
+			dignity = 98
+			
+			c_windhelm = {
+				color={ 0 100 250 }
+				color2={ 255 255 255 }
+				
+				holy_site = eight_divines
+				holy_site = nine_divines
+				
+				b_palaceofthekings = {
+					used_for_dynasty_names = no
+					short_name = yes
+				}
+				b_windhelm = {}
+				b_ysgramsholl = {
+					#pentarchy = yes
+				}
+				b_valunstrad = {}
+				b_hollyfrost = {}
+				b_winterwar = {}
+				b_brandymug = {}
+				b_traitorspost = {}
+				b_cragwallow = {}
+				b_yorgrim = {}
+			}
+			c_eastmarch = {
+				color={ 10 90 250 }
+				color2={ 255 255 255 }
+				
+				b_eastmarch = {}
+				b_narzulbur = {}
+				b_mzulft = {}
+				b_hagraven = {}
+				b_lorkhan = {}
+				b_hamar = {}
+				b_feyfalken = {}
+				b_leifgard = {}
+			}
+			c_shearstone = {
+				color = { 20 100 250 }
+				color2 = { 255 255 255 }
+				
+				nord = "Bosquet de Kyne"
+				
+				b_shearstone = {}
+				b_aalto = { 
+					nord = "Bosquet de Kyne"
+				}
+				b_ravengrav = {}
+				b_scarrund = {}
+				b_shearstone_5 = {}
+				b_shearstone_6 = {}
+				b_shearstone_7 = {}
+			}
+			c_shorflow = {
+				color = { 30 90 250 }
+				color2 = { 255 255 255 }
+				
+				b_shorflow = {}
+				b_highwind = {}
+				b_markrund = {}
+				b_morstead = {}
+				b_voljar = {}
+				b_shorflow_6 = {}
+				b_shorflow_7 = {}
+			}
+			c_coldwinter = {
+				color = { 15 110 250 }
+				color2 = { 255 255 255 }
+				
+				b_coldwinter = {}
+				b_brittlestone = {}
+				b_hraggard = {}
+				b_nilwind = {}
+				b_fulstrom = {}
+				b_coldwinter_6 = {}
+				b_coldwinter_7 = {}
+			}
+			c_bleakrock = {
+				color={ 45 75 100 }
+				color2={ 255 255 255 }
+				
+				b_bleakrock = {}
+				b_hozzin = {}
+				b_paddlefloe = {}
+				b_frostedge = {}
+				b_haldrin = {}
+				b_orkey_hollow = {}
+				b_skyshroud_bleakrock = {}
+				b_last_rest = {}
+			}
+		}
+		d_morvunskar = {
+			color = { 0 140 185 }
+			color2 = { 255 255 255 }
+			capital = 143
+			
+			c_morvunskar = {
+				color={ 0 140 185 }
+				color2={ 255 255 255 }
+				b_morvunskar = {}
+				b_rageclaw = {}
+				b_riverside = {}
+				b_witchmist = {}
+				b_fagrskinna = {}
+				b_steamcrag = {}
+				b_bonescrest = {}
+			}
+			c_mistwatch = {
+				color={ 10 130 185 }
+				color2={ 255 255 255 }
+				
+				b_mistwatch = {}
+				b_wittestadr = {}
+				b_atronarchstone = {}
+				b_eldergleam = {}
+				b_hellgard = {}
+				b_wotansheim = {}
+				b_loerdag = {}
+			}
+			c_valtheim = {
+				color={ 20 140 185 }
+				color2={ 255 255 255 }
+				
+				b_valtheim = {}
+				b_hillgrund = {}
+				b_croneshitte = {}
+				b_cradlecrush = {}
+				b_wotangard = {}
+				b_hathen = {}
+				b_valtheim_7 = {}
+			}
+			c_amol = {
+				color={ 30 130 185 }
+				color2={ 255 255 255 }
+				
+				b_fortamol = {}
+				b_darkwatercrossing = {}
+				b_lostknife = {}
+				b_heimdallr = {}
+				b_mixwater = {}
+				b_whitecap = {}
+				b_bleedingcrown = {}
+			}
+			c_winterwind = {
+				color = { 40 140 185 }
+				color2 = { 255 255 255 }
+				
+				b_winterwind = {}
+				b_hragstad = {}
+				b_nilgen = {}
+				b_gallowsrock = {}
+				b_winterwind_5 = {}
+				b_winterwind_6 = {}
+				b_winterwind_7 = {}
+			}
+		}
+		d_ansilvund = {
+			color = { 110 160 180 }
+			color2 = { 255 255 255 }
+			capital = 148
+			
+			c_ansilvund = {
+				color={ 110 160 180 }
+				color2={ 255 255 255 }
+				
+				b_ansilvund = {}
+				b_boulderfall = {}
+				b_kagrenzel = {}
+				b_cragslane = {}
+				b_stonycreek = {}
+				b_holgeir = {}
+				b_freydis = {}
+				b_fortbloodaxe = {}
+			}
+			c_falkhammer = {
+				color = { 100 170 180 }
+				color2 = { 255 255 255 }
+				
+				b_falkhammer = {}
+				b_dunglow = {}
+				b_harmungrav = {}
+				b_kaststead = {}
+				b_bitterblade = {}
+				b_falkhammer_6 = {}
+				b_falkhammer_7 = {}
+			}
+			c_bleakwall = {
+				color = { 95 150 180 }
+				color2 = { 255 255 255 }
+				
+				b_bleakwall = {}
+				b_dunalft = {}
+				b_eldersgrav = {}
+				b_dunharrow = {}
+				b_direfrost = {}
+				b_bleakwall_6 = {}
+				b_bleakwall_7 = {}
+			}
+		}
+		#k_falkreath
+		d_falkreath = {
+			color={ 100 100 240 }
+			color2={ 255 255 255 }
+			capital = 151
+			dignity = 98
+			reachmen = "Falcrenth"
+			
+			c_falkreath = {
+				color={ 100 100 240 }
+				color2={ 255 255 255 }
+				
+				reachmen = "Falcrenth"
+				
+				b_falkreath = {
+					reachmen = "Falcrenth"
+				}
+				b_bastion = {}
+				b_ancientsascent = {}
+				b_shriekwind = {}
+				b_crackedtuskkeep = {
+					used_for_dynasty_names = no
+				}
+				b_falkreathwatch = {
+					used_for_dynasty_names = no
+				}
+				b_bonechill = {}
+			}
+			c_helgen = {
+				color={ 120 100 240 }
+				color2={ 255 255 255 }
+				
+				b_helgen = {}
+				b_greywater = {}
+				b_pinewatch = {}
+				b_orphanrock = {}
+				b_embershard = {}
+				b_sundern = {}
+				b_haiger = {}
+			}
+			c_bannermist = {
+				color={ 100 120 240 }
+				color2={ 255 255 255 }
+
+				b_bannermist = {}
+				b_twilightsepul = {
+
+				}
+				b_evergreengrove = {}
+				b_huntersrest = {}
+				b_tanning = {}
+				b_knocklong = {}
+				b_bannerfort = {}
+			}
+			c_morgate = {
+				color = { 110 110 240 }
+				color2 = { 255 255 255 }
+				
+				b_morgate = {}
+				b_snowhammer = {}
+				b_dunmoril = {}
+				b_brittlehammer = {}
+				b_morgate_5 = {}
+				b_morgate_6 = {}
+				b_morgate_7 = {}
+			}
+			c_ironpoint = {
+				color = { 95 105 240 }
+				color2 = { 255 255 255 }
+				
+				b_ironpoint = {}
+				b_scargard = {}
+				b_greythaal = {}
+				b_markstone = {}
+				b_ironpoint_5 = {}
+				b_ironpoint_6 = {}
+				b_ironpoint_7 = {}
+			}
+		}
+		d_brittleshin = {
+			color={ 150 150 250 }
+			color2={ 255 255 255 }
+			capital = 156
+			
+			c_neugrad = {
+				color={ 165 150 250 }
+				color2={ 255 255 255 }
+
+				b_neugrad = {}
+				b_skuldafn = {
+
+				}
+				b_southfringe = {}
+				b_bloodlet = {}
+				b_addvild = {}
+				b_dodskog = {}
+				b_hundesheim = {}
+			}
+			c_brittleshin = {
+				color={ 150 150 250 }
+				color2={ 255 255 255 }
+				
+				b_brittleshin = {}
+				b_ilinalta = {}
+				b_anisas = {}
+				b_halfmoon = {}
+				b_bloatedmans = {}
+				b_hesthodertake = {}
+				b_ravnbro = {}
+			}
+			c_dunmarch = {
+				color = { 150 135 250 }
+				color2 = { 255 255 255 }
+				
+				b_dunmarch = {}
+				b_breakheim = {}
+				b_ansilstad = {}
+				b_shorpass = {}
+				b_dunmarch_5 = {}
+				b_dunmarch_6 = {}
+				b_dunmarch_7 = {}
+			}
+		}
+		d_sunderstone = {
+			color = { 100 100 185 }
+			color2 = { 255 255 255 }
+			capital = 159
+			
+			c_sunderstone = {
+				color={ 100 100 185 }
+				color2={ 255 255 255 }
+				
+				b_sunderstone = {}
+				b_blackmoor = {}
+				b_mossmother = {}
+				b_bjorlam = {}
+				b_hundsgard = {}
+				b_wayfinder = {}
+				b_villkattdal = {}
+			}
+			c_glenmoril = {
+				color={ 100 120 185 }
+				color2={ 255 255 255 }
+
+				holy_site = old_gods
+				
+				b_glenmoril = {}
+				b_knifepoint = {}
+				b_krefeld = {}
+				b_dogsheadkeep = {}
+				b_windgap = {}
+				b_dundrum = {}
+				b_kattalbue = {}
+			}
+			c_skymarch = {
+				color = { 120 100 185 }
+				color2 = { 255 255 255 }
+				
+				b_skymarch = {}
+				b_ironhelm = {}
+				b_skullgrave = {}
+				b_morgard = {}
+				b_skymarch_5 = {}
+				b_skymarch_6 = {}
+				b_skymarch_7 = {}
+			}
+		}
+		#k_the_rift
+		d_the_rift = {
+			color={ 100 140 200 }
+			color2={ 255 255 255 }
+			capital = 162
+			dignity = 98
+			
+			c_riften = {
+				color={ 100 140 200 }
+				color2={ 255 255 255 }
+				
+				b_riften = {}
+				b_mistveil = {
+					used_for_dynasty_names = no
+				}
+				b_goldenglow = {}
+				b_merryfair = {}
+				b_blackbriar = {
+					used_for_dynasty_names = no
+				}
+				b_prospect = {}
+				b_giantsgrove = {}
+				b_greenwall = {}
+			}
+			c_forelhost = {
+				color={ 120 140 200 }
+				color2={ 255 255 255 }
+				
+				b_forelhost = {}
+				b_smokefrost = {}
+				b_brokenhelm = {}
+				b_stendarrsbeacon = {}
+				b_nightingale = {}
+				b_thornhill = {}
+				b_torvald = {}
+			}
+			c_ravenstead = {
+				color = { 100 120 200 }
+				color2 = { 255 255 255 }
+				
+				b_ravenstead = {}
+				b_morvungrav = {}
+				b_nilrund = {}
+				b_sargar = {}
+				b_faldarstooth = {}
+				b_cromheim = {}
+				b_ravenstead_7 = {}
+			}
+			c_ustunpass = {
+				color = { 110 150 200 }
+				color2 = { 255 255 255 }
+				
+				b_ustunpass = {}
+				b_markgard = {}
+				b_windhall = {}
+				b_whitemoril = {}
+				b_fullhelm = {}
+				b_crystaldrift = {}
+				b_heartwood = {}
+			}
+			c_rkund = {
+				color={ 95 130 200 }
+				color2={ 255 255 255 }
+				
+				
+				b_rkund = {}
+				b_largashbur = {}
+				b_honrichtower = {}
+				b_losttongue = {}
+				b_darklight = {}
+				b_snowshod = {}
+				b_avanchnzel = {}
+				b_arniel = {}
+			}
+		}
+		d_nilheim = {
+			color={ 120 180 220 }
+			color2={ 255 255 255 }
+			capital = 167
+			
+			
+			c_shorstone = {
+				color={ 120 180 220 }
+				color2={ 255 255 255 }
+
+				
+				b_shorstone = {}
+				b_fallowstone = {}
+				b_clearspring = {}
+				b_northwind = {}
+				b_snapleg = {}
+				b_autumnshade = {}
+				b_shorwatchtower = {}
+			}
+			c_nilheim = {
+				color={ 120 200 220 }
+				color2={ 255 255 255 }
+				
+				b_nilheim = {}
+				b_vernim = {}
+				b_sareti = {}
+				b_treva = {}
+				b_darkwater = {}
+				b_porsgrunn = {}
+				b_nimalten = {}
+			}
+			c_snowgrad = {
+				color = { 100 180 220 }
+				color2 = { 255 255 255 }
+				
+				b_snowgrad = {}
+				b_whitestone = {}
+				b_volunhall = {}
+				b_shorrun = {}
+				b_geirmund = {}
+				b_snowgrad_6 = {}
+				b_snowgrad_7 = {}
+			}
+		}
+		d_valtgard = {
+			color={ 30 85 120 }
+			color2={ 255 255 255 }
+			capital = 170
+			
+			
+			c_bthalft = {
+				color={ 50 85 120 }
+				color2={ 255 255 255 }
+				
+				b_bthalft = {}
+				b_taarengrav = {}
+				b_arcwind = {}
+				b_autumnwatch = {}
+				b_froki = {}
+				b_wildhelm = {}
+				b_fellstar = {}
+			}
+			c_valtgard = {
+				color = { 30 85 120 }
+				color2 = { 255 255 255 }
+				
+				b_valtgard = {}
+				b_ravenheim = {}
+				b_sarglow = {}
+				b_shorpoint = {}
+				b_angarvunde = {}
+				b_valtgard_6 = {}
+				b_valtgard_7 = {}
+			}
+			c_ivarstead = {
+				color={ 30 65 120 }
+				color2={ 255 255 255 }
+				
+				b_ivarstead = {}
+				b_seventhousandsteps = {
+					short_name = yes
+				}
+				b_shroudhearth = {}
+				b_pinepeak = {}
+				b_honeystrand = {}
+				b_haemar = {}
+				b_alchemistshack = {}
+				b_kongsvinger = {}
+			}
+		}
+		#k_the_reach
+		d_the_reach = {
+			color={ 130 190 200 }
+			color2={ 255 255 255 }
+			capital = 173
+			dignity = 98
+			
+			c_markarth = {
+				color={ 130 190 200 }
+				color2={ 255 255 255 }
+
+				holy_site = old_gods
+				
+				b_markarth = {}
+				b_understone = {}
+				b_kolskeggr = {}
+				b_wulfharth = {}
+				b_hagrock = {}
+				b_harakk = {}
+				b_kurfyk = {}
+			}
+			c_karthwasten = {
+				color={ 145 185 200 }
+				color2={ 255 255 255 }
+				b_karthwasten = {}
+				b_blindcliff = {}
+				b_ragnvald = {}
+				b_bthardzam = {}
+				b_kjoric = {}
+				b_ysgramor = {}
+				b_rhorlak = {}
+			}
+			c_karthspire = {
+				color={ 120 200 200 }
+				color2={ 255 255 255 }
+
+				
+				b_karthspire = {}
+				b_skyhaven = {}
+				b_hroldan = {}
+				b_soljund = {}
+				b_serpentsbluff = {}
+				b_redeagle = {}
+				b_sunderheim = {}
+			}
+			c_harmugstalh = {
+				color={ 110 190 220 }
+				color2={ 255 255 255 }
+				
+				b_harmugstalh = {}
+				b_deepfolk = {}
+				b_druadach2 = {}
+				b_brucasleap = {}
+				b_chillwind = {}
+				b_ravencrag = {}
+				b_cliffside = {}
+			}
+			c_reachcliff = {
+				color={ 150 190 200 }
+				color2={ 255 255 255 }
+				
+				
+				b_reachcliff = {}
+				b_reachwind = {}
+				b_reachwater = {}
+				b_eyrie = {}
+				b_purewater = {}
+				b_deadcrone = {}
+				b_dushnikh = {}
+			}
+		}
+		d_bleakwind = {
+			color={ 100 170 150 }
+			color2={ 255 255 255 }
+			capital = 178
+			
+			c_ravenhall = {
+				color = { 100 170 150 }
+				color2 = { 255 255 255 }
+				
+				b_ravenhall = {}
+				b_helwatch = {}
+				b_falkhall = {}
+				b_rockgard = {}
+				b_ravenhall_5 = {}
+				b_ravenhall_6 = {}
+				b_ravenhall_7 = {}
+			}
+			c_westmarch = {
+				color = { 80 170 150 }
+				color2 = { 255 255 255 }
+				
+				b_westmarch = {}
+				b_breakwind = {}
+				b_ustunhammer = {}
+				b_volgard = {}
+				b_westmarch_5 = {}
+				b_westmarch_6 = {}
+				b_westmarch_7 = {}
+			}
+			c_skyhammer = {
+				color = { 100 150 150 }
+				color2 = { 255 255 255 }
+				
+				b_skyhammer = {}
+				b_ansilgar = {}
+				b_sheargen = {}
+				b_rockwatch = {}
+				b_skyhammer_5 = {}
+				b_skyhammer_6 = {}
+				b_skyhammer_7 = {}
+			}
+			c_sungard = {
+				color={ 105 160 155 }
+				color2={ 255 255 255 }
+				
+				b_sungard = {}
+				b_valthume = {}
+				b_cradlestone = {}
+				b_gloomreach = {}
+				b_bilegulch = {}
+				b_bardsleap = {}
+				b_lostvalley = {}
+			}
+			c_bleakwind = {
+				color={ 100 190 145 }
+				color2={ 255 255 255 }
+				
+				b_bleakwind = {}
+				b_fourskull = {}
+				b_wulflager = {}
+				b_rebelscairn = {}
+				b_brokentower = {}
+				b_sunderedtowers = {}
+				b_reachcamp = {}
+			}
+		}
+		d_scarhammer = {
+			color={ 90 115 130 }
+			color2={ 255 255 255 }
+			capital = 183
+			
+			c_scarhammer = {
+				color = { 90 115 130 }
+				color2 = { 255 255 255 }
+				
+				b_scarhammer = {}
+				b_froststone = {}
+				b_breakwatch = {}
+				b_tronnheim = {}
+				b_scarhammer_5 = {}
+				b_scarhammer_6 = {}
+				b_scarhammer_7 = {}
+			}
+			c_hraggen = {
+				color = { 115 115 130 }
+				color2 = { 255 255 255 }
+				
+				b_hraggen = {}
+				b_frosthammer = {}
+				b_dunwind = {}
+				b_sargate = {}
+				b_hraggen_5 = {}
+				b_hraggen_6 = {}
+				b_hraggen_7 = {}
+			}
+			c_ironheim = {
+				color = { 75 100 130 }
+				color2 = { 255 255 255 }
+							
+				b_ironheim = {}
+				b_brandstone = {}
+				b_helpass = {}
+				b_bleakstad = {}
+				b_ironheim_5 = {}
+				b_ironheim_6 = {}
+				b_ironheim_7 = {}
+			}
+		}
+		#k_the_pale
+		d_the_pale = {
+			color={ 200 230 255 }
+			color2={ 255 255 255 }
+			capital = 186
+			dignity = 98
+			
+			c_dawnstar = {
+				color={ 200 225 255 }
+				color2={ 255 255 255 }
+
+				b_dawnstar = {}
+				b_sanctuary = {}
+				b_nightcaller = {}
+				b_windward = {}
+				b_redroadpass = {}
+				b_helmsdeep = {}
+				b_norderney = {}
+			}
+			c_highgate = {
+				color={ 220 225 255 }
+				color2={ 255 255 255 }
+				
+				b_highgate = {}
+				b_brinehammer = {}
+				b_alkmaar = {}
+				b_brinkpost = {}
+				b_icerun = {}
+				b_whitehead = {}
+				b_glenarm = {}
+			}
+			c_dunstad = {
+				color={ 180 225 255 }
+				color2={ 255 255 255 }
+				
+				b_dunstad = {}
+				b_frostmere = {}
+				b_arvakan = {}
+				b_lindsford = {}
+				b_hjaldheim = {}
+				b_dunstad_6 = {}
+				b_dunstad_7 = {}
+			}
+			c_volunruud = {
+				color={ 175 235 255 }
+				color2={ 255 255 255 }
+				
+				b_volunruud = {}
+				b_stonechill = {}
+				b_snestrom = {}
+				b_brantwein = {}
+				b_rattfram = {}
+				b_olrunstead = {}
+				b_volunruud_7 = {}
+			}
+			c_morvunhall = {
+				color = { 200 245 255 }
+				color2 = { 255 255 255 }
+				
+				b_morvunhall = {}
+				b_volgrav = {}
+				b_valtstead = {}
+				b_shorwind = {}
+				b_morvunhall_5 = {}
+				b_morvunhall_6 = {}
+				b_morvunhall_7 = {}
+			}
+		}	
+		d_korvanjund = {
+			color={ 150 200 230 }
+			color2={ 255 255 255 }
+			capital = 191
+			
+			c_shearpoint = {
+				color={ 130 200 230 }
+				color2={ 255 255 255 }
+				
+				b_shearpoint = {}
+				b_raldbthar = {}
+				b_utteringhills = {}
+				b_greatlift = {}
+				b_angasmill = {}
+				b_irkngthand = {}
+				b_fortsovngard = {}
+			}
+			c_korvanjund = {
+				color={ 150 200 230 }
+				color2={ 255 255 255 }
+				
+				b_korvanjund = {}
+				b_blizzardrest = {}
+				b_nightgate = {}
+				b_weystein = {}
+				b_bronzewater = {}
+				b_sigilheim = {}
+				b_korvanjund_7 = {}
+			}
+			c_fellglow = {
+				color={ 170 200 230 }
+				color2={ 255 255 255 }
+				
+				b_fellglow = {}
+				b_stormbane = {}
+				b_sigrunshelm = {}
+				b_sullengard = {}
+				b_garvagh = {}
+				b_cloghan = {}
+				b_iverness2 = {}
+			}
+		}
+		
+		#Skyrim Titular Duchies
+		d_snowhawk = {
+			color = { 210 215 255 }
+			color2 = { 255 255 255 }
+			capital = 122
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_hjaalmarch
+						any_vassal = { has_landed_title = d_hjaalmarch }
+					}
+				}
+			}
+			
+		}
+		d_bannermist = {
+			color = { 120 120 160 }
+			color2 = { 255 255 255 }
+			capital = 153
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_falkreath
+						any_vassal = { has_landed_title = d_falkreath }
+					}
+				}
+			}
+			
+		}
+		d_greywinter = {
+			color = { 160 160 160 }
+			color2 = { 255 255 255 }
+			capital = 117
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_whiterun
+						any_vassal = { has_landed_title = d_whiterun }
+					}
+				}
+			}
+			
+		}
+		d_saarthal = {
+			color = { 50 100 200 }
+			color2 = { 255 255 255 }
+			capital = 132
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_winterhold
+						any_vassal = { has_landed_title = d_winterhold }
+					}
+				}
+			}
+			
+		}
+		d_hrothgar_titular = {
+			color = { 224 224 224 }
+			color2 = { 255 255 255 }
+			capital = 172
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_valtgard
+						any_vassal = { has_landed_title = d_valtgard }
+					}
+				}
+			}
+			
+		}
+		d_bleakrock = {
+			color = { 45 75 100 }
+			color2 = { 255 255 255 }
+			capital = 142
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_eastmarch
+						any_vassal = { has_landed_title = d_eastmarch }
+					}
+				}
+			}
+			
+		}
+		d_ustunspass = {
+			color = { 145 205 230 }
+			color2 = { 255 255 255 }
+			capital = 165
+			
+			allow = {
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_the_rift
+						any_vassal = { has_landed_title = d_the_rift }
+					}
+				}
+			}
+			
+		}
+		
+		#Reach Titular Duchies
+		d_markarth = {
+			color = { 90 90 70 }
+			color2 = { 255 255 255 }
+			capital = 173
+			
+			allow = {
+				culture = reachmen
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_the_reach
+						any_vassal = { has_landed_title = d_the_reach }
+					}
+				}
+			}
+		}
+		d_karthspire = {
+			color = { 200 200 135 }
+			color2 = { 255 255 255 }
+			capital = 175
+			
+			allow = {
+				culture = reachmen
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_the_reach
+						any_vassal = { has_landed_title = d_the_reach }
+					}
+				}
+			}
+		}
+		d_ravenhall = {
+			color = { 55 55 55 }
+			color2 = { 255 255 255 }
+			capital = 178
+			
+			allow = {
+				culture = reachmen
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_bleakwind
+						any_vassal = { has_landed_title = d_bleakwind }
+					}
+				}
+			}
+		}
+		d_ingmarok = {
+			color = { 36 93 101 }
+			color2 = { 255 255 255 }
+			capital = 111
+			
+			reachmen = "Hagsend"
+			
+			allow = {
+				culture = reachmen
+				OR = {
+					lower_tier_than = DUKE
+					NOT = {
+						has_landed_title = d_volskygge
+						any_vassal = { has_landed_title = d_volskygge }
+					}
+				}
+			}
+		}
+	}
+
+	#Petty Kingdoms
+	k_solitude = {
+		color={ 0 50 135 }
+		color2={ 255 255 255 }
+		capital = 102
+		assimilate = no
+		
+		nord = "Haafingar"
+		reachmen = "Haafingar"
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_whiterun = {
+		color={ 225 245 255 }
+		color2={ 255 255 255 }
+		capital = 116
+		assimilate = no
+		
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_hjaalmarch = {
+		color={ 90 180 230 }
+		color2={ 255 255 255 }
+		capital = 121 # Morthal
+		dignity = 50
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_winterhold = {
+		color={ 150 200 255 }
+		color2={ 255 255 255 }
+		capital = 129
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_eastmarch = {
+		color={ 0 100 250 }
+		color2={ 255 255 255 }
+		capital = 138
+		assimilate = no
+		
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_falkreath = {
+		color={ 100 100 255 }
+		color2={ 255 255 255 }
+		capital = 151
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_the_rift = {
+		color = { 100 140 200 }
+		color2 = { 255 255 255 }
+		capital = 162
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_the_reach = {
+		color={ 130 190 200 }
+		color2={ 255 255 255 }
+		capital = 173
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_the_pale = {
+		color={ 200 230 255 }
+		color2={ 255 255 255 }
+		capital = 186 # Dawnstar
+		dignity = 50
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}
+	}
+	k_volkihar = {
+		color={ 100 0 0 }
+		color2={ 255 255 255 }
+		capital = 112
+		dignity = 50
+		assimilate = no
+		
+		allow = {
+			OR = {
+				independent = yes
+				top_liege = {
+					has_law = vassal_titular_kings_1
+				}
+			}
+			prestige = 1000
+			num_of_duke_titles = 2
+			has_landed_title = d_volkihar
+			has_landed_title = c_volkihar
+			OR = {
+				lower_tier_than = KING
+				NOT = {
+					has_landed_title = k_skyrim
+					any_vassal = { has_landed_title = k_skyrim }
+				}
+			}
+		}	
+	}

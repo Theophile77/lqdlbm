@@ -1,0 +1,756 @@
+companions_tamriel = {
+	primary_attribute = martial
+	society_ranks_gfx = companions_society_ranks
+	opinion_to_other_members = +10
+	opinion_per_rank_above = +5
+	sound = hermetic_society_interface
+	non_interference = {
+		always = yes
+	}
+	
+	active = {
+		always = yes
+	}
+	indestructible = yes
+	
+	can_join_society = {
+		is_in_society = no
+		NOT = { has_character_modifier = ek_society_pension }
+		hidden_trigger = {
+			NAND = {
+				ai = yes
+				is_society_rank_full = {
+					society = companions_tamriel
+					rank = 1
+				}
+				liege = {
+					is_playable = no
+				}
+			}
+			NOR = {
+				mercenary = yes
+				holy_order = yes
+			}
+		}
+		age = 16
+		controls_religion = no
+		martial = 12
+		OR = {
+			AND = {
+				combat_rating = 75
+				martial = 30
+			}
+			AND = {
+				combat_rating = 100
+				martial = 25
+			}
+			trait = dragonborn
+		}
+		OR = {
+			AND = {
+				is_ruler = no
+				liege = {
+					capital_scope = {
+						region = nirn_tamriel_skyrim
+					}
+				}
+			}
+			AND = {
+				is_ruler = yes
+				capital_scope = {
+					region = nirn_tamriel_skyrim
+				}
+			}
+		}
+		is_inaccessible_trigger = no
+		
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+	}
+
+	show_society = {
+		OR = {
+			society_member_of = companions_tamriel
+			AND = {
+				is_ruler = no
+				liege = {
+					capital_scope = {
+						region = nirn_tamriel_skyrim
+					}
+				}
+			}
+			AND = {
+				is_ruler = yes
+				capital_scope = {
+					region = nirn_tamriel_skyrim
+				}
+			}
+		}
+	}
+	
+	potential = {
+		age = 16
+		
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+		NOR = {
+			holy_order = yes
+			mercenary = yes
+		}
+		controls_religion = no
+	}
+	
+	society_rank = {
+		level = 1
+		limit = 48
+		startup_limit = 12
+		modifier = {
+			monthly_character_prestige = 0.01
+		}
+		decisions = {
+			study_specialization #Choose your specialization
+			cancel_specialization #Don't choose your specialization
+			disable_quests_decision
+			enable_quests_decision
+		}
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 24
+		startup_limit = 8
+		modifier = {
+			monthly_character_prestige = 0.05
+		}
+		decisions = {
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 12
+		startup_limit = 6
+		modifier = {
+			monthly_character_prestige = 0.15
+			build_cost_castle_modifier = -0.1
+			build_cost_tribal_modifier = -0.1
+		}
+		decisions = {
+		}
+	}
+
+	society_rank = {
+		level = 4
+		limit = 1
+		startup_limit = 1
+		modifier = {
+			monthly_character_prestige = 0.5
+			build_cost_castle_modifier = -0.2
+			build_cost_tribal_modifier = -0.2
+		}
+		decisions = {
+		}
+		# obedience_tooltip = obedience_tooltip #this can be unique per rank/society 
+		# obedient = {
+			# ROOT = {
+				# always = yes
+			# }
+		# }
+	}
+	
+	plots = {
+	}
+	
+	monthly_currency_gain = {
+		name = currency_name_companions_tamriel
+		
+		per_attribute = {
+    		name = martial
+    		value = 0.5
+    	}
+		#Personality
+		has_trait = {
+			value = 0.75
+			trait = diligent
+		}
+		has_trait = {
+			value = 1.25
+			trait = brave
+		}
+		has_trait = {
+			value = 1.0
+			trait = just
+		}
+		has_trait = {
+			value = 0.75
+			trait = zealous
+		}
+		has_trait = {
+			value = 0.25
+			trait = drunkard
+		}
+		has_trait = {
+			value = 0.5
+			trait = stubborn
+		}
+		#Lifestyles
+		has_trait = {
+			value = 0.5
+			trait = strategist
+		}
+		has_trait = {
+			value = 1.25
+			trait = hunter
+		}
+		has_trait = {
+			value = 1
+			trait = duelist
+		}
+		has_trait = {
+			value = 1.0
+			trait = adventurer
+		}
+		has_trait = {
+			value = 0.75
+			trait = gladiator
+		}
+		#Congenital Traits
+		has_trait = {
+			value = 1.0
+			trait = strong
+		}
+		has_trait = {
+			value = 1.0
+			trait = robust
+		}
+		has_trait = {
+			value = 0.25
+			trait = shrewd
+		}
+		#Ranks
+		society_rank = {
+			rank = 2
+			value = 1.0
+		}
+		society_rank = {
+			rank = 3
+			value = 2.0
+		}
+		society_rank = {
+			rank = 4
+			value = 3.0
+		}
+	}
+
+	member_score_per_attribute = 2
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 50
+		
+		modifier = { 
+			factor = 1.25
+			combat_rating = 5 
+			NOT = { combat_rating = 10 } 
+		}
+		modifier = { 
+			factor = 1.5
+			combat_rating = 10
+			NOT = { combat_rating = 15 } 
+		}
+		modifier = { 
+			factor = 2.0
+			combat_rating = 15
+			NOT = { combat_rating = 20 } 
+		}
+		modifier = { 
+			factor = 2.5
+			combat_rating = 20
+			NOT = { combat_rating = 30 } 
+		}
+		modifier = { factor = 3.0 combat_rating >= 30 }
+		modifier = { factor = 2.0 trait = diligent }
+		modifier = { factor = 2.5 trait = just }
+		modifier = { factor = 1.5 trait = brave }
+		modifier = { factor = 1.25 trait = stubborn }
+		modifier = { factor = 2.0 trait = strategist }
+		modifier = { factor = 1.5 trait = adventurer }
+		modifier = { factor = 1.5 trait = administrator }
+		modifier = { factor = 1.5 trait = duelist }
+		modifier = { factor = 1.25 trait = hunter }
+		modifier = { factor = 1.75 trait = gladiator }
+		modifier = { factor = 1.25 is_strong_trigger = yes }
+		modifier = { factor = 1.25 is_smart_trigger = yes }
+		modifier = { factor = 2.5 trait = dragonborn }
+		modifier = { factor = 2.0 trait = dragonborn_descendant }
+		modifier = { factor = 1.5 any_owned_bloodline = { has_bloodline_flag = bloodline_companions } }
+		modifier = { factor = 1.75 any_owned_bloodline = { has_bloodline_flag = bloodline_ysgramor	} }
+		modifier = { factor = 1.25 culture = nord }
+		#Negatives
+		modifier = { factor = 0.75 is_dumb_trigger = yes }
+		modifier = { factor = 0.85 is_weak_trigger = yes }
+		modifier = { factor = 0.95 trait = dwarf }
+		modifier = { factor = 0.95 trait = hunchback }
+		modifier = { factor = 0.95 trait = clubfooted }
+		modifier = { factor = 0.95 trait = blinded }
+		modifier = { factor = 0.95 has_severe_disability_trigger = yes }
+		modifier = { factor = 0.95 is_maimed_trigger = yes }
+		modifier = { factor = 0.95 has_mental_disorder_trigger = yes }
+		modifier = { factor = 0.99 trait = arbitrary }
+		modifier = { factor = 0.98 trait = slothful }
+		modifier = { factor = 0.95 trait = cruel }
+	}
+	
+	startup_populate = {
+	    trigger = {
+			ai = yes
+	    	controls_religion = no
+			NOR = {
+				higher_tier_than = DUKE
+				mercenary = yes
+				holy_order = yes
+			}
+			age = 16
+			is_in_society = no
+			is_dumb_trigger = no
+			is_inaccessible_trigger = no
+			martial = 10
+			OR = {
+				AND = {
+					combat_rating = 100
+					martial = 25
+				}
+				AND = {
+					combat_rating = 75
+					martial = 30
+				}
+				
+				trait = dragonborn
+			}
+			OR = {
+				is_landed = yes
+				AND = {
+					is_landed = no
+					martial = 15
+				}
+			}
+			
+			OR = {
+				AND = {
+					is_ruler = no
+					liege = {
+						capital_scope = {
+							region = nirn_tamriel_skyrim
+						}
+					}
+				}
+				AND = {
+					is_ruler = yes
+					capital_scope = {
+						region = nirn_tamriel_skyrim
+					}
+				}
+			}
+			NOR = {
+				higher_tier_than = DUKE
+				mercenary = yes
+				holy_order = yes
+			}
+		}
+	}
+}
+
+greybeards_tamriel = {
+	primary_attribute = learning
+	is_religious = yes
+	opinion_to_other_members = +10
+	opinion_per_rank_above = +5
+	sound = monastic_orders_interface
+	society_ranks_gfx = monk_ranks
+	non_interference = {
+		always = yes
+	}
+	
+	active = {
+		always = yes
+	}
+	indestructible = yes
+
+	can_join_society = {
+		is_in_society = no
+		hidden_trigger = {
+			NAND = {
+				ai = yes
+				is_society_rank_full = {
+					society = greybeards_tamriel
+					rank = 1
+				}
+				liege = {
+					is_playable = no
+				}
+			}
+			NOR = {
+				mercenary = yes
+				holy_order = yes
+			}
+		}
+		age = 16
+		controls_religion = no
+		OR = {
+			religion_group = human_pantheon
+			trait = dragonborn
+			trait = dragonborn_descendant
+		}
+		custom_tooltip = {
+			text = did_not_betray_society
+			NOT = { has_character_flag = betrayed_greybeards_tamriel }
+		}
+		OR = {
+			AND = {
+				is_ruler = no
+				liege = {
+					capital_scope = {
+						region = nirn_tamriel
+					}
+				}
+			}
+			AND = {
+				is_ruler = yes
+				capital_scope = {
+					region = nirn_tamriel
+				}
+			}
+		}
+		is_inaccessible_trigger = no
+		
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+	}
+	
+	show_society = {
+		OR = {
+			society_member_of = greybeards_tamriel
+			AND = {
+				OR = {
+					religion_group = human_pantheon
+					trait = dragonborn
+					trait = dragonborn_descendant
+				}
+				OR = {
+					AND = {
+						is_ruler = no
+						liege = {
+							capital_scope = {
+								region = nirn_tamriel
+							}
+						}
+					}
+					AND = {
+						is_ruler = yes
+						capital_scope = {
+							region = nirn_tamriel
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	potential = {
+		age = 16
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+		NOR = {
+			holy_order = yes
+			mercenary = yes
+		}
+		controls_religion = no
+		OR = {
+			religion_group = human_pantheon
+			trait = dragonborn
+			trait = dragonborn_descendant
+		}
+		OR = {
+			AND = {
+				is_ruler = no
+				liege = {
+					capital_scope = {
+						region = nirn_tamriel
+					}
+				}
+			}
+			AND = {
+				is_ruler = yes
+				capital_scope = {
+					region = nirn_tamriel
+				}
+			}
+		}
+	}
+	
+	society_rank = {
+		level = 1
+		limit = 36 
+		startup_limit = 10
+		modifier = {
+			monthly_character_piety = 0.01
+			same_religion_opinion = 3
+		}
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 24
+		startup_limit = 8
+		modifier = {
+			monthly_character_piety = 0.05
+			same_religion_opinion = 5
+		}
+		decisions = {
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 12
+		startup_limit = 6
+		modifier = {
+			monthly_character_piety = 0.15
+			same_religion_opinion = 10
+			health = 0.5
+		}
+		decisions = {
+		}
+	}
+
+	society_rank = {
+		level = 4
+		limit = 6
+		startup_limit = 2
+		modifier = {
+			monthly_character_piety = 0.5
+			same_religion_opinion = 15
+			health = 1.5
+		}
+		decisions = {
+		}
+	}
+
+	monthly_currency_gain = {
+		name = currency_name_greybeards_tamriel
+    	
+    	per_attribute = {
+    		name = learning
+    		value = 0.5
+    	}
+    	has_trait = {
+			trait = greybeard
+			value = 5
+		}
+		has_trait = {
+			trait = dragonborn
+			value = 5
+		}
+		has_trait = {
+			trait = dragonborn_descendant
+			value = 3
+		}
+		has_trait = {
+			trait = honest
+			value = 2
+		}
+    	has_trait = {
+			trait = diligent
+			value = 2
+		}
+		has_trait = {
+			trait = temperate
+			value = 2
+		}
+		has_trait = {
+			trait = charitable
+			value = 2
+		}
+		has_trait = {
+			trait = chaste
+			value = 2
+		}
+		has_trait = {
+			trait = kind
+			value = 2
+		}
+		has_trait = {
+			trait = patient
+			value = 2
+		}
+		has_trait = {
+			trait = humble
+			value = 2
+		}
+		has_trait = {
+			trait = zealous
+			value = 2
+		}
+		has_trait = {
+			trait = erudite
+			value = 1
+		}
+		has_trait = {
+			trait = pilgrim
+			value = 1
+		}
+		has_trait = {
+			trait = theologian
+			value = 1
+		}
+		has_trait = {
+			trait = gardener
+			value = 1
+		}
+		society_rank = {
+			rank = 4
+			value = 10
+		}
+	}
+
+	member_score_per_attribute = 2
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 50
+
+		modifier = {
+			trait = dragonborn
+			factor = 10
+		}
+		modifier = {
+			trait = greybeard
+			factor = 10
+		}
+		modifier = {
+			trait = dragonborn_descendant
+			factor = 5
+		}
+		modifier = {
+			trait = honest
+			factor = 1.3
+		}
+		modifier = {
+			trait = diligent
+			factor = 1.3
+		}
+    	modifier = {
+			trait = charitable
+			factor = 1.3
+		}
+		modifier = {
+			trait = temperate
+			factor = 1.3
+		}
+		modifier = {
+			trait = chaste
+			factor = 1.3
+		}
+		modifier = {
+			trait = kind
+			factor = 1.3
+		}
+		modifier = {
+			trait = patient
+			factor = 1.3
+		}
+		modifier = {
+			trait = humble
+			factor = 1.3
+		}
+		modifier = {
+			trait = zealous
+			factor = 1.3
+		}
+		modifier = {
+			trait = erudite
+			factor = 1.1
+		}
+		modifier = {
+			trait = pilgrim
+			factor = 1.1
+		}
+		modifier = {
+			trait = theologian
+			factor = 1.1
+		}
+		modifier = {
+			trait = gardener
+			factor = 1.1
+		}
+	}
+	
+	startup_populate = {
+	    trigger = {
+			ai = yes
+	    	controls_religion = no
+		   	OR = {
+				religion = eight_divines
+				religion = nine_divines
+			}
+			OR = {
+				culture = nord
+				culture = reachmen
+				OR = {
+					AND = {
+						is_ruler = no
+						liege = {
+							capital_scope = {
+								region = nirn_tamriel_skyrim
+							}
+						}
+					}
+					AND = {
+						is_ruler = yes
+						capital_scope = {
+							region = nirn_tamriel_skyrim
+						}
+					}
+				}
+			}
+			age = 16
+			is_in_society = no
+			is_inaccessible_trigger = no
+			NOT = { higher_tier_than = DUKE }
+			NOR = {
+				mercenary = yes
+				holy_order = yes
+			}
+			NOT = { trait = cynical }
+			has_secret_religion_trait_trigger = no
+			
+			OR = {
+				AND = {
+					is_ruler = no
+					liege = {
+						capital_scope = {
+							region = nirn_tamriel
+						}
+					}
+				}
+				AND = {
+					is_ruler = yes
+					capital_scope = {
+						region = nirn_tamriel
+					}
+				}
+			}
+			learning = 8
+			OR = {
+				learning = 10
+				trait = monk
+				trait = nun
+				trait = celibate
+			}
+		}
+	}
+}

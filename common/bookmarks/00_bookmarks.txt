@@ -1,0 +1,26 @@
+bm_begin = {
+	name = the_beginning
+	desc = the_beginning_desc
+	date = 500.1.1
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+	custom_start = yes
+	selectable_character = {
+		id = 2 # Arthur
+		age = 24
+		name = ERA_CHAR_NAME_2
+		title = k_britannia
+		title_name = logre_kingdom
+		
+		character = {
+			dna = bcedirmbfcy
+			properties = aj00bc00000
+			religion="catholic"
+			culture="breton"
+			government = feudal_government
+			dynasty=2
+		}
+	}
+}
+

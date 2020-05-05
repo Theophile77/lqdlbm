@@ -1,0 +1,19 @@
+nick_the_dragonborn = {
+	allow = {
+		trait = dragonborn
+	}
+	chance = {
+		factor = 100
+	}
+}
+
+nick_dragon_of_the_north = {
+	allow = {
+		trait = dragonborn
+		culture = nord
+		has_landed_title = k_skyrim
+	}
+	chance = {
+		factor = 100
+	}
+}

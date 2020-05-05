@@ -1,0 +1,119 @@
+nedic = {
+	graphical_cultures = { westerngfx }
+	nord = {
+		graphical_cultures = { norsegfx germangfx }
+		
+		color = { 0.06 0.15 0.44 }
+		
+		male_names = {
+			Abbard Adalvald Adding Addvar Addvild Aegrothius Aenar Agarmir Agmaer Agnar Agning Agnorith Agristyr_Agristair Alabistyr_Alabistair Alding Aldis Alfarinn Alfhedil Algot Alistyr_Alistair Allding Alof Alvor Alvring Andistyr_Andistair Andrelheim Andurs Angrenor Angvild Areas Argis Arkming Arnbjorn Arngeir Arnod_Arnaud Arnskar Arrald Asbjorn Asgeir Asgrim Aslfur Assur Atar Audmund Avulstein Badnir Balbus Baldur_Baldur Balfring Balgruuf Balimund Barirrid Barknar Baslod Bato Batou Bedistyr_Bedastair Bedraflod Bedrir Beirand Beirir Belharza_Belharza Belrand Benkum Benor Bersi Bittneld Bjadmund Bjalfi Bjorlam Bolgeir Bolli Bolund Borgny Bormir Borri Borvir Botrir Bottar Brandr Briehl Brill Briring Brond Bronrod Brunwulf_Lupus Brurid Brynjolf Brynjolfr Bulfrek Burd Calder Carsten Christer Cristus Daglin Dagur Dathman Dengeir Derek_Ericus Drahff Drennen Dryngheid Dunistyr_Dunistair Edwistyr_Edwistair Eifid Eimar Einarth Eitar Elgrim Embry Engar Ennbjof Eorlund Ergnir Erich Erich_Ericus Erik_Ericus 
+			Erikur_Ericus Erlendr Erling Esbern Eslaf Fafnir Falk Fanar Farengar_Farengar Farkas Felldir Fenrig Finn Fjol Fjorgeir Fjori Fjorkvar Fjorrod Fjotreid Flinjar Forstaag Fraki Frald Frik Frodnar Frofnir Froki Frorkmar Frothar Fultheim Galmar Garding Garthar Gauldur Geilir Geirlund Geirmund Gellir Gestur Gissur Gjak Gjuk Gloth Godrod Gogrek Golldir Gondistyr_Gondistair Gonnar Gorm Gort Gralnach Graring Gregor_Gregorius Grimvar Grisvar Gromm Grunding Gudling Gukimir Gunder Gundlar Gunjar Gunmar Gunnar Guthrum Haakon_Hakon Hadrik Hadring Hadvar Haening Haesmar Hafid Hafnar Hagrad Hakar Haki Haknir Hakon_Hakon Hallvaror Halof Halund Haming Hamlof Hamvir Hans Hanse Harald_Harold Hardin Hargar Harkon_Hakon Harlaug Harrald_Harold Haskill_Hakon Havilstein Heddic Hefadmir Heidmir Heifnir Heimskr Heimvar Heinrich_Ericus Helgreir Helvard Hemming Henrik_Ericus Herd Herebane_Herebane Hern Hewnon Higil Hil Hirnir Hisin Hjar Hjoldir Hjornskar Hjorunn_Jorunn Hjrondir Hlar Hlofgar Hloggar Hlora Hlormar Hoag Hod Hodlismod 
+			Hofgrir	Hogni Hoki Holgeir Holger Holmar Honmund Honthjolf Horgeir Horik Horkvir Horm Horstar Hrargal Hrein Hridi Hrisskar Hroar Hroggar Hrol Hroldan Hroldar Hrollod Hrolmir Hrondar Hrongar Hrothmund Hrundi Hulgarth Hunroor Hurg Hurnfing Hurolf Hylf Idlami Idolaf Igmund Ingmar Irlof Irnskar Irroke Istar Itar Ivar Iver Jayred Jeek Jenssen Jervar Jesper Jod Jofnhild Jofthor Jolf Jolgeir Jollring Jomarr Jon_Jon Jorck Jorg_Jon Jorgen_Jon Joric Jorleif Jorn_Jon Jorundr Jorunn_Jorunn Julgen Jurgen Kai Kalthar Karl Keld Khosey Kibell Kieran Kjar Kjeld Kjoric Kleppr Klimmek Knjakr Knud Knurguri Kodlak Kodrir Korir Korst Kottir Kraldar Kunthar Kust Kyr Lars Larthjar Lassnr Leifur Leigelf Lemkil Leofric Llewellyn Lod Lodi Lodvar Logrof Logrolf Logvaar Lokil Lokir Lond Lorenz Lorkmir Lorod Lortheim Lund Lynch Lynoit Maering Manheim Mantiarco_Marcurius Markus_Marcurius Mathies Maul Mendel Mikael_Mikael Mikhael_Mikael Mogens Molgrom Mordistyr_Mordistair Mralki Narfi Nelkir Nels Newheim Niels Nikulas Nils Norring Odar 
+			Odfel Odmi Oengul Ogmund Olaf_Olav Olav_Olav Olfand Olfor Olfrid Ollrod Olmgerd Ongar Onmi Onmund Orgnar Orgnolf Ormvard Orthjolf Ortis Osbert_Osbert Pactur Pelf Peristyr_Peristair Radd Raerek Raflod Ragnar_Ragnarus Rakoslod Ralof Ranmir Rargal Regner_Ragnarus Reinhardt Reistr Reven Reves Rhorlak Rigel Rigmor Rissing Roberick_Robertus Rodistyr_Rodistair Roggi Roggvar Roggvir Rolard Rolf Rolff Rolgarel Roliand Rorik Rorlund Rundi Rustleif Sabjorn Saerlund Saetring Sarnir Sattir Savard Shalidor Sibbi Siddgeir Sifknir Sifnar Sigaar Sigar Sigurd Sigvatr Sild Sinding Sinmir Sirgar Sittar Sjarnfid Sjoring Sjorvar Skaggi Skald Skavnir Skeggr Skjoldr Skjor Skuli Skulnar Skulvar Snadir Snar Snedbrir Snilf Snilling Snorreid Snorri Solaf Sold Sond Sor Sorkvild Stalf Star Steapa Steirod Sten Stenvar Stern Stig Storn Styrbjorn Styrr Sulvar Svartr Sven Svog Swyk Talsgar Thadgeir Thaer Tharstan Tharsten Theodistyr_Theodistair Thian Thjollod Thonar Thongar Thongvor Thonjolf Thonnir Thorald Thorek Thorig_Thorig Thoring 
+			Thoriz Thorkild Thormoor Thorygg_Thorig Throgar Throknolf Thromgar Thrud Thrynn Thurek Tobias Tolan Tolfdir Tolgan Toralf Torbal Torbjorn Torkild Torolf Torsten Torvar Torygg Tove Trilf Tristastyr_Trististair Tsun Tulvur Tymvaul Uhtred_Uhtred Ulfberth Ulfe Ulfgar Ulfr Ulfric Unmid Urfing Vald Valdar Valdemar Valdimar Valdr Valund Vanik Vekel Velfred Verner Vidgrod Viding Vidkun Vidrald Vigge Vignar Vigunn Vilkas Vilod Vipir Virgerd Virkmund Volk Vongvild Vorstag Vrage Vulwulf_Lupus Warhaft Welleg Wilhelm_Augustus Wilmuth_Augustus Wulfgar Wulfharth Wulfmare Wuunferth Ylgar Yngling Yngol Yngvar Ynir Yrsarald Ysgramor Ysmir
+			Alfbrand Bathmar Bryngrim
+			Fjrokvar 
+			
+			Vignunn Valgeir Siggar Envar Erid Eifkvar
+			Hrolhardt Torid Ermor Rolbrand Alvbrir Audsten Brynalf Erilf Eigeir Thorvar Korgrad
+			Lasolf Valf Kormund Bronvar Reinring Eifvard Brynbrir Torkvar Audring Fjromoor Skjonunn
+			Tharnr Geibrand Lasnunn Alvjolfr Hrolnir Bathvard Balfvar Engnar Fjrorod
+			Hrolbrand Viggrim Basmund Bathlf Thorrst Satmund Reinulf Bronring Skjolkvar Alvatr
+			Bronmar Eifrst Graolf Vigheim Hrolmoor Geimar Eifgrad Skjolvard Balgrad Vigvar Balhardt
+			Bryntir Brynsten Geikvar Ormrad Ormhardt Engring Ormring Enring Ulfvar Rigvard
+			Ormvatr Tharheim Andreling Ulfrad Erlir Erring Geinar Ormmor Inggar Andrelvar Snedmoor
+			Alfmor Bjornolfr Majni Ysbrandr Hallmoor Hallgrim Ylgrim Osmar Hallulf 
+			Hrothulf Hrothvard Yngalf Hallheim Hallring Osgar Yngmoor Yshardt Hrothmoor Hrothgeir 
+			Yngring Thorring Hallgar Valmor Alfgeir Alfgrim Sigulf Ragnvar Ynglaf Thorkvar Thorheim	
+			Osring Osalf Siglaf	Thorlaf	Ysgrim Gustav Girgun Valbrandr Thjold Hjarknir 
+			Drengr Einarr Gisl Grjotgaror Thorormr Eldjar Falki Griss Beinir Ani Ali Vikord
+			Tulvar Hermeskr Ramth Tysnal Brunl Jonder Roeth Valdur Kajord Halldir Rjorn
+			Radnvald Saerek Toresten Deor Oslaf Baldor Halbarn Kuvar Sirkjorg Elmus Akar
+			Thalin Garuk Alfkild Sigkild Oskild Oskjoldr Jolgeirr Jolalf Skaf Tormar
+			Jolkvar Jolvar Aslaf Asalf Asmoor Asmund Asrad 
+		}
+		female_names = {
+			Abelone Adisla Aela Aeri Aeta Agata Agna Agneta Agnete Agni Agnis Aldi Alea Alfhild Alga Alva Alvide Anekke Angi Anise Anja Anska Argi Ari Asta Astrid Aumsi Barri Beitild Bergljot Bergritte Betrid Birna Bjartur Bodil Bolfrida Boti Brasteir Breya Brida Brina Britte Bryling Clarisse Dagny Danica Dorthe Drifa Drusba Edith Edla Eigma Eirid Eiruki Eisa Ekkhi Elda Elisif_Isabel Ellya Else Emfrid Erdi Eris Erna Evette Eydis Eyja Faida Fastred Fjola Fjori Fjotra Frabbi Fralia Freir Freydis Frida Fridrika Frilgeth Fruki Fryfnhild Fryssa Fura Gerda Gerdur Gisela Gisli Gormlaith Greidil Grelka Grelod Grerid Greta Grete Grosta Gwendolyn Haelga Haema Hafjorg Hamal Haran Heddvild Hefid Hela Helga Helgi Helgird Hermir Hert Hestla Hidar Hild Hilde Hillevi Hjolfrodi Hjorta Hoddreid Holmgeira Horski Hrefna Hreirek Hroa Hroki Hrordis Huki Hulda Hyring Iddra Idgrod Igna Ilfhild Illdi Imsin Inge Ingjard Ingokning Ingrid Ingun Iona Irgnir Jala Jensine Jolding Jolethe Jora Jordis Kar Karita Karoline Katla Kili Kintyra Kirsten Kjolver Kolfinna Lailla Lami Leidela Liesl Lillith Lisaa Lisbet Lydia Lynly Lyris Mabjaarn Macalla Maeva Malene Maren Margarte Margret Matlara Maven Memna Mera Merete Merilis Merta Mette Mildrith Minette Mjoll Narri Nilsine Njada Nura Nurnhilde Olava Olda Olfeigr Olfina Ondi Oriella Orla Petrine Rangela Reylia Rigmor Rikke Ringvild Risi Rona Rostlogi Ruki Runa Samar Serana Signy Sigrid Silda Siri Sissel Skjorta Sofie Sonir Sonje Sorli Sottilde Susanna Svana Svari Svenja Swanhvir Sylgja Tekla Temba Thaena Thalestris Thora Threki Throna Thunmund Thyra Tilde Tilma Tormir Tova Ulfrun Ulrika Una Ursine Uthgerd Val Valerica_Valeria Vigdis Vori Wibke Ygfa Ysolda_Isabel
+			Fryse 
+			Errun Hirid Kjolski Ulfja Hiski Errid Erja Greja Svenjot Berglgr
+			Kjolsi Ulfgr Rija Erdar Svenfinna Fryrun Svenski Sveneigr Svara Erse Kjolna
+			Frygr Svense Kolrun Higr Riski Hirun Berglse Kolja Berglfinna Horfinna Hidis
+			Horjot Horna Svenrid Kjoljot Fryski Horsi Greski Kjoldar Gredar Hisi Kjolrid
+			Ulfsi Fryfinna Ulfinna Ulfna Kjolse Horrun Fryja Kjolrun Horeigr Olfdar Svenna
+			Rise Horja Frea Frejot Fresi Frerun Frelief Frefrid Fredis Freyssa Fryjold
+			Fryitte Fryund Erssa Erfrid Erund Grelief Gredis Grea Horfrid Horsa Horund Hissa
+			Kolgeror Koljold Kolitte Kolund Kjoldis Olffrid Olfsa Olflief Riny Rissa Riund Ridis
+			Ulfssa Isa Isjold Isgeror Isrun Isna Hilse Hilja Hilssa Hilund Aegjot Aegna Aegrun
+			Aegfrid Oddrid Eldna Oddsi Oddfrid Oddund Eldrid Eldssa Eldsi Oddny Oddja Herkja
+			Herkski Herkjold Hjorrid Hjorlief Hjordis Hjorund Yrjot Yrna Yrski Yrssa Yrdis
+			Gretta Vibeke Kolbjorna Froa Adrimk Greyf Hakra Herkna
+			Gurilda Bergitte Bujold Rakel Fanari Finna Yrsa Ysla Isla Isja Islief
+			Morwen Bera Ulfwen Horwen Iswen Morrid Morja Oddwen Morsi Aegwen Isari Fandis Aegdis
+			Hjorla Bersi
+		}
+
+		from_dynasty_prefix = "af "
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 20
+		father_name_chance = 20
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+	}
+	reachmen = {
+		graphical_cultures = { easternslavicgfx }
+		
+		color = { 0.33 0.3 0.15 }
+		
+		male_names = {
+			Adramelech Agrlan Agrnach Agrnel Agrvar Alabcain Alacain Alach Alaic Alaric Alavar Alaven Andcain
+			Andlan Andven Angof Bednach Bedven Braic Braican Braich_Braic Braig Brailan Brairic Braivar Cuhlecain
+			Cuhlecen Cuhlech Cuhleic Cuhlelan Cuhlenach Cuhleric Cuhlevar Cuhleven Doncain Donic Donlan Donnach Rodastyr_Rodistair
+			Donnel Donric Donvar Duacain Duach Duaic Dualan Duanach Duaric Duavar Faocain Faoch Faolan Faonach Rodednain
+			Faoric Faovar Grisnel Grisvar Grisven Madanach Madaric Madic Madlan Madnach_Madanach Madric Madvar Perastyr_Peristair
+			Morcain Morlan Mornach Morvar Morven_Morvan Nech Nechlan Nenacain Nenach Neven Odric Odvan_Odvan Rodanach Rondach
+			Rodcain Rodnach Rodvar Teodcain Teodcen Teodlan Teodven Tynan Tyncain Tynic Tynlan Tynnach Tynvar Theodastyr_Theodistair
+			Tynven Uracain Uraccen Urach Uraic Uraric Maolcholuim_Maolcholuim Uthcain Uthcen Uthnach Uthven Durcorach Mogen Moricar Ainethach
+			Caoiss Vardan Verrik Kevinne Stral Strastnoc Brinarch Duareg Labhraidh Allunen Corintthac Kyrtos Olarz Urfon Vilum
+			Agrastyr_Agristair Alabastyr_Alabistair Alastyr_Alistair Alix_Alex Andastyr_Andistair Andynach_Andynak
+			Baldwyn_Baldwin Baldwyr Bedastyr_Bedastair Bedynach_Bedynak Bedawyr_Bedywyr Brinarch_Brinarch Dunyn_Dunyn
+			Karadog_Cerdic Cosnach Crayg_Craig Cynryc Danwych_Danwych Darych_Darric Davyd_David Dunastyr_Dunistair
+			Dunynach_Dunynak Edwastyr_Edwistair Edwynach_Edwynak Faolchu Frizwyr_Francis Baldr_Baldur Gondastyr_Gondistair
+			Gondynach_Gondynak Kaenach Leovic_Leovic Mordastyr_Mordistair Mordynach_Mordynak Morvan_Morvan Rodynach_Rodynak
+			Theodynach_Theodynak Trististyr_Trististair Ulrych_Ulrich Uthyn_Uthyn Uthynach_Uthynak Verych_Verick
+			
+		}
+		female_names = {
+			Uaile Kaie Morrigan Myra Nana Moira Petra Melka Drasgan Morrile Morrilka Uaie Moigan
+			Kailka Melgan Petigan Drasigan Nale Mele Nara Draska Uaina Morritra Drasa Morrina Nae Melra
+			Morrika Uaigan Uaika Petua Kaira Mygan Melle Morria Kaigan Kaitra Mya Kaia Drasna Natra Moika Kaina
+			Drascua Meligan Kaile Melcua Pea Pegan Peigan Peka Pecua Pera Foale Foae Foalka Foana
+			Foagan Foatra Cuhlegan Cuhleka Cuhlea Cuhlera Cuhletra Cuhlena Madra Madna Madka Madle Madigan Madie
+			Madicua Made Uratra Uraka Uragan Uralka Tyra Tyna Tyle Tynie Tyntra Tynka Tynigan Braigan Braika Braina
+			Brailka Braile Braie Melukah Drusilla Lessa Lydi Medya Uela Alona Vivian Idunhael_Idunhael
+		}
+		
+		from_dynasty_prefix = "of "
+		dukes_called_kings = yes
+		
+		# Chance of male children being named after their paternal or maternal grandfather or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = reachmen_culture_modifier
+		seafarer = yes
+	}
+}	

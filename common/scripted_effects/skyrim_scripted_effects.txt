@@ -1,0 +1,130 @@
+### We live in a society ###
+
+society_rank_up_rewards_effect = {
+	#Companions
+	if = {
+		limit = {
+			society_member_of = companions_tamriel
+			society_rank == 2
+			check_variable = { which = society_rewards value < 5 }
+		}
+		random_list = {
+			20 = { add_artifact = weapon_sword_steel_superior }
+			15 = { add_artifact = weapon_sword_silver_superior }
+			10 = { add_artifact = book_father_of_the_niben }
+			5 = { add_artifact = book_rislav_the_righteous }
+		}
+		change_variable = { which = society_rewards value = 1 }
+	}
+	if = {
+		limit = {
+			society_member_of = companions_tamriel
+			society_rank == 3
+			check_variable = { which = society_rewards value < 5 }
+		}
+		random_list = {
+			10 = { add_artifact = weapon_sword_steel_superior }
+			10 = { add_artifact = weapon_sword_silver_superior }
+			20 = { add_artifact = weapon_sword_steel_flawless }
+			10 = { add_artifact = armor_steel_superior }
+			5 = { add_artifact = book_father_of_the_niben }
+			7 = { add_artifact = book_rislav_the_righteous }
+			5 = { add_artifact = book_fall_of_the_snow_prince }
+		}
+		change_variable = { which = society_rewards value = 1 }
+	}
+	#The Greybeards
+	if = {
+		limit = {
+			society_member_of = greybeards_tamriel
+			society_rank == 2
+			check_variable = { which = society_rewards value < 5 }
+		}
+		
+		add_artifact = book_gods_and_worship
+		
+		change_variable = { which = society_rewards value = 1 }
+	}
+	if = {
+		limit = {
+			society_member_of = greybeards_tamriel
+			society_rank == 3
+			check_variable = { which = society_rewards value < 5 }
+		}
+		random_list = {
+			10 = { add_artifact = book_remanada }
+			10 = { add_artifact = book_spirit_of_nirn }
+			10 = { add_artifact = book_song_of_askelde_men }
+		}
+		change_variable = { which = society_rewards value = 1 }
+	}
+	if = {
+		limit = {
+			society_member_of = greybeards_tamriel
+			society_rank == 4
+			check_variable = { which = society_rewards value < 5 }
+		}
+		random_list = {
+			5 = { add_artifact = book_nchunaks_fire_and_faith }
+			5 = { add_artifact = book_fall_of_the_snow_prince }
+			5 = { add_artifact = book_the_buying_game }
+			5 = { add_artifact = book_notes_on_racial_phylogeny }
+			5 = { add_artifact = book_remanada }
+			5 = { add_artifact = book_spirit_of_nirn }
+			5 = { add_artifact = book_song_of_askelde_men }
+		}
+		change_variable = { which = society_rewards value = 1 }
+	}
+}
+
+
+# Startup flags indicating who's native to where
+set_startup_nativity_flags = {
+	
+	k_skyrim = {
+		nord = {
+			if = {
+				limit = {
+					NOT = {
+						has_flag = native_to_@PREV
+					}
+				}
+				set_flag = native_to_@PREV
+			}
+		}
+		reachmen = {
+			if = {
+				limit = {
+					NOT = {
+						has_flag = native_to_@PREV
+					}
+				}
+				set_flag = native_to_@PREV
+			}
+		}
+	}
+}
+
+clear_specialization_flags = {
+	clr_character_flag = fighters_guild_assassin
+	clr_character_flag = fighters_guild_barbarian
+	clr_character_flag = fighters_guild_battlemage
+	clr_character_flag = fighters_guild_crusader
+	clr_character_flag = fighters_guild_knight
+	clr_character_flag = fighters_guild_monk
+	clr_character_flag = fighters_guild_rogue
+	clr_character_flag = fighters_guild_scout
+	clr_character_flag = fighters_guild_spellsword
+	clr_character_flag = fighters_guild_wayfarer
+	clr_character_flag = monastic_order_bard
+	clr_character_flag = monastic_order_battlemage
+	clr_character_flag = monastic_order_crusader
+	clr_character_flag = monastic_order_healer
+	clr_character_flag = monastic_order_monk
+	clr_character_flag = monastic_order_priest
+	clr_character_flag = monastic_order_savant
+	clr_character_flag = monastic_order_spellsword
+	clr_character_flag = monastic_order_wayfarer
+	clr_character_flag = monastic_order_witchhunter
+}
+### Bottom Text ###

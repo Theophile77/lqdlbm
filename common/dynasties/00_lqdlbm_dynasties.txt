@@ -1,0 +1,20 @@
+80001 = {
+name = "Princesse"
+culture = frankish 
+}
+80002 = {
+name = "Pendragon"
+culture = breton
+}
+80003 = {
+	name = "de Carmélide"
+	culture = breton
+}
+80004 = {
+	name = "Clavier"
+	culture = occitan
+}
+80005 = {
+	name = "Sang-Bourg"
+	culture = frankish
+}

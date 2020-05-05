@@ -1,0 +1,119 @@
+laws = {
+	vassal_titular_kings_0 = { #No vassals may create titular Kingdom titles.
+		group = vassal_title_law
+		
+		potential = {
+			higher_real_tier_than = KING
+		}
+		
+		allow = {
+			higher_real_tier_than = KING
+			TECH_LEGALISM = 2
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = { #Added only very basic voting patterns for this law since there's not much nuance between councillor types when it comes to this law.
+			factor = 1
+			
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 1.5
+				trait = ambitious
+			}
+			modifier = {
+				factor = 5
+				trait = paranoid
+			}
+			modifier = { #Emperors more likely to be like 'oh crap' if he has a ton of King vassals already.
+				factor = 5
+				any_vassal = { 
+					count = 5
+					num_of_king_titles >= 1
+				}
+			}
+		}
+		pass_effect = {
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_titular_kings_1
+				#holder_scope = {
+				#	any_vassal = {
+				#		limit = {
+				#			is_landed = yes
+				#			higher_real_tier_than = COUNT
+				#		}
+				#		revoke_law = vassal_titular_kings_1
+				#		add_law = { law = vassal_titular_kings_0 cooldown = no opinion_effect = no }
+				#	}
+				#}
+			}
+		}
+	}
+	vassal_titular_kings_1 = { #Vassals may freely create titular Kingdom titles.
+		group = vassal_title_law
+		default = yes
+		
+		potential = {
+			higher_real_tier_than = KING
+		}
+		
+		allow = {
+			higher_real_tier_than = KING
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.05
+				always = yes
+			}
+			modifier = {
+				factor = 1.5
+				trait = content
+			}
+			modifier = {
+				factor = 3
+				trait = slothful
+			}
+			modifier = {
+				factor = 5
+				trait = trusting
+			}
+		}
+		pass_effect = {
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = vassal_titular_kings_0
+				#holder_scope = {
+				#	any_vassal = {
+				#		limit = {
+				#			is_landed = yes
+				#			higher_real_tier_than = COUNT
+				#		}
+				#		revoke_law = vassal_titular_kings_0
+				#		add_law = { law = vassal_titular_kings_1 cooldown = no opinion_effect = no }
+				#	}
+				#}
+			}
+		}
+	}
+}

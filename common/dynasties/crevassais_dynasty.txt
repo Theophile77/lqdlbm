@@ -1,0 +1,56 @@
+90000 = {
+	name = "Femme-Corbeau"
+	culture = reachmen
+}
+90001 = {
+	name = "Nèdivers"
+	culture = reachmen
+}
+90002 = {
+	name = "Pétrogriffe"
+	culture = reachmen
+}
+90003 = {
+	name = "Ragegriffe"
+	culture = reachmen
+}
+90004 = {
+	name = "Taille-Os"
+	culture = reachmen
+}
+90005 = {
+	name = "Témoins noirs"
+	culture = reachmen
+}
+90006 = {
+	name = "Chante-Tombe"
+	culture = reachmen
+}
+90007 = {
+	name = "Cœurgel"
+	culture = reachmen
+}
+90008 = {
+	name = "Dragon noir"
+	culture = reachmen
+}
+90009 = {
+	name = "Malecœur"
+	culture = reachmen
+}
+90010 = {
+	name = "Nivacrin"
+	culture = reachmen
+}
+90011 = {
+	name = "Pierrecœur"
+	culture = reachmen
+}
+90012 = {
+	name = "Sang-de-Taureau"
+	culture = reachmen
+}
+90013 = {
+	name = "Sort-Serre"
+	culture = reachmen
+}

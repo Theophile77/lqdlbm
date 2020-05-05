@@ -1,0 +1,2489 @@
+70000 = {
+	name="Aald"
+	culture=nord
+
+}
+
+70001 = {
+	name="Alabar"
+	culture=nord
+
+}
+
+70002 = {
+	name="Arjac"
+	culture=nord
+
+}
+
+70003 = {
+	name="Baruhk"
+	culture=nord
+
+}
+
+70004 = {
+	name="Bjimal"
+	culture=nord
+
+}
+
+70005 = {
+	name="Bjorga"
+	culture=nord
+
+}
+
+70006 = {
+	name="Bjorth"
+	culture=nord
+
+}
+
+70007 = {
+	name="Bjurl"
+	culture=nord
+
+}
+
+70008 = {
+	name="Braadel"
+	culture=nord
+
+}
+
+70009 = {
+	name="Brundhel"
+	culture=nord
+
+}
+
+70010 = {
+	name="Brundl"
+	culture=nord
+
+}
+
+70011 = {
+	name="Bysri"
+	culture=nord
+
+}
+
+70012 = {
+	name="Djel"
+	culture=nord
+
+}
+
+70013 = {
+	name="Djemi"
+	culture=nord
+
+}
+
+70014 = {
+	name="Enjaarl"
+	culture=nord
+
+}
+
+70015 = {
+	name="Ffirl"
+	culture=nord
+
+}
+
+70016 = {
+	name="Fjalr"
+	culture=nord
+
+}
+
+70017 = {
+	name="Fjaltalo"
+	culture=nord
+
+}
+
+70018 = {
+	name="Formdell"
+	culture=nord
+
+}
+
+70019 = {
+	name="Formu"
+	culture=nord
+
+}
+
+70020 = {
+	name="Ghaldorj"
+	culture=nord
+
+}
+
+70021 = {
+	name="Ghemjour"
+	culture=nord
+
+}
+
+70022 = {
+	name="Ghilred"
+	culture=nord
+
+}
+
+70023 = {
+	name="Ghronund"
+	culture=nord
+
+}
+
+70024 = {
+	name="Gremfell"
+	culture=nord
+
+}
+
+70025 = {
+	name="Grunahl"
+	culture=nord
+
+}
+
+70026 = {
+	name="Gulgar"
+	culture=nord
+
+}
+
+70027 = {
+	name="Halomar"
+	culture=nord
+
+}
+
+70028 = {
+	name="Haralf"
+	culture=nord
+
+}
+
+70029 = {
+	name="Hbolh"
+	culture=nord
+
+}
+
+70030 = {
+	name="Healkmeat"
+	culture=nord
+
+}
+
+70031 = {
+	name="Hegm"
+	culture=nord
+
+}
+
+70032 = {
+	name="Heimgrud"
+	culture=nord
+
+}
+
+70033 = {
+	name="Hemf"
+	culture=nord
+
+}
+
+70034 = {
+	name="Hendel"
+	culture=nord
+
+}
+
+70035 = {
+	name="Herjdel"
+	culture=nord
+
+}
+
+70036 = {
+	name="Hgehwen"
+	culture=nord
+
+}
+
+70037 = {
+	name="Hgul"
+	culture=nord
+
+}
+
+70038 = {
+	name="Hjal"
+	culture=nord
+
+}
+
+70039 = {
+	name="Hjalmer"
+	culture=nord
+
+}
+
+70040 = {
+	name="Hjeimdal"
+	culture=nord
+
+}
+
+70041 = {
+	name="Hjhlet"
+	culture=nord
+
+}
+
+70042 = {
+	name="Hletno"
+	culture=nord
+
+}
+
+70043 = {
+	name="Hoegdi"
+	culture=nord
+
+}
+
+70044 = {
+	name="Hoomdell"
+	culture=nord
+
+}
+
+70045 = {
+	name="Hwamjar"
+	culture=nord
+
+}
+
+70046 = {
+	name="Jeorr"
+	culture=nord
+
+}
+
+70047 = {
+	name="Jhun"
+	culture=nord
+
+}
+
+70048 = {
+	name="Jirfol"
+	culture=nord
+
+}
+
+70049 = {
+	name="Jirlohem"
+	culture=nord
+
+}
+
+70050 = {
+	name="Jirmoug"
+	culture=nord
+
+}
+
+70051 = {
+	name="Jjauf"
+	culture=nord
+
+}
+
+70052 = {
+	name="Jkarle"
+	culture=nord
+
+}
+
+70053 = {
+	name="Jorel"
+	culture=nord
+
+}
+
+70054 = {
+	name="Jungarrd"
+	culture=nord
+
+}
+
+70055 = {
+	name="Jurldhel"
+	culture=nord
+
+}
+
+70056 = {
+	name="Karkux"
+	culture=nord
+
+}
+
+70057 = {
+	name="Kilsobrad"
+	culture=nord
+
+}
+
+70058 = {
+	name="Korst"
+	culture=nord
+
+}
+
+70059 = {
+	name="Lundga"
+	culture=nord
+
+}
+
+70060 = {
+	name="Lungalth"
+	culture=nord
+
+}
+
+70061 = {
+	name="Mbjanal"
+	culture=nord
+
+}
+
+70062 = {
+	name="Medoch"
+	culture=nord
+
+}
+
+70063 = {
+	name="Mjanor"
+	culture=nord
+
+}
+
+70064 = {
+	name="Mjolsmar"
+	culture=nord
+
+}
+
+70065 = {
+	name="Mjor"
+	culture=nord
+
+}
+
+70066 = {
+	name="Morgan"
+	culture=nord
+
+}
+
+70067 = {
+	name="Morhe"
+	culture=nord
+
+}
+
+70068 = {
+	name="Njimal"
+	culture=nord
+
+}
+
+70069 = {
+	name="Njord"
+	culture=nord
+
+}
+
+70070 = {
+	name="Noaheim"
+	culture=nord
+
+}
+
+70071 = {
+	name="Sang-Corne"
+	culture=nord
+
+}
+
+70072 = {
+	name="Sombrage"
+	culture = nord
+	coat_of_arms = { 
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 29
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+	used_for_random = no
+	can_appear = no
+}
+
+70073 = {
+	name="Aigre-Coeur"
+	culture=nord
+
+}
+
+70074 = {
+	name="Rebec"
+	culture=nord
+
+}
+
+70075 = {
+	name="Rohard"
+	culture=nord
+
+}
+
+70076 = {
+	name="Silst"
+	culture=nord
+
+}
+
+70077 = {
+	name="Solst"
+	culture=nord
+
+}
+
+70078 = {
+	name="Stehn"
+	culture=nord
+
+}
+
+70079 = {
+	name="Stuhn"
+	culture=nord
+}
+
+70080 = {
+	name="Svndlkoff"
+	culture=nord
+
+}
+
+70081 = {
+	name="Svon"
+	culture=nord
+
+}
+
+70082 = {
+	name="Teb"
+	culture=nord
+
+}
+
+70083 = {
+	name="Telhm"
+	culture=nord
+
+}
+
+70084 = {
+	name="Tethahld"
+	culture=nord
+
+}
+
+70085 = {
+	name="Thalld"
+	culture=nord
+
+}
+
+70086 = {
+	name="Tsjari"
+	culture=nord
+
+}
+
+70087 = {
+	name="Tsmir"
+	culture=nord
+
+}
+
+70088 = {
+	name="Tsunaltir"
+	culture=nord
+
+}
+
+70089 = {
+	name="Urysmr"
+	culture=nord
+
+}
+
+70090 = {
+	name="Valomar"
+	culture=nord
+
+}
+
+70091 = {
+	name="Varjmel"
+	culture=nord
+
+}
+
+70092 = {
+	name="Vrage"
+	culture=nord
+
+}
+
+70093 = {
+	name="Vrendl"
+	culture=nord
+
+}
+
+70094 = {
+	name="Yalj"
+	culture=nord
+
+}
+
+70095 = {
+	name="Yaljar"
+	culture=nord
+
+}
+
+70096 = {
+	name="Ysgramor"
+	culture=nord
+	used_for_random = no
+	can_appear = no
+}
+
+70097 = {
+	name="Ysmalos"
+	culture=nord
+
+}
+
+70098 = {
+	name="Ysmieil"
+	culture=nord
+}
+
+70099 = {
+	name="Ysret"
+	culture=nord
+}
+
+70100 = {
+	name="Glacebière"
+	culture=nord
+}
+
+70101 = {
+	name="Bièrelire"
+	culture=nord
+}
+
+70102 = {
+	name="Coureur d'Ambre"
+	culture=nord
+}
+
+70103 = {
+	name="Bouclier d'Ambre"
+	culture=nord
+}
+
+70104 = {
+	name="Gardarche"
+	culture=nord
+}
+
+70105 = {
+	name="Porte-Hache"
+	culture=nord
+}
+
+70106 = {
+	name="Hachejumelle"
+	culture=nord
+}
+
+70107 = {
+	name="Fille d'Hache"
+	culture=nord
+}
+
+70108 = {
+	name="Porte-Bannière"
+	culture=nord
+}
+
+70109 = {
+	name="Lampebannière"
+	culture=nord
+}
+
+70110 = {
+	name="Bannière-déchirée"
+	culture=nord
+}
+
+70111 = {
+	name="Guerrier-Né"
+	culture=nord
+}
+
+70112 = {
+	name="Coupeguerrier"
+	culture=nord
+}
+
+70113 = {
+	name="Fortcombattant"
+	culture=nord
+}
+
+70114 = {
+	name="Bras-d'Ours"
+	culture=nord
+}
+
+70115 = {
+	name="Semble-Ours"
+	culture=nord
+}
+
+70116 = {
+	name="Frappe-Cloche"
+	culture=nord
+}
+
+70117 = {
+	name="Roncenoir"
+	culture=nord
+}
+
+70118 = {
+	name="Clou-Noir"
+	culture=nord
+}
+
+70119 = {
+	name="Ragnar-Noir"
+	culture=nord
+}
+
+70120 = {
+	name="Noiretorque"
+	culture=nord
+}
+
+70121 = {
+	name="Noirfléaux"
+	culture=nord
+}
+
+70122 = {
+	name="Lamenoire"
+	culture=nord
+}
+
+70123 = {
+	name="Blackthorn"
+	culture=nord
+}
+
+70124 = {
+	name="Sang-Anvil"
+	culture=nord
+}
+
+70125 = {
+	name="Bouche-sanguine"
+	culture=nord
+}
+
+70126 = {
+	name="Coursang"
+	culture=nord
+}
+
+70127 = {
+	name="Chantsanguin"
+	culture=nord
+}
+
+70128 = {
+	name="Bois de Sang"
+	culture=nord
+}
+
+70129 = {
+	name="Chevelurebleu"
+	culture=nord
+}
+
+70130 = {
+	name="Dent-Bleu"
+	culture=nord
+}
+
+70131 = {
+	name="Murbleu"
+	culture=nord
+}
+
+70132 = {
+	name="Barque-Carl"
+	culture=nord
+}
+
+70133 = {
+	name="Barque-Thane"
+	culture=nord
+}
+
+70134 = {
+	name="Tourbedieu"
+	culture=nord
+}
+
+70135 = {
+	name="Traineboue"
+	culture=nord
+}
+
+70136 = {
+	name="Chauveluth"
+	culture=nord
+}
+
+70137 = {
+	name="Livrefem"
+	culture=nord
+}
+
+70138 = {
+	name="Braggart"
+	culture=nord
+}
+
+70139 = {
+	name="Brandevin"
+	culture=nord
+}
+
+70140 = {
+	name="Largemur"
+	culture=nord
+}
+
+70141 = {
+	name="Mortné"
+	culture=nord
+}
+
+70142 = {
+	name="Cap-Brisé"
+	culture=nord
+}
+
+70143 = {
+	name="Pilletertre"
+	culture=nord
+}
+
+70144 = {
+	name="Chandelle"
+	culture=nord
+}
+
+70145 = {
+	name="Roche-Feu"
+	culture=nord
+}
+
+70146 = {
+	name="Saute-Roche"
+	culture=nord
+}
+
+70147 = {
+	name="Arpentroche"
+	culture=nord
+}
+
+70148 = {
+	name="Crit-Cruel"
+	culture=nord
+}
+
+70149 = {
+	name="Mer-Cruel"
+	culture=nord
+}
+
+70150 = {
+	name="Lame-Maudite"
+	culture=nord
+}
+
+70151 = {
+	name="Porte-Malheur"
+	culture=nord
+}
+
+70152 = {
+	name="Tresse-Sort"
+	culture=nord
+}
+
+70153 = {
+	name="Cridague"
+	culture=nord
+}
+
+70154 = {
+	name="Sombrecœur"
+	culture=nord
+}
+
+70155 = {
+	name="Creux-Raed"
+	culture=nord
+}
+
+70156 = {
+	name="Parle-Malheur"
+	culture=nord
+}
+
+70157 = {
+	name="Tambourineur"
+	culture=nord
+}
+
+70158 = {
+	name="Courtépée"
+	culture=nord
+}
+
+70159 = {
+	name="Prochefin"
+	culture=nord
+}
+
+70160 = {
+	name="Début-Torc"
+	culture=nord
+}
+
+70161 = {
+	name="Mangecho"
+	culture=nord
+}
+
+70162 = {
+	name="Oreille d'Anguille"
+	culture=nord
+}
+
+70163 = {
+	name="Dixhuitsoreilles"
+	culture=nord
+}
+
+70164 = {
+	name="Coupelfe"
+	culture=nord
+}
+
+70165 = {
+	name="Briseflamme"
+	culture=nord
+}
+
+70166 = {
+	name="Maîtrefeu"
+	culture=nord
+}
+
+70167 = {
+	name="Crin de Feu"
+	culture=nord
+}
+
+70168 = {
+	name="Sang de Feu"
+	culture=nord
+}
+
+70169 = {
+	name="Loyal-Scribe"
+	culture=nord
+}
+
+70170 = {
+	name="Bouclerfiable"
+	culture=nord
+}
+
+70171 = {
+	name="Loingécu"
+	culture=nord
+}
+
+70172 = {
+	name="Voiloing"
+	culture=nord
+}
+
+70173 = {
+	name="Plume-Peintre"
+	culture=nord
+}
+
+70174 = {
+	name="Beau-Cheveux"
+	culture=nord
+}
+
+70175 = {
+	name="Hache-de-Feu"
+	culture=nord
+}
+
+70176 = {
+	name="Yeux-Rouge"
+	culture=nord
+}
+
+70177 = {
+	name="Apprifeu"
+	culture=nord
+}
+
+70178 = {
+	name="Troflamme"
+	culture=nord
+}
+
+70179 = {
+	name="Barbebraise"
+	culture=nord
+}
+
+70180 = {
+	name="Lancefeu"
+	culture=nord
+}
+
+70181 = {
+	name="Pelage-de-Braise"
+	culture=nord
+}
+
+70182 = {
+	name="Crin-de-feu"
+	culture=nord
+}
+
+70183 = {
+	name="Cinq-Barbes"
+	culture=nord
+}
+
+70184 = {
+	name="Cinq-Têtes"
+	culture=nord
+}
+
+70185 = {
+	name="Fjork-Stag"
+	culture=nord
+}
+
+70186 = {
+	name="Pieds-Plats"
+	culture=nord
+}
+
+70187 = {
+	name="Yeux-Brumeux"
+	culture=nord
+}
+
+70188 = {
+	name="Barbefourche"
+	culture=nord
+}
+
+70189 = {
+	name="Quatre-Marmites"
+	culture=nord
+}
+
+70190 = {
+	name="Quatre-Marcheurs"
+	culture=nord
+}
+
+70191 = {
+	name="Porte-Renard"
+	culture=nord
+}
+
+70192 = {
+	name="Goupilépée"
+	culture=nord
+}
+
+70193 = {
+	name="Crifourbe"
+	culture=nord
+}
+
+70194 = {
+	name="Ventmoisi"
+	culture=nord
+}
+
+70195 = {
+	name="Mainfourbe"
+	culture=nord
+}
+
+70196 = {
+	name="Libre-Hiver"
+	culture=nord
+}
+
+70197 = {
+	name="Pluie-Gelée"
+	culture=nord
+}
+
+70198 = {
+	name="cœur-Gelé"
+	culture=nord
+}
+
+70199 = {
+	name="Coupe-Géant"
+	culture=nord
+}
+
+70200 = {
+	name="Marche-de-Géant"
+	culture=nord
+}
+
+70201 = {
+	name="Méprise-Dieux"
+	culture=nord
+}
+
+70202 = {
+	name="Banc-d'Or"
+	culture=nord
+}
+
+70203 = {
+	name="Sangor"
+	culture=nord
+}
+
+70204 = {
+	name="Poignéedorée"
+	culture=nord
+}
+
+70205 = {
+	name="Murdor"
+	culture=nord
+}
+
+70206 = {
+	name="Mornecrin"
+	culture=nord
+}
+
+70207 = {
+	name="Mornechant"
+	culture=nord
+}
+
+70208 = {
+	name="Mornevague"
+	culture=nord
+}
+
+70209 = {
+	name="Mornefléau"
+	culture=nord
+}
+
+70210 = {
+	name="Morneyeux"
+	culture=nord
+}
+
+70211 = {
+	name="Murgris"
+	culture=nord
+}
+
+70212 = {
+	name="Princegrain"
+	culture=nord
+}
+
+70213 = {
+	name="Haggard"
+	culture=nord
+}
+
+70214 = {
+	name="Eaupoilu"
+	culture=nord
+}
+
+70215 = {
+	name="Jambepoilu"
+	culture=nord
+}
+
+70216 = {
+	name="Demi-Coffre"
+	culture=nord
+}
+
+70217 = {
+	name="Demi-Troll"
+	culture=nord
+}
+
+70218 = {
+	name="Mi-Main"
+	culture=nord
+}
+
+70219 = {
+	name="Faitmain"
+	culture=nord
+}
+
+70220 = {
+	name="cœurdur"
+	culture=nord
+}
+
+70221 = {
+	name="Bouchedur"
+	culture=nord
+}
+
+70222 = {
+	name="Ruiseau-Tourmenté"
+	culture=nord
+}
+
+70223 = {
+	name="Déteste-Panier"
+	culture=nord
+}
+
+70224 = {
+	name="Casse-Tête"
+	culture=nord
+}
+
+70225 = {
+	name="Fandlecœur"
+	culture=nord
+}
+
+70226 = {
+	name="Soigne-Cœur"
+	culture=nord
+}
+
+70227 = {
+	name="Cœur-de-Femme"
+	culture=nord
+}
+
+70228 = {
+	name="Grandours"
+	culture=nord
+}
+
+70229 = {
+	name="Grande-Coupe"
+	culture=nord
+}
+
+70230 = {
+	name="Grandsable"
+	culture=nord
+}
+
+70231 = {
+	name="Grandmur"
+	culture=nord
+}
+
+70232 = {
+	name="Hoagmugit"
+	culture=nord
+}
+
+70233 = {
+	name="Hoar-Sang"
+	culture=nord
+}
+
+70234 = {
+	name="Boiteur"
+	culture=nord
+}
+
+70235 = {
+	name="Ventreporc"
+	culture=nord
+}
+
+70236 = {
+	name="Jambescreuses"
+	culture=nord
+}
+
+70237 = {
+	name="Brisemaison"
+	culture=nord
+}
+
+70238 = {
+	name="Main-de-Miel"
+	culture=nord
+}
+
+70239 = {
+	name="Brise-Monture"
+	culture=nord
+}
+
+70240 = {
+	name="Bouche-de-Cheval"
+	culture=nord
+}
+
+70241 = {
+	name="Chientressé"
+	culture=nord
+}
+
+70242 = {
+	name="Limemur"
+	culture=nord
+}
+
+70243 = {
+	name="Feu-de-Glace"
+	culture=nord
+}
+
+70244 = {
+	name="point-de-Feu"
+	culture=nord
+}
+
+70245 = {
+	name="Cringelée"
+	culture=nord
+}
+
+70246 = {
+	name="Gueule-Gelée"
+	culture=nord
+}
+
+70247 = {
+	name="Bouclier-Gelée"
+	culture=nord
+}
+
+70248 = {
+	name="Trompeglace"
+	culture=nord
+}
+
+70249 = {
+	name="Veine-de-Glace"
+	culture=nord
+}
+
+70250 = {
+	name="Brisefer"
+	culture=nord
+}
+
+70251 = {
+	name="Ecrasefer"
+	culture=nord
+}
+
+70252 = {
+	name="Fertoison"
+	culture=nord
+}
+
+70253 = {
+	name="Coupefer"
+	culture=nord
+}
+
+70254 = {
+	name="Bouillefer"
+	culture=nord
+}
+
+70255 = {
+	name="Ferformé"
+	culture=nord
+}
+
+70256 = {
+	name="Fermur"
+	culture=nord
+}
+
+70257 = {
+	name="Ferflamme"
+	culture=nord
+}
+
+70258 = {
+	name="Main-de-Fer"
+	culture=nord
+}
+
+70259 = {
+	name="Rois-Malin"
+	culture=nord
+}
+
+70260 = {
+	name="Barbe-Nouée"
+	culture=nord
+}
+
+70261 = {
+	name="Laggard"
+	culture=nord
+}
+
+70262 = {
+	name="Juste-Loi"
+	culture=nord
+}
+
+70263 = {
+	name="Tempête-Solitaire"
+	culture=nord
+}
+
+70264 = {
+	name="Longuejambes"
+	culture=nord
+}
+
+70265 = {
+	name="Longuedents"
+	culture=nord
+}
+
+70266 = {
+	name="Tisse-Vierge"
+	culture=nord
+}
+
+70267 = {
+	name="Sansmain"
+	culture=nord
+}
+
+70268 = {
+	name="Grattehydromel"
+	culture=nord
+}
+
+70269 = {
+	name="Bière-Ours"
+	culture=nord
+}
+
+70270 = {
+	name="Ecubière"
+	culture=nord
+}
+
+70271 = {
+	name="Marchebière"
+	culture=nord
+}
+
+70272 = {
+	name="Face-de-Clou"
+	culture=nord
+}
+
+70273 = {
+	name="Frappe-Clou"
+	culture=nord
+}
+
+70274 = {
+	name="Tenteclou"
+	culture=nord
+}
+
+70275 = {
+	name="Appeleur"
+	culture=nord
+}
+
+70276 = {
+	name="Martelnid"
+	culture=nord
+}
+
+70277 = {
+	name="Cossechêne"
+	culture=nord
+}
+
+70278 = {
+	name="Brisechêne"
+	culture=nord
+}
+
+70279 = {
+	name="Brulechêne"
+	culture=nord
+}
+
+70280 = {
+	name="Crin-de-chêne"
+	culture=nord
+}
+
+70281 = {
+	name="Porte-Serment"
+	culture=nord
+}
+
+70282 = {
+	name="Donne-Serment"
+	culture=nord
+}
+
+70283 = {
+	name="Maître-Serment"
+	culture=nord
+}
+
+70284 = {
+	name="Tresse-Serment"
+	culture=nord
+}
+
+70285 = {
+	name="Estimancienne"
+	culture=nord
+}
+
+70286 = {
+	name="Unœil"
+	culture=nord
+}
+
+70287 = {
+	name="Uniquépée"
+	culture=nord
+}
+
+70288 = {
+	name="Fourure-de-Chouette"
+	culture=nord
+}
+
+70289 = {
+	name="Purelame"
+	culture=nord
+}
+
+70290 = {
+	name="Puremain"
+	culture=nord
+}
+
+70291 = {
+	name="Pure-Source"
+	culture=nord
+}
+
+70292 = {
+	name="Lapin-Buse"
+	culture=nord
+}
+
+70293 = {
+	name="Corcrone"
+	culture=nord
+}
+
+70294 = {
+	name="Bras-Rouge"
+	culture=nord
+}
+
+70295 = {
+	name="Rougecrin"
+	culture=nord
+}
+
+70296 = {
+	name="Ventrerouge"
+	culture=nord
+}
+
+70297 = {
+	name="Rougepointe"
+	culture=nord
+}
+
+70298 = {
+	name="Dent-Rouge"
+	culture=nord
+}
+
+70299 = {
+	name="Jettepierre"
+	culture=nord
+}
+
+70300 = {
+	name="Briseroche"
+	culture=nord
+}
+
+70301 = {
+	name="Poignée-de-Sable"
+	culture=nord
+}
+
+70302 = {
+	name="Sable-Runner"
+	culture=nord
+}
+
+70303 = {
+	name="Sablécu"
+	culture=nord
+}
+
+70304 = {
+	name="Sel-Anvil"
+	culture=nord
+}
+
+70305 = {
+	name="Brise-Sel"
+	culture=nord
+}
+
+70306 = {
+	name="Sel-de-Feu"
+	culture=nord
+}
+
+70307 = {
+	name="Planche-de-Sel"
+	culture=nord
+}
+
+70308 = {
+	name="Sel-Sage"
+	culture=nord
+}
+
+70309 = {
+	name="Sargtlin"
+	culture=nord
+}
+
+70310 = {
+	name="Face-Balafrée"
+	culture=nord
+}
+
+70311 = {
+	name="Mutileface"
+	culture=nord
+}
+
+70312 = {
+	name="Profonde-Entaille"
+	culture=nord
+}
+
+70313 = {
+	name="Mer-des-Fantômes"
+	culture=nord
+}
+
+70314 = {
+	name="Maître-des-Mers"
+	culture=nord
+}
+
+70315 = {
+	name="Lancemer"
+	culture=nord
+}
+
+70316 = {
+	name="Feusecret"
+	culture=nord
+}
+
+70317 = {
+	name="Épéesecrète"
+	culture=nord
+}
+
+70318 = {
+	name="Sept-Barbes"
+	culture=nord
+}
+
+70319 = {
+	name="Sept-Visages"
+	culture=nord
+}
+
+70320 = {
+	name="Sept-Épées"
+	culture=nord
+}
+
+70321 = {
+	name="Briselame"
+	culture=nord
+}
+
+70322 = {
+	name="Brise-Bouclier"
+	culture=nord
+}
+
+70323 = {
+	name="Brise-Point"
+	culture=nord
+}
+
+70324 = {
+	name="Bouclier-Nourrit"
+	culture=nord
+}
+
+70325 = {
+	name="Chantécu"
+	culture=nord
+}
+
+70326 = {
+	name="Boucliermur"
+	culture=nord
+}
+
+70327 = {
+	name="Femmécu"
+	culture=nord
+}
+
+70328 = {
+	name="Bras-Court"
+	culture=nord
+}
+
+70329 = {
+	name="Sang-d'Argent"
+	culture=nord
+}
+
+70330 = {
+	name="Crin-d'Argent"
+	culture=nord
+}
+
+70331 = {
+	name="Maître-Argent"
+	culture=nord
+}
+
+70332 = {
+	name="Épée-d'Argent"
+	culture=nord
+}
+
+70333 = {
+	name="Six-Doigts"
+	culture=nord
+}
+
+70334 = {
+	name="Six-Chausse"
+	culture=nord
+}
+
+70335 = {
+	name="Six-Torque"
+	culture=nord
+}
+
+70336 = {
+	name="Skelsgard"
+	culture=nord
+}
+
+70337 = {
+	name="Scindeciel"
+	culture=nord
+}
+
+70338 = {
+	name="Chaudron-Ciel"
+	culture=nord
+}
+
+70339 = {
+	name="Écrit-Ciel"
+	culture=nord
+}
+
+70340 = {
+	name="Cent-du-Ciel"
+	culture=nord
+}
+
+70341 = {
+	name="Sky-Walker"
+	culture=nord
+}
+
+70342 = {
+	name="Femmeciel"
+	culture=nord
+}
+
+70343 = {
+	name="Lameneige"
+	culture=nord
+}
+
+70344 = {
+	name="Tresseneige"
+	culture=nord
+}
+
+70345 = {
+	name="Chausseneige"
+	culture=nord
+}
+
+70346 = {
+	name="Chante-Neige"
+	culture=nord
+}
+
+70347 = {
+	name="Baleine-des-Neiges"
+	culture=nord
+}
+
+70348 = {
+	name="Sorenlame"
+	culture=nord
+}
+
+70349 = {
+	name="Sorenpelage"
+	culture=nord
+}
+
+70350 = {
+	name="Sorenécu"
+	culture=nord
+}
+
+70351 = {
+	name="Bouclier-Cerf"
+	culture=nord
+}
+
+70352 = {
+	name="Bois-de-Cerf"
+	culture=nord
+}
+
+70353 = {
+	name="Étoile-d'Anvil"
+	culture=nord
+}
+
+70354 = {
+	name="Mainétoile"
+	culture=nord
+}
+
+70355 = {
+	name="Crindétoile"
+	culture=nord
+}
+
+70356 = {
+	name="Chantétoile"
+	culture=nord
+}
+
+70357 = {
+	name="Briseregard"
+	culture=nord
+}
+
+70358 = {
+	name="Œil-de-Pierre"
+	culture=nord
+}
+
+70359 = {
+	name="RochePoing"
+	culture=nord
+}
+
+70360 = {
+	name="Pierrécu"
+	culture=nord
+}
+
+70361 = {
+	name="Bras-de-Pierre"
+	culture=nord
+}
+
+70362 = {
+	name="Chantempête"
+	culture=nord
+}
+
+70363 = {
+	name="Wulfharth"
+	used_for_random = no
+	can_appear = no
+}
+
+70364 = {
+	name="Bras-Fort"
+	culture=nord
+}
+
+70365 = {
+	name="Cœur-Fort"
+	culture=nord
+}
+
+70366 = {
+	name="Fortejambes"
+	culture=nord
+}
+
+70367 = {
+	name="Blanchebarbe"
+	culture=nord
+}
+
+70368 = {
+	name="Lamesol"
+	culture=nord
+}
+
+70369 = {
+	name="Astre-Mort"
+	culture=nord
+}
+
+70370 = {
+	name="Tranche-Hache"
+	culture=nord
+}
+
+70371 = {
+	name="Coupecrinière"
+	culture=nord
+}
+
+70372 = {
+	name="Scinde-Cerf"
+	culture=nord
+}
+
+70373 = {
+	name="Marin-Agile"
+	culture=nord
+}
+
+70374 = {
+	name="Cahntevite"
+	culture=nord
+}
+
+70375 = {
+	name="Épéevierge"
+	culture=nord
+}
+
+70376 = {
+	name="Grandetresse"
+	culture=nord
+}
+
+70377 = {
+	name="Grandécu"
+	culture=nord
+}
+
+70378 = {
+	name="Face-de-suif"
+	culture=nord
+}
+
+70379 = {
+	name="Main-de-suif"
+	culture=nord
+}
+
+70380 = {
+	name="Démonte-Femme"
+	culture=nord
+}
+
+70381 = {
+	name="Épine-Torque"
+	culture=nord
+}
+
+70382 = {
+	name="Maîtresclave"
+	culture=nord
+}
+
+70383 = {
+	name="Troislame"
+	culture=nord
+}
+
+70384 = {
+	name="Tois-Briseur"
+	culture=nord
+}
+
+70385 = {
+	name="Trois-Fourrure"
+	culture=nord
+}
+
+70386 = {
+	name="Triple-Entaille"
+	culture=nord
+}
+
+70387 = {
+	name="Éclair-Scribe"
+	culture=nord
+}
+
+70388 = {
+	name="Bouclier-Éclaire"
+	culture=nord
+}
+
+70389 = {
+	name="Crindéclair"
+	culture=nord
+}
+
+70390 = {
+	name="Lamecrapaud"
+	culture=nord
+}
+
+70391 = {
+	name="Crapaudcoiffé"
+	culture=nord
+}
+
+70392 = {
+	name="Coupe-Grenouille"
+	culture=nord
+}
+
+70393 = {
+	name="Œil-de-Grenouile"
+	culture=nord
+}
+
+70394 = {
+	name="Bouclier-Crapaud"
+	culture=nord
+}
+
+70395 = {
+	name="Pointe-Crapaud"
+	culture=nord
+}
+
+70396 = {
+	name="Vaseroc"
+	culture=nord
+}
+
+70397 = {
+	name="Porte-Torque"
+	culture=nord
+}
+
+70398 = {
+	name="Torque-Veuve"
+	culture=nord
+}
+
+70399 = {
+	name="Porte-Troll"
+	culture=nord
+}
+
+70400 = {
+	name="Fléautroll"
+	culture=nord
+}
+
+70401 = {
+	name="Protège-Veuve"
+	culture=nord
+}
+
+70402 = {
+	name="Double-Escroc"
+	culture=nord
+}
+
+70403 = {
+	name="Deux-Courreur"
+	culture=nord
+}
+
+70404 = {
+	name="Faiblecri"
+	culture=nord
+}
+
+70405 = {
+	name="Guerre-d'Anvil"
+	culture=nord
+}
+
+70406 = {
+	name="Ours-de-Guerre"
+	culture=nord
+}
+
+70407 = {
+	name="Mutile-Guerre"
+	culture=nord
+}
+
+70408 = {
+	name="Brisonde"
+	culture=nord
+}
+
+70409 = {
+	name="Hache-Humide"
+	culture=nord
+}
+
+70410 = {
+	name="Garde-Mouillée"
+	culture=nord
+}
+
+70411 = {
+	name="Yngvlar"
+	culture = nord
+
+}
+
+70412 = {
+	name="Pierre-Humide"
+	culture=nord
+}
+
+70413 = {
+	name="Lame-Trempée"
+	culture=nord
+}
+
+70414 = {
+	name="Blancrin"
+	culture=nord
+}
+
+70415 = {
+	name="Bouclier-Blanc"
+	culture=nord
+}
+
+70416 = {
+	name="Blanchevolige"
+	culture=nord
+}
+
+70417 = {
+	name="Blanche-Veine"
+	culture=nord
+}
+
+70418 = {
+	name="Grand-Bras"
+	culture=nord
+}
+
+70419 = {
+	name="Sang-Libre"
+	culture=nord
+}
+
+70420 = {
+	name="Ventœil"
+	culture=nord
+}
+
+70421 = {
+	name="Décale-Vent"
+	culture=nord
+}
+
+70422 = {
+	name="Vent-Hache"
+	culture=nord
+}
+
+70423 = {
+	name="Parlevent"
+	culture=nord
+}
+
+70424 = {
+	name="Vinvrogne"
+	culture=nord
+}
+
+70425 = {
+	name="Femme-à-Vin"
+	culture=nord
+}
+
+70426 = {
+	name="Étrange-Pastel"
+	culture=nord
+}
+
+70427 = {
+	name="Vent-De-Loup"
+	culture=nord
+}
+
+70428 = {
+	name="Cours-Loup"
+	culture=nord
+}
+
+70429 = {
+	name="Chanteloup"
+	culture=nord
+}
+
+70430 = {
+	name="Pointe-Loup"
+	culture=nord
+}
+
+70431 = {
+	name="Porteloup"
+	culture=nord
+}
+
+70432 = {
+	name="Boiscoupé"
+	culture=nord
+}
+
+70433 = {
+	name="Coupebois"
+	culture=nord
+}
+
+70434 = {
+	name="Lamebois"
+	culture=nord
+}
+
+70435 = {
+	name="Flambe-Cheveux"
+	culture=nord
+}
+
+70436 = {
+	name="Lassemonde"
+	culture=nord
+}
+
+70437 = {
+	name="Forte-Voix"
+	culture=nord
+}
+
+70438 = {
+	name="GriffedOurs"
+	culture=nord
+}
+
+70439 = {
+	name="d'Atmora"
+	culture=nord
+	used_for_random = no
+	can_appear = no
+}
+
+70440 = {
+	name="Peau d'ours"
+	culture=nord
+}
+
+70441 = {
+	name="Rond-Boyaux"
+	culture=nord
+}
+
+70442 = {
+	name="Blanchonde"
+	culture=nord
+}
+
+70443 = {
+	name="Cœurgris"
+	culture=nord
+}
+
+70444 = {
+	name="Erol"
+	culture = nord
+}
+
+70445 = {
+	name="Jeune-Barbe"
+	culture = nord
+}
+
+70446 = {
+	name="Barbe-Gelée"
+	culture = nord
+}
+
+70447 = {
+	name="Gersen"
+	culture = nord
+}
+
+70448 = {
+	name="Oustrien"
+	culture = nord
+}
+
+70449 = {
+	name="Andersen"
+	culture = nord
+}
+
+70450 = {
+	name="Tempête-né"
+	culture = nord
+}
+
+70451 = {
+	name="Tempêteciel"
+	culture = nord
+}
+
+70452 = {
+	name="Tempête-Flamme"
+	culture = nord
+}
+
+70453 = {
+	name="Ragépée"
+	culture = nord
+}
+
+70454 = {
+	name="Chutevent"
+	culture = nord
+}
+
+70455 = {
+	name="Fléauvent"
+	culture = nord
+}
+
+70456 = {
+	name = "Felgeif"
+	culture = nord
+}
+
+70457 = {
+	name = "Skjoralmor"
+	culture = nord
+}
+
+70458 = {
+	name = "Alvstrom"
+	culture = nord
+}
+70459 = {
+	name = "Pointorage" #Stormfist Clan, Loyal to Stormfist Brigade
+	culture = nord
+}
+70460 = {
+	name = "Runeige"
+	culture = nord
+}
+70461 = {
+	name = "Lameglace"
+	culture = nord
+}
+70462 = {
+	name = "Premier Norique"
+	culture = nord
+}
+
+70463 = {
+	name = "Orun"
+	culture = nord
+}
+
+70464 = {
+	name = "Pointeflamme"
+	culture = nord
+}
+
+70465 = {
+	name = "Titan-Né"
+	culture = nord
+}
+
+70466 = {
+	name = "Ailedejais"
+	culture = nord
+}
+
+70467 = {
+	name = "Rudepoing"
+	culture = nord
+}
+
+70468 = {
+	name = "de Rivebois"
+	culture = nord
+}
+
+70469 = {
+	name = "Bon-Serment"
+	culture = nord
+}
+
+70470 = {
+	name = "Terne-Bannière"
+	culture = nord
+}
+
+70471 = {
+	name = "d'Helgen"
+	culture = nord
+}
+
+70472 = {
+	name = "Grisetoison"
+	culture = nord
+}
+
+70473 = {
+	name = "Tragus"
+	culture = roman
+}
+
+70474 = {
+	name = "Volkihar"
+	culture = nord
+}
+
+70475 = {
+	name = "Merilis"
+	culture = nord
+}

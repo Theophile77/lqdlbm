@@ -1,0 +1,219 @@
+human_pantheon = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	color = { 0.90 0.90 1.0 }
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+	
+	# Names given only to Human Pantheon characters (base names)
+	male_names = {
+		Belharza Pelinius Tiber
+	}
+	female_names = {
+		Alessia
+	}
+
+	eight_divines = {
+		graphical_culture = westerngfx
+
+		icon = 4
+		heresy_icon = 3
+		color = { 1.0 0.78 0.93 }
+
+		crusade_name = "CRUSADE"
+		scripture_name = THE_CONVENANT
+		
+		piety_name = FAVOUR
+		
+		high_god_name = GOD_THE_DIVINES
+		
+		god_names = {
+			GOD_THE_DIVINES GOD_THE_EIGHT GOD_THE_EIGHT_DIVINES GOD_THE_GODS GOD_THE_AEDRA
+		}
+		
+		evil_god_names = {
+			DAEDRA DEMONS DAEDRIC_PRINCES
+		}
+		
+		#autocephaly = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_call_crusade = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		#investiture = yes
+		female_temple_holders = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		short_reign_opinion_year_mult = 1 # The default is 2
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		aggression = 1.25
+		intermarry = old_gods
+		intermarry = nine_divines
+		#religious_clothing_head = 9
+		#religious_clothing_priest = 9
+		has_heir_designation = yes
+		rel_head_defense = yes
+	}
+
+	nine_divines = {
+		graphical_culture = westerngfx
+		alternate_start = { always = no }
+		icon = 1
+		heresy_icon = 2
+		color = { 0.78 0.96 1.0 }
+
+		crusade_name = "CRUSADE"
+		scripture_name = THE_CONVENANT
+		
+		piety_name = FAVOUR
+
+		high_god_name = GOD_THE_DIVINES
+		
+		god_names = {
+			GOD_THE_DIVINES GOD_THE_NINE GOD_THE_NINE_DIVINES GOD_THE_GODS GOD_TIBER_SEPTIM GOD_TALOS
+		}
+		
+		evil_god_names = {
+			DAEDRA DEMONS DAEDRIC_PRINCES
+		}
+		
+		#autocephaly = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_call_crusade = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		#investiture = yes
+		female_temple_holders = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		short_reign_opinion_year_mult = 1 # The default is 2
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		intermarry = old_gods
+		intermarry = eight_divines
+		#religious_clothing_head = 9
+		#religious_clothing_priest = 9
+		has_heir_designation = yes
+	}
+}
+
+reach_faiths = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	hostile_within_group = yes
+	
+	color = { 0.43 0.47 0.57 }
+	
+	ai_convert_same_group = 2
+	ai_convert_other_group = 1
+
+	old_gods = {
+		graphical_culture = norsegfx
+
+		icon = 8
+		heresy_icon = 9
+		color = { 0.16 0.24 0.39 }
+		
+		piety_name = FAVOUR
+
+		high_god_name = GOD_OLDGODS
+		
+		god_names = {
+			GOD_OLDGODS GOD_DIBELLA GOD_MARA GOD_MERIDIA GOD_AZURA GOD_HIRCINE GOD_PERYITE
+		}
+		
+		evil_god_names = {
+			OUTSIDE_GODS NEW_GODS
+		}
+
+		crusade_name = "HOLY_WAR"
+		scripture_name = THE_MYSTERIUM_XERXES
+		
+		max_consorts = 2
+		women_can_take_consorts = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		can_call_crusade = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		investiture = no
+		female_temple_holders = yes
+		feminist = yes
+		male_temple_holders = no
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		aggression = 1.5
+		intermarry = eight_divines
+		intermarry = nine_divines
+		intermarry = forsworn_heresy
+		#religious_clothing_head = 3
+		#religious_clothing_priest = 3
+		
+		has_heir_designation = yes
+	}
+	forsworn_heresy = { #Hagraven Cults
+		graphical_culture = norsegfx
+
+		icon = 8
+		heresy_icon = 9
+		color = { 0.26 0.22 0.29 }
+		parent = old_gods
+		
+		piety_name = FAVOUR
+		
+		crusade_name = "HOLY_WAR"
+		
+		high_god_name = GOD_OLDGODS
+		
+		god_names = {
+			GOD_OLDGODS GOD_BRIARHEART GOD_HAGRAVEN
+		}
+		
+		evil_god_names = {
+			OUTSIDE_GODS NEW_GODS
+		}
+		has_heir_designation = yes
+		max_consorts = 3
+		women_can_take_consorts = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		allow_viking_invasion = yes
+		defensive_attrition = yes
+		peace_prestige_loss = yes
+		can_call_crusade = yes
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		priests_can_marry = yes
+		investiture = no
+		female_temple_holders = yes
+		feminist = yes
+		male_temple_holders = no
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = yes
+		aggression = 2.0
+		intermarry = old_gods
+		#religious_clothing_head = 3
+		#religious_clothing_priest = 3
+		rel_head_defense = yes
+	}
+}

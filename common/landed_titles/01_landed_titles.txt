@@ -1,0 +1,2916 @@
+###### AUTO GENERATED CONTENT (c) CKTools v19 ######
+
+
+
+e_britannia = {
+	color={ 21 244 56 }
+	color2={ 255 255 20 }
+	
+	capital = 1 # c_camelot
+	culture = breton
+	
+	k_britannia = {
+		color={ 11 254 51 }
+		color2={ 255 255 255 }
+		
+		capital = 1 # c_camelot
+		culture = breton
+		
+		d_haute_bretagne = {
+			color={ 247 18 41 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 1 province_id = 2 province_id = 3 province_id = 4 province_id = 5 } }
+				}
+			}
+			capital = 1 # c_camelot
+			
+			c_camelot = { # 1
+				color={ 237 28 36 }
+				color2={ 255 255 255 }
+				
+				b_kaamelot = {
+				}
+				b_camelot = {
+				}
+				b_camelot_2 = {
+				}
+			}
+			c_cumbria = { # 4
+				color={ 245 126 133 }
+				color2={ 255 255 255 }
+				
+				b_carlisle = {
+				}
+				b_cumbria = {
+				}
+				b_cumbria_2 = {
+				}
+				b_cumbria_3 = {
+				}
+				b_cumbria_4 = {
+				}
+			}
+			c_galles = { # 2
+				color={ 230 98 220 }
+				color2={ 255 255 255 }
+				
+				b_carleon = {
+				}
+				b_galles = {
+				}
+				b_galles_2 = {
+				}
+				b_galles_3 = {
+				}
+			}
+			c_lancashire = { # 3
+				color={ 152 18 75 }
+				color2={ 255 255 255 }
+				
+				b_lancaster = {
+				}
+				b_lancashire = {
+				}
+				b_lancashire_2 = {
+				}
+				b_lancashire_3 = {
+				}
+				b_lancashire_4 = {
+				}
+			}
+			c_manchester = { # 5
+				color={ 157 13 20 }
+				color2={ 255 255 255 }
+				
+				b_manchester = {
+				}
+				b_manchester_2 = {
+				}
+				b_manchester_3 = {
+				}
+				b_manchester_4 = {
+				}
+			}
+		}
+		d_avalon = {
+			color={ 197 28 58 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { province_id = 6 }
+				}
+			}
+			capital = 6 # c_avalon
+			
+			c_avalon = { # 6
+				color={ 187 38 53 }
+				color2={ 255 255 255 }
+				
+				b_avalon = {
+				}
+			}
+		}
+		d_cornouailles = {
+			color={ 184 42 118 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 7 province_id = 8 province_id = 9 province_id = 10 } }
+				}
+			}
+			capital = 7 # c_cornouaille
+			
+			c_cornouaille = { # 7
+				color={ 174 52 113 }
+				color2={ 255 255 255 }
+				
+				b_tintagel = {
+				}
+				b_cornouaille = {
+				}
+				b_cornouaille_2 = {
+				}
+				b_cornouaille_3 = {
+				}
+				b_cornouaille_4 = {
+				}
+			}
+			c_dorset = { # 9
+				color={ 172 81 202 }
+				color2={ 255 255 255 }
+				
+				b_weymouth = {
+				}
+				b_bridport = {
+				}
+				b_yeovil = {
+				}
+				b_dorset = {
+				}
+				b_dorset_2 = {
+				}
+			}
+			c_sommerset = { # 8
+				color={ 230 170 200 }
+				color2={ 255 255 255 }
+				
+				b_taunton = {
+				}
+				b_bridgewater = {
+				}
+				b_sommerset = {
+				}
+				b_sommerset_2 = {
+				}
+				b_sommerset_3 = {
+				}
+			}
+			c_wiltshire = { # 10
+				color={ 209 73 169 }
+				color2={ 255 255 255 }
+				
+				b_cranborne = {
+				}
+				b_swindon = {
+				}
+				b_wiltshire = {
+				}
+			}
+		}
+		d_northumbria = {
+			color={ 217 55 91 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 11 province_id = 12 province_id = 13 province_id = 14 } }
+				}
+			}
+			capital = 11 # c_northumberland
+			
+			c_northumberland = { # 11
+				color={ 207 65 86 }
+				color2={ 255 255 255 }
+				
+				b_craster = {
+				}
+				b_chatton = {
+				}
+				b_northumberland = {
+				}
+				b_northumberland_2 = {
+				}
+			}
+			c_cleveland = { # 13
+				color={ 206 60 82 }
+				color2={ 255 255 255 }
+				
+				b_yarm = {
+				}
+				b_hartle = {
+				}
+				b_aycliff = {
+				}
+			}
+			c_durham = { # 12
+				color={ 237 186 193 }
+				color2={ 255 255 255 }
+				
+				b_durham = {
+				}
+				b_stanhope = {
+				}
+				b_consett = {
+				}
+				b_durham_2 = {
+				}
+				b_durham_3 = {
+				}
+			}
+			c_hawick = { # 14
+				color={ 128 32 47 }
+				color2={ 255 255 255 }
+				
+				b_hawick = {
+				}
+				b_ettrick = {
+				}
+				b_hawick_2 = {
+				}
+			}
+		}
+	}
+	k_bretagne = {
+		color={ 214 253 140 }
+		color2={ 255 255 255 }
+		
+		capital = 30 # c_poher
+		culture = breton
+		
+		d_carmelide = {
+			color={ 194 17 130 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 30 province_id = 31 province_id = 32 province_id = 33 } }
+				}
+			}
+			capital = 30 # c_poher
+			
+			c_poher = { # 30
+				color={ 184 27 125 }
+				color2={ 255 255 255 }
+				
+				b_carhaix = {
+				}
+				b_guingand = {
+				}
+				b_poher = {
+				}
+				b_poher_2 = {
+				}
+			}
+			c_cornouailles = { # 31
+				color={ 228 73 170 }
+				color2={ 255 255 255 }
+				
+				b_vannes = {
+				}
+				b_quimper = {
+				}
+				b_cornouailles = {
+				}
+				b_cornouailles_2 = {
+				}
+			}
+			c_nantes = { # 32
+				color={ 180 31 87 }
+				color2={ 255 255 255 }
+				
+				b_nantes = {
+				}
+				b_nantes_2 = {
+				}
+				b_nantes_3 = {
+				}
+				b_nantes_4 = {
+				}
+				b_nantes_5 = {
+				}
+			}
+			c_porhoet = { # 33
+				color={ 115 20 55 }
+				color2={ 255 255 255 }
+				
+				b_rennes = {
+				}
+				b_porhoet = {
+				}
+				b_saint_dol = {
+				}
+				b_porhoet_2 = {
+				}
+			}
+		}
+	}
+	k_ireland = {
+		color={ 213 88 113 }
+		color2={ 255 255 255 }
+		
+		capital = 22 # c_dun_na_ngall
+		culture = irish
+		
+		d_ulster = {
+			color={ 233 68 123 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 22 province_id = 23 } }
+				}
+			}
+			capital = 22 # c_dun_na_ngall
+			
+			c_dun_na_ngall = { # 22
+				color={ 243 58 128 }
+				color2={ 255 255 255 }
+				
+				b_dun_na_ngall = {
+				}
+				b_dun_na_ngall_2 = {
+				}
+			}
+			c_tir_eoghain = { # 23
+				color={ 174 38 113 }
+				color2={ 255 255 255 }
+				
+				b_tir_eoghain = {
+				}
+				b_tir_eoghain_2 = {
+				}
+				b_tir_eoghain_3 = {
+				}
+			}
+		}
+		d_connaught = {
+			color={ 223 92 157 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 24 province_id = 25 } }
+				}
+			}
+			capital = 24 # c_gaillimh
+			
+			c_gaillimh = { # 24
+				color={ 233 82 162 }
+				color2={ 255 255 255 }
+				
+				b_gaillimh = {
+				}
+				b_gaillimh_2 = {
+				}
+				b_gaillimh_3 = {
+				}
+				b_gaillimh_4 = {
+				}
+			}
+			c_liatroim = { # 25
+				color={ 233 69 82 }
+				color2={ 255 255 255 }
+				
+				b_liatroim = {
+				}
+				b_liatroim_2 = {
+				}
+			}
+		}
+		d_leinster = {
+			color={ 161 52 69 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 28 province_id = 29 } }
+				}
+			}
+			capital = 28 # c_mi
+			
+			c_mi = { # 28
+				color={ 151 62 64 }
+				color2={ 255 255 255 }
+				
+				b_mi = {
+				}
+				b_mi_2 = {
+				}
+				b_mi_3 = {
+				}
+			}
+			c_baile_atha_cliath = { # 29
+				color={ 255 149 152 }
+				color2={ 255 255 255 }
+				
+				b_dublin = {
+				}
+				b_baile_atha_cliath = {
+				}
+				b_baile_atha_cliath_2 = {
+				}
+			}
+		}
+		d_munster = {
+			color={ 240 164 199 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 26 province_id = 27 } }
+				}
+			}
+			capital = 26 # c_clar
+			
+			c_clar = { # 26
+				color={ 250 154 204 }
+				color2={ 255 255 255 }
+				
+				b_clar = {
+				}
+				b_clar_2 = {
+				}
+			}
+			c_corcaigh = { # 27
+				color={ 253 121 233 }
+				color2={ 255 255 255 }
+				
+				b_corcaigh = {
+				}
+				b_corcaigh_2 = {
+				}
+			}
+		}
+	}
+	k_scotland = {
+		color={ 168 231 241 }
+		color2={ 255 255 255 }
+		
+		capital = 15 # c_glasgow
+		culture = scottish
+		
+		d_caledonie = {
+			color={ 148 251 231 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 15 province_id = 16 province_id = 17 province_id = 18 } }
+				}
+			}
+			capital = 15 # c_glasgow
+			
+			c_glasgow = { # 15
+				color={ 138 5 226 }
+				color2={ 255 255 255 }
+				
+				b_glasgow = {
+				}
+				b_klimarnock = {
+				}
+				b_glasgow_2 = {
+				}
+				b_glasgow_3 = {
+				}
+			}
+			c_galloway = { # 16
+				color={ 157 4 179 }
+				color2={ 255 255 255 }
+				
+				b_dumfries = {
+				}
+				b_bargrennan = {
+				}
+				b_carsphairn = {
+				}
+			}
+			c_highland = { # 17
+				color={ 108 4 179 }
+				color2={ 255 255 255 }
+				
+				b_iverness = {
+				}
+				b_ratagan = {
+				}
+			}
+			c_skye = { # 18
+				color={ 203 129 252 }
+				color2={ 255 255 255 }
+				
+				b_skye = {
+				}
+				b_peinchorran = {
+				}
+				b_ashaig = {
+				}
+			}
+		}
+		d_orcanie = {
+			color={ 122 228 250 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 19 province_id = 20 province_id = 21 } }
+				}
+			}
+			capital = 19 # c_orcanie
+			
+			c_orcanie = { # 19
+				color={ 132 218 255 }
+				color2={ 255 255 255 }
+				
+				b_aberdeen = {
+				}
+				b_aviemore = {
+				}
+			}
+			c_lothian = { # 21
+				color={ 106 210 255 }
+				color2={ 255 255 255 }
+				
+				b_edimburg = {
+				}
+				b_dalkeith = {
+				}
+			}
+			c_tayside = { # 20
+				color={ 0 162 232 }
+				color2={ 255 255 255 }
+				
+				b_dundee = {
+				}
+				b_perth = {
+				}
+				b_tayside = {
+				}
+			}
+		}
+	}
+}
+e_cyrodiil = {
+	color={ 211 85 138 }
+	color2={ 255 255 20 }
+	
+	capital = 205 # c_la_cite_imperiale
+	culture = roman
+	
+	k_colovie = {
+		color={ 221 75 143 }
+		color2={ 255 255 255 }
+		
+		capital = 205 # c_la_cite_imperiale
+		culture = roman
+		
+		d_capitole = {
+			color={ 241 55 153 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 205 province_id = 206 province_id = 207 } }
+				}
+			}
+			capital = 205 # c_la_cite_imperiale
+			
+			c_la_cite_imperiale = { # 205
+				color={ 251 45 158 }
+				color2={ 255 255 255 }
+				
+				b_la_tour_dor_blanc = {
+				}
+				b_la_cite_imperiale = {
+				}
+				b_le_grand_temple_des_divins = {
+				}
+			}
+			c_la_riviere_blanche = { # 206
+				color={ 141 3 80 }
+				color2={ 255 255 255 }
+				
+				b_fort_roebeck = {
+				}
+				b_porte_de_pell = {
+				}
+				b_vindasel = {
+				}
+				b_fort_alessia = {
+				}
+				b_fort_bourgmaison = {
+				}
+			}
+			c_lanneau_rouge = { # 207
+				color={ 251 17 23 }
+				color2={ 255 255 255 }
+				
+				b_fort_caractocus = {
+				}
+				b_bonnebiere = {
+				}
+				b_sercen = {
+				}
+				b_fort_chalman = {
+				}
+				b_morne_route = {
+				}
+				b_autel_de_mephala = {
+				}
+			}
+		}
+		d_cote_dor = {
+			color={ 184 47 80 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 212 province_id = 213 province_id = 214 province_id = 215 } }
+				}
+			}
+			capital = 212 # c_anvil
+			
+			c_anvil = { # 212
+				color={ 174 57 75 }
+				color2={ 255 255 255 }
+				
+				b_chateau_danvil = {
+				}
+				b_ville_danvil = {
+				}
+				b_chapelle_de_dibella = {
+				}
+			}
+			c_havre_corneille = { # 213
+				color={ 186 46 88 }
+				color2={ 255 255 255 }
+				
+				b_havre_corneille = {
+				}
+				b_drad = {
+				}
+				b_beldaburo = {
+				}
+			}
+			c_strand = { # 215
+				color={ 172 13 113 }
+				color2={ 255 255 255 }
+				
+				b_fort_strand = {
+				}
+				b_gweden = {
+				}
+				b_fumee_creuse = {
+				}
+			}
+			c_sutch = { # 214
+				color={ 121 30 105 }
+				color2={ 255 255 255 }
+				
+				b_fort_sutch = {
+				}
+				b_morne_mine = {
+				}
+			}
+		}
+		d_kvatch = {
+			color={ 104 67 227 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 216 province_id = 217 province_id = 218 province_id = 219 } }
+				}
+			}
+			capital = 216 # c_kvatch
+			
+			c_kvatch = { # 216
+				color={ 114 57 232 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_kvatch = {
+				}
+				b_ville_de_kvatch = {
+				}
+				b_chapelle_dakatosh = {
+				}
+			}
+			c_hastrel = { # 218
+				color={ 40 14 192 }
+				color2={ 255 255 255 }
+				
+				b_fort_hastrel = {
+				}
+				b_bierecamps = {
+				}
+				b_varondo = {
+				}
+			}
+			c_istirius = { # 219
+				color={ 79 95 242 }
+				color2={ 255 255 255 }
+				
+				b_fort_istirius = {
+				}
+				b_shetcombe = {
+				}
+				b_triompecarte = {
+				}
+			}
+			c_wariel = { # 217
+				color={ 207 111 244 }
+				color2={ 255 255 255 }
+				
+				b_fort_warriel = {
+				}
+				b_rochefriable = {
+				}
+				b_trimble = {
+				}
+			}
+		}
+		d_la_grande_foret = {
+			color={ 138 131 248 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 220 province_id = 221 province_id = 222 province_id = 223 } }
+				}
+			}
+			capital = 220 # c_chorrol
+			
+			c_chorrol = { # 220
+				color={ 148 121 253 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_chorrol = {
+				}
+				b_ville_de_chorrol = {
+				}
+				b_chapelle_de_stendarr = {
+				}
+				b_gardabre = {
+				}
+				b_hrotanda = {
+				}
+				b_prieure_de_weynon = {
+				}
+			}
+			c_epis_froid = { # 221
+				color={ 179 47 249 }
+				color2={ 255 255 255 }
+				
+				b_epis_froid = {
+				}
+				b_galdemist = {
+				}
+				b_lindai = {
+				}
+			}
+			c_la_foret_noire = { # 222
+				color={ 118 49 247 }
+				color2={ 255 255 255 }
+				
+				b_fort_cendre = {
+				}
+				b_brisecou = {
+				}
+				b_narfinsel = {
+				}
+				b_fort_nickel = {
+				}
+				b_fort_carmala = {
+				}
+			}
+			c_la_route_noire = { # 223
+				color={ 5 41 209 }
+				color2={ 255 255 255 }
+				
+				b_fort_carmala_2 = {
+				}
+				b_coupeterre = {
+				}
+				b_wendir = {
+				}
+			}
+		}
+		d_weal_occidantal = {
+			color={ 25 23 205 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 208 province_id = 209 province_id = 210 province_id = 211 } }
+				}
+			}
+			capital = 208 # c_skingrad
+			
+			c_skingrad = { # 208
+				color={ 15 33 200 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_skingrad = {
+				}
+				b_ville_de_skingrad = {
+				}
+				b_chapelle_de_julianos = {
+				}
+			}
+			c_gotelle = { # 209
+				color={ 46 128 250 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_gotellle = {
+				}
+				b_mornetemps = {
+				}
+				b_prieure_de_gotelle = {
+				}
+				b_elenglynn = {
+				}
+				b_ceyatatar = {
+				}
+			}
+			c_la_route_de_lor = { # 210
+				color={ 5 87 209 }
+				color2={ 255 255 255 }
+				
+				b_fort_vlasturus = {
+				}
+				b_silorn = {
+				}
+				b_nornolhorst = {
+				}
+			}
+			c_linchal = { # 211
+				color={ 85 101 242 }
+				color2={ 255 255 255 }
+				
+				b_fort_linchal = {
+				}
+				b_tesson_de_roche = {
+				}
+				b_dirich = {
+				}
+				b_talwinque = {
+				}
+			}
+		}
+	}
+	k_nibenay = {
+		color={ 109 235 151 }
+		color2={ 255 255 255 }
+		
+		capital = 224 # c_bravil
+		culture = roman
+		
+		d_vallee_de_nibenay = {
+			color={ 89 255 141 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 224 province_id = 225 province_id = 226 } }
+				}
+			}
+			capital = 224 # c_bravil
+			
+			c_bravil = { # 224
+				color={ 79 9 136 }
+				color2={ 255 255 255 }
+				
+				b_chateau_d_ebravil = {
+				}
+				b_ville_de_bravil = {
+				}
+				b_chapelle_de_mara = {
+				}
+				b_tour_de_fathis_aren = {
+				}
+				b_baie_de_roan = {
+				}
+				b_anatwyll = {
+				}
+			}
+			c_la_vallee_de_la_niben = { # 225
+				color={ 252 131 198 }
+				color2={ 255 255 255 }
+				
+				b_fort_valeria = {
+				}
+				b_veyond = {
+				}
+				b_harcane = {
+				}
+			}
+			c_niben = { # 226
+				color={ 135 10 113 }
+				color2={ 255 255 255 }
+				
+				b_fort_ironie = {
+				}
+				b_gue_de_bawn = {
+				}
+				b_bawn = {
+				}
+			}
+		}
+		d_bassin_de_nibenay = {
+			color={ 220 113 76 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 234 province_id = 235 province_id = 236 province_id = 237 province_id = 238 } }
+				}
+			}
+			capital = 234 # c_cheydinhal
+			
+			c_cheydinhal = { # 234
+				color={ 230 103 81 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_cheydinhal = {
+				}
+				b_ville_de_cheydinhal = {
+				}
+				b_chapelle_darkay = {
+				}
+				b_fort_farragut = {
+				}
+				b_loge_de_thorn = {
+				}
+			}
+			c_arrius = { # 235
+				color={ 188 51 27 }
+				color2={ 255 255 255 }
+				
+				b_arrius = {
+				}
+				b_la_folie_de_harm = {
+				}
+				b_belda = {
+				}
+			}
+			c_naso = { # 238
+				color={ 194 45 1 }
+				color2={ 255 255 255 }
+				
+				b_fort_naso = {
+				}
+				b_malard = {
+				}
+			}
+			c_scina = { # 237
+				color={ 238 198 57 }
+				color2={ 255 255 255 }
+				
+				b_scina = {
+				}
+				b_colline_des_heros = {
+				}
+			}
+			c_urasek = { # 236
+				color={ 166 84 49 }
+				color2={ 255 255 255 }
+				
+				b_fort_urasek = {
+				}
+				b_viverin = {
+				}
+				b_nagastani = {
+				}
+			}
+		}
+		d_boisnoir = {
+			color={ 218 182 36 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 230 province_id = 231 province_id = 232 province_id = 233 } }
+				}
+			}
+			capital = 230 # c_leyawiin
+			
+			c_leyawiin = { # 230
+				color={ 228 172 41 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_leyawiin = {
+				}
+				b_ville_de_leyawiin = {
+				}
+				b_chapelle_de_zenithar = {
+				}
+				b_sangbleu = {
+				}
+				b_srey = {
+				}
+				b_amelion = {
+				}
+			}
+			c_boisnoir = { # 232
+				color={ 135 46 20 }
+				color2={ 255 255 255 }
+				
+				b_croix_double = {
+				}
+				b_marche_de_blanken = {
+				}
+				b_veyond_2 = {
+				}
+			}
+			c_la_route_jaune = { # 233
+				color={ 237 33 95 }
+				color2={ 255 255 255 }
+				
+				b_fort_cedrian = {
+				}
+				b_fort_culture = {
+				}
+				b_chapelle_de_cadlew = {
+				}
+				b_aurus = {
+				}
+				b_griet = {
+				}
+				b_flecia = {
+				}
+			}
+			c_lhomme_rouge = { # 231
+				color={ 134 11 48 }
+				color2={ 255 255 255 }
+				
+				b_lhomme_rouge = {
+				}
+				b_chute_deau = {
+				}
+				b_telepe = {
+				}
+				b_garde_frontiere = {
+				}
+			}
+		}
+		d_marais_noir = {
+			color={ 194 219 0 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 239 province_id = 240 province_id = 241 } }
+				}
+			}
+			capital = 239 # c_facian
+			
+			c_facian = { # 239
+				color={ 204 209 5 }
+				color2={ 255 255 255 }
+				
+				b_fort_facian = {
+				}
+				b_sercen_2 = {
+				}
+				b_trossan = {
+				}
+			}
+			c_eau_rouge = { # 240
+				color={ 214 146 116 }
+				color2={ 255 255 255 }
+				
+				b_fort_eau_rouge = {
+				}
+				b_coursang = {
+				}
+				b_seran = {
+				}
+				b_welke = {
+				}
+			}
+			c_lit_de_roche = { # 241
+				color={ 200 154 15 }
+				color2={ 255 255 255 }
+				
+				b_cuptor = {
+				}
+				b_lit_de_roche = {
+				}
+				b_malanda = {
+				}
+			}
+		}
+		d_montagne_de_jerall = {
+			color={ 243 178 127 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 227 province_id = 228 province_id = 229 } }
+				}
+			}
+			capital = 227 # c_bruma
+			
+			c_bruma = { # 227
+				color={ 253 168 132 }
+				color2={ 255 255 255 }
+				
+				b_chateau_de_bruma = {
+				}
+				b_ville_de_bruma = {
+				}
+				b_temple_de_talos = {
+				}
+				b_griffe_dragon = {
+				}
+				b_gardepomme = {
+				}
+				b_maitre_des_nuages = {
+				}
+			}
+			c_la_route_dargent = { # 229
+				color={ 175 39 20 }
+				color2={ 255 255 255 }
+				
+				b_fort_horrun = {
+				}
+				b_rugdumph = {
+				}
+				b_sedor = {
+				}
+				b_fort_aerin = {
+				}
+				b_gutle = {
+				}
+				b_autel_dazura = {
+				}
+			}
+			c_sancre_tor = { # 228
+				color={ 221 0 0 }
+				color2={ 255 255 255 }
+				
+				b_chateau_du_sancre_tor = {
+				}
+				b_ville_du_sancre_tor = {
+				}
+				b_fort_tarn = {
+				}
+				b_moranda = {
+				}
+				b_ninendava = {
+				}
+				b_autel_dhermaus_mora = {
+				}
+			}
+		}
+	}
+}
+e_france = {
+	color={ 194 221 70 }
+	color2={ 255 255 20 }
+	
+	capital = 34 # c_guyenne
+	culture = occitan
+	
+	k_aquitaine = {
+		color={ 184 231 65 }
+		color2={ 255 255 255 }
+		
+		capital = 34 # c_guyenne
+		culture = occitan
+		
+		d_aquitaine = {
+			color={ 164 251 55 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 34 province_id = 35 province_id = 36 province_id = 37 province_id = 38 } }
+				}
+			}
+			capital = 34 # c_guyenne
+			
+			c_guyenne = { # 34
+				color={ 154 5 50 }
+				color2={ 255 255 255 }
+				
+				b_bordeaux = {
+				}
+				b_la_sauve = {
+				}
+				b_blaye = {
+				}
+				b_castillon = {
+				}
+				b_stemillion = {
+				}
+				b_bourg = {
+				}
+				b_libourne = {
+				}
+			}
+			c_angouleme = { # 37
+				color={ 175 63 55 }
+				color2={ 255 255 255 }
+				
+				b_jarnac = {
+				}
+				b_angouleme = {
+				}
+				b_bassac = {
+				}
+				b_cognac = {
+				}
+				b_larochefoucaud = {
+				}
+				b_richemont = {
+				}
+			}
+			c_lusignan = { # 38
+				color={ 154 60 50 }
+				color2={ 255 255 255 }
+				
+				b_lusignan = {
+				}
+				b_niort = {
+				}
+				b_charroux = {
+				}
+				b_melle = {
+				}
+				b_maillezais = {
+				}
+				b_civray = {
+				}
+			}
+			c_perigord = { # 36
+				color={ 115 20 56 }
+				color2={ 255 255 255 }
+				
+				b_sarlat = {
+				}
+				b_bergerac = {
+				}
+				b_chancelade = {
+				}
+				b_auberoche = {
+				}
+				b_baneuil = {
+				}
+				b_perigueux = {
+				}
+			}
+			c_saintonge = { # 35
+				color={ 140 40 55 }
+				color2={ 255 255 255 }
+				
+				b_saintes = {
+				}
+				b_royan = {
+				}
+				b_saint_jean_dangely = {
+				}
+				b_villeneuve = {
+				}
+				b_montguyon = {
+				}
+				b_tonnay = {
+				}
+			}
+		}
+		d_auvergne = {
+			color={ 191 87 73 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 46 province_id = 47 province_id = 48 } }
+				}
+			}
+			capital = 46 # c_auvergne
+			
+			c_auvergne = { # 46
+				color={ 181 97 68 }
+				color2={ 255 255 255 }
+				
+				b_clermont = {
+				}
+				b_bioude = {
+				}
+				b_aurillac = {
+				}
+				b_yssingeaux = {
+				}
+				b_la_chaise_dieu = {
+				}
+			}
+			c_la_marche = { # 48
+				color={ 205 153 44 }
+				color2={ 255 255 255 }
+				
+				b_bourges = {
+				}
+				b_aubussons = {
+				}
+				b_souvigny = {
+				}
+				b_bourbon = {
+				}
+				b_moulin = {
+				}
+			}
+			c_limousin = { # 47
+				color={ 158 126 90 }
+				color2={ 255 255 255 }
+				
+				b_turenne = {
+				}
+				b_cahort = {
+				}
+				b_limoges = {
+				}
+				b_comborn = {
+				}
+			}
+		}
+		d_gascogne = {
+			color={ 238 179 18 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 39 province_id = 40 } }
+				}
+			}
+			capital = 39 # c_bearn
+			
+			c_bearn = { # 39
+				color={ 248 169 23 }
+				color2={ 255 255 255 }
+				
+				b_dax = {
+				}
+				b_pau = {
+				}
+				b_aire = {
+				}
+				b_bayonne = {
+				}
+			}
+			c_tarbes = { # 40
+				color={ 251 130 19 }
+				color2={ 255 255 255 }
+				
+				b_tarbes = {
+				}
+				b_bigorre = {
+				}
+				b_lourdes = {
+				}
+				b_auch = {
+				}
+			}
+		}
+		d_languedoc = {
+			color={ 88 165 167 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 41 province_id = 42 province_id = 43 province_id = 44 province_id = 45 } }
+				}
+			}
+			capital = 41 # c_toulouse
+			
+			c_toulouse = { # 41
+				color={ 98 155 172 }
+				color2={ 255 255 255 }
+				
+				b_toulouse = {
+				}
+				b_millau = {
+				}
+				b_lavaur = {
+				}
+				b_castelnaudary = {
+				}
+				b_najac = {
+				}
+				b_muret = {
+				}
+			}
+			c_carcassonne = { # 42
+				color={ 153 191 202 }
+				color2={ 255 255 255 }
+				
+				b_carcassonne = {
+				}
+				b_foix = {
+				}
+				b_saint_gaudens = {
+				}
+				b_carcassonne_2 = {
+				}
+			}
+			c_gevaudan = { # 45
+				color={ 111 159 153 }
+				color2={ 255 255 255 }
+				
+				b_aubenas = {
+				}
+				b_marjevols = {
+				}
+				b_viviers = {
+				}
+				b_grezes = {
+				}
+				b_segualieres = {
+				}
+			}
+			c_nimes = { # 44
+				color={ 220 120 10 }
+				color2={ 255 255 255 }
+				
+				b_nimes = {
+				}
+				b_montpellier = {
+				}
+				b_vabres = {
+				}
+				b_rodez = {
+				}
+			}
+			c_roussillon = { # 43
+				color={ 251 155 68 }
+				color2={ 255 255 255 }
+				
+				b_perpignan = {
+				}
+				b_narbonne = {
+				}
+				b_beziers = {
+				}
+				b_saint_pons = {
+				}
+			}
+		}
+	}
+	k_bourgogne = {
+		color={ 239 248 42 }
+		color2={ 255 255 255 }
+		
+		capital = 75 # c_dijon
+		culture = frankish
+		
+		d_bourgogne = {
+			color={ 219 12 32 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 75 province_id = 76 province_id = 77 } }
+				}
+			}
+			capital = 75 # c_dijon
+			
+			c_dijon = { # 75
+				color={ 209 22 27 }
+				color2={ 255 255 255 }
+				
+				b_dijon = {
+				}
+				b_semur = {
+				}
+				b_tournus = {
+				}
+				b_tonnerre = {
+				}
+				b_avalon_2 = {
+				}
+			}
+			c_auxerre = { # 76
+				color={ 9 23 208 }
+				color2={ 255 255 255 }
+				
+				b_auxerre = {
+				}
+				b_chateauroux = {
+				}
+				b_pontigny = {
+				}
+				b_guedelon = {
+				}
+				b_courtenay = {
+				}
+			}
+			c_macon = { # 77
+				color={ 240 117 120 }
+				color2={ 255 255 255 }
+				
+				b_macon = {
+				}
+				b_semur_2 = {
+				}
+				b_cluny = {
+				}
+				b_charolles = {
+				}
+				b_beaujeu = {
+				}
+				b_perrecy = {
+				}
+			}
+		}
+		d_dauphine_provence = {
+			color={ 107 98 123 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 82 province_id = 83 province_id = 84 province_id = 85 province_id = 86 } }
+				}
+			}
+			capital = 82 # c_lyon
+			
+			c_lyon = { # 82
+				color={ 97 108 118 }
+				color2={ 255 255 255 }
+				
+				b_pusignan = {
+				}
+				b_lyon = {
+				}
+				b_saint_jean_baptiste = {
+				}
+				b_brindas = {
+				}
+				b_anse = {
+				}
+				b_chessy = {
+				}
+				b_lacenas = {
+				}
+			}
+			c_avignon = { # 86
+				color={ 184 107 31 }
+				color2={ 255 255 255 }
+				
+				b_avignon = {
+				}
+				b_carpentras = {
+				}
+				b_orange = {
+				}
+				b_aubenas_2 = {
+				}
+				b_viviers_2 = {
+				}
+			}
+			c_forez = { # 85
+				color={ 134 142 72 }
+				color2={ 255 255 255 }
+				
+				b_couzan = {
+				}
+				b_montbrison = {
+				}
+				b_charlieu = {
+				}
+				b_roannes = {
+				}
+				b_saint_etienne = {
+				}
+			}
+			c_provence = { # 83
+				color={ 213 131 49 }
+				color2={ 255 255 255 }
+				
+				b_arles = {
+				}
+				b_marseille = {
+				}
+				b_aix = {
+				}
+				b_monaco = {
+				}
+				b_menton = {
+				}
+				b_nice = {
+				}
+				b_grimaud = {
+				}
+			}
+			c_viennois = { # 84
+				color={ 68 147 121 }
+				color2={ 255 255 255 }
+				
+				b_forcalquier = {
+				}
+				b_grenoble = {
+				}
+				b_vienne = {
+				}
+				b_albon = {
+				}
+				b_apt = {
+				}
+				b_embrun = {
+				}
+			}
+		}
+		d_savoie = {
+			color={ 203 11 31 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 78 province_id = 79 province_id = 80 province_id = 81 } }
+				}
+			}
+			capital = 78 # c_savoie
+			
+			c_savoie = { # 78
+				color={ 193 21 26 }
+				color2={ 255 255 255 }
+				
+				b_annecy = {
+				}
+				b_chambery = {
+				}
+				b_faucigny = {
+				}
+				b_conflens = {
+				}
+			}
+			c_aoste = { # 81
+				color={ 109 12 14 }
+				color2={ 255 255 255 }
+				
+				b_aosta = {
+				}
+				b_saint_vincent = {
+				}
+			}
+			c_genevois = { # 79
+				color={ 128 9 206 }
+				color2={ 255 255 255 }
+				
+				b_geneve = {
+				}
+				b_nyon = {
+				}
+				b_lausanne = {
+				}
+			}
+			c_tarentaise = { # 80
+				color={ 176 21 193 }
+				color2={ 255 255 255 }
+				
+				b_tarentaise = {
+				}
+				b_beaufort = {
+				}
+			}
+		}
+	}
+	k_france = {
+		color={ 49 227 7 }
+		color2={ 255 255 255 }
+		
+		capital = 49 # c_paris
+		culture = frankish
+		
+		d_france = {
+			color={ 29 247 253 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 49 province_id = 50 province_id = 51 province_id = 52 } }
+				}
+			}
+			capital = 49 # c_paris
+			
+			c_paris = { # 49
+				color={ 19 1 248 }
+				color2={ 255 255 255 }
+				
+				b_paris = {
+				}
+				b_paris_2 = {
+				}
+				b_saint_denis = {
+				}
+			}
+			c_blois = { # 51
+				color={ 47 36 251 }
+				color2={ 255 255 255 }
+				
+				b_blois = {
+				}
+				b_beaugency = {
+				}
+				b_saint_aignan = {
+				}
+				b_chateaudun = {
+				}
+				b_cloyes = {
+				}
+			}
+			c_dreux = { # 52
+				color={ 1 162 232 }
+				color2={ 255 255 255 }
+				
+				b_verneuil = {
+				}
+				b_dreux = {
+				}
+			}
+			c_orleans = { # 50
+				color={ 15 91 234 }
+				color2={ 255 255 255 }
+				
+				b_orleans = {
+				}
+				b_gien = {
+				}
+				b_fleury = {
+				}
+			}
+		}
+		d_alsace_lorraine = {
+			color={ 37 178 88 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 71 province_id = 72 province_id = 73 province_id = 74 } }
+				}
+			}
+			capital = 71 # c_lorraine
+			
+			c_lorraine = { # 71
+				color={ 27 188 83 }
+				color2={ 255 255 255 }
+				
+				b_nancy = {
+				}
+				b_sarrebourg = {
+				}
+				b_toul = {
+				}
+				b_saintois = {
+				}
+				b_vaudemont = {
+				}
+				b_brixey = {
+				}
+			}
+			c_alsace = { # 74
+				color={ 149 190 24 }
+				color2={ 255 255 255 }
+				
+				b_eguisheim = {
+				}
+				b_colmar = {
+				}
+				b_stratsbourg = {
+				}
+				b_ferrete = {
+				}
+				b_lauterbourg = {
+				}
+			}
+			c_metz = { # 72
+				color={ 9 217 186 }
+				color2={ 255 255 255 }
+				
+				b_laroche = {
+				}
+				b_briey = {
+				}
+				b_metz = {
+				}
+				b_thionville = {
+				}
+			}
+			c_verdun = { # 73
+				color={ 73 248 221 }
+				color2={ 255 255 255 }
+				
+				b_douaumont = {
+				}
+				b_joudreville = {
+				}
+				b_verdun = {
+				}
+				b_bar = {
+				}
+				b_etain = {
+				}
+				b_saint_dizier = {
+				}
+			}
+		}
+		d_anjou = {
+			color={ 118 40 231 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 64 province_id = 65 province_id = 66 province_id = 67 } }
+				}
+			}
+			capital = 64 # c_anjou
+			
+			c_anjou = { # 64
+				color={ 128 30 236 }
+				color2={ 255 255 255 }
+				
+				b_anger = {
+				}
+				b_lude = {
+				}
+				b_graon = {
+				}
+				b_montsoreau = {
+				}
+				b_vihiers = {
+				}
+				b_chateaugontier = {
+				}
+				b_treves = {
+				}
+			}
+			c_alencon = { # 66
+				color={ 107 26 198 }
+				color2={ 255 255 255 }
+				
+				b_argentan = {
+				}
+				b_alencon = {
+				}
+				b_sees = {
+				}
+			}
+			c_chartres = { # 67
+				color={ 31 17 206 }
+				color2={ 255 255 255 }
+				
+				b_bretigny = {
+				}
+				b_chartres = {
+				}
+				b_dreux_2 = {
+				}
+				b_nogent = {
+				}
+			}
+			c_maine = { # 65
+				color={ 107 17 206 }
+				color2={ 255 255 255 }
+				
+				b_le_mans = {
+				}
+				b_beaumont = {
+				}
+				b_montenay = {
+				}
+				b_laval = {
+				}
+				b_craon = {
+				}
+				b_mayenne = {
+				}
+			}
+		}
+		d_champagne = {
+			color={ 234 246 133 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 56 province_id = 57 province_id = 58 province_id = 59 province_id = 60 } }
+				}
+			}
+			capital = 56 # c_brie
+			
+			c_brie = { # 56
+				color={ 224 0 128 }
+				color2={ 255 255 255 }
+				
+				b_provins = {
+				}
+				b_montmirail = {
+				}
+				b_champ_benoit = {
+				}
+				b_meaux = {
+				}
+				b_melun = {
+				}
+				b_sezanne = {
+				}
+			}
+			c_montois = { # 60
+				color={ 1 137 35 }
+				color2={ 255 255 255 }
+				
+				b_monthesy = {
+				}
+				b_thenisy_plage = {
+				}
+				b_donnemarie = {
+				}
+				b_dontilly = {
+				}
+				b_preuilly = {
+				}
+				b_lizine = {
+				}
+			}
+			c_reims = { # 59
+				color={ 117 6 164 }
+				color2={ 255 255 255 }
+				
+				b_reims = {
+				}
+				b_chalon = {
+				}
+				b_attigny = {
+				}
+				b_chatillon = {
+				}
+				b_rethel = {
+				}
+				b_laon = {
+				}
+				b_epernay = {
+				}
+			}
+			c_sens = { # 58
+				color={ 210 6 205 }
+				color2={ 255 255 255 }
+				
+				b_sens = {
+				}
+				b_nemours = {
+				}
+				b_joigny = {
+				}
+				b_pithiviers = {
+				}
+				b_montargis = {
+				}
+				b_villefranche_le_roy = {
+				}
+			}
+			c_troyes = { # 57
+				color={ 78 5 211 }
+				color2={ 255 255 255 }
+				
+				b_troyes = {
+				}
+				b_chaumont = {
+				}
+				b_langres = {
+				}
+				b_brienne = {
+				}
+			}
+		}
+		d_normandie = {
+			color={ 143 25 50 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 61 province_id = 62 province_id = 63 } }
+				}
+			}
+			capital = 61 # c_rouen
+			
+			c_rouen = { # 61
+				color={ 133 35 45 }
+				color2={ 255 255 255 }
+				
+				b_rouen = {
+				}
+				b_arques = {
+				}
+				b_fecamps = {
+				}
+				b_rouen_2 = {
+				}
+			}
+			c_bayeux = { # 62
+				color={ 244 21 27 }
+				color2={ 255 255 255 }
+				
+				b_bayeux = {
+				}
+				b_caen = {
+				}
+				b_marvieux = {
+				}
+				b_creuilly = {
+				}
+				b_bayeux_2 = {
+				}
+			}
+			c_mortain = { # 63
+				color={ 204 62 75 }
+				color2={ 255 255 255 }
+				
+				b_mortain = {
+				}
+				b_barfleur = {
+				}
+				b_avranche = {
+				}
+				b_mortain_2 = {
+				}
+				b_mortain_3 = {
+				}
+			}
+		}
+		d_picardie = {
+			color={ 135 91 50 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 68 province_id = 69 province_id = 70 } }
+				}
+			}
+			capital = 68 # c_amiens
+			
+			c_amiens = { # 68
+				color={ 125 101 45 }
+				color2={ 255 255 255 }
+				
+				b_rethel_2 = {
+				}
+				b_amiens = {
+				}
+				b_beauvais = {
+				}
+				b_peronne = {
+				}
+				b_saint_quentin = {
+				}
+			}
+			c_artois = { # 69
+				color={ 140 94 30 }
+				color2={ 255 255 255 }
+				
+				b_bethune = {
+				}
+				b_arras = {
+				}
+				b_therouanne = {
+				}
+				b_guines = {
+				}
+				b_coulonne = {
+				}
+			}
+			c_ponthieu = { # 70
+				color={ 105 124 46 }
+				color2={ 255 255 255 }
+				
+				b_abbeville = {
+				}
+				b_forges = {
+				}
+				b_ardres = {
+				}
+				b_boulogne = {
+				}
+				b_montreuil = {
+				}
+			}
+		}
+		d_poitou = {
+			color={ 74 246 133 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 53 province_id = 54 province_id = 55 } }
+				}
+			}
+			capital = 53 # c_vendee
+			
+			c_vendee = { # 53
+				color={ 64 0 128 }
+				color2={ 255 255 255 }
+				
+				b_cugand = {
+				}
+				b_la_roche = {
+				}
+				b_olonne_sur_mer = {
+				}
+				b_les_sables_dolonne = {
+				}
+				b_aizenay = {
+				}
+			}
+			c_poitou = { # 54
+				color={ 80 10 118 }
+				color2={ 255 255 255 }
+				
+				b_poitiers = {
+				}
+				b_chatellerault = {
+				}
+				b_saint_savin = {
+				}
+				b_thouars = {
+				}
+				b_melle_2 = {
+				}
+				b_bressuires = {
+				}
+			}
+			c_tourraine = { # 55
+				color={ 200 120 243 }
+				color2={ 255 255 255 }
+				
+				b_tours = {
+				}
+				b_amboise = {
+				}
+				b_chinon = {
+				}
+				b_sainte_maure = {
+				}
+			}
+		}
+	}
+	k_frise = {
+		color={ 221 205 147 }
+		color2={ 255 255 255 }
+		
+		capital = 87 # c_brabant
+		culture = frankish
+		
+		d_belgique = {
+			color={ 241 185 157 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 87 province_id = 88 province_id = 89 } }
+				}
+			}
+			capital = 87 # c_brabant
+			
+			c_brabant = { # 87
+				color={ 251 175 162 }
+				color2={ 255 255 255 }
+				
+				b_breda = {
+				}
+				b_bruxelles = {
+				}
+				b_tilburg = {
+				}
+				b_louvain = {
+				}
+				b_hasselt = {
+				}
+				b_tongres = {
+				}
+			}
+			c_bruge = { # 88
+				color={ 248 129 20 }
+				color2={ 255 255 255 }
+				
+				b_cassel = {
+				}
+				b_bruges = {
+				}
+				b_tournai = {
+				}
+				b_audenarde = {
+				}
+				b_gand = {
+				}
+				b_damme = {
+				}
+			}
+			c_liege = { # 89
+				color={ 244 56 23 }
+				color2={ 255 255 255 }
+				
+				b_namur = {
+				}
+				b_valencienne = {
+				}
+				b_liege = {
+				}
+				b_ath = {
+				}
+				b_dinant = {
+				}
+				b_cambrai = {
+				}
+			}
+		}
+		d_pays_bas = {
+			color={ 195 29 37 }
+			color2={ 255 255 255 }
+			
+			allow = {
+				OR = {
+					lower_tier_than = KING
+					any_demesne_province = { OR = { province_id = 90 province_id = 91 province_id = 92 } }
+				}
+			}
+			capital = 90 # c_hollande
+			
+			c_hollande = { # 90
+				color={ 185 39 32 }
+				color2={ 255 255 255 }
+				
+				b_vlardingen = {
+				}
+				b_hoorn = {
+				}
+				b_haarlem = {
+				}
+				b_middlebourg = {
+				}
+				b_dordrecht = {
+				}
+				b_tholen = {
+				}
+			}
+			c_frise = { # 91
+				color={ 217 124 0 }
+				color2={ 255 255 255 }
+				
+				b_groningue = {
+				}
+				b_aurich = {
+				}
+				b_dokkun = {
+				}
+				b_norden = {
+				}
+				b_stavoren = {
+				}
+				b_deventer = {
+				}
+			}
+			c_gueldre = { # 92
+				color={ 245 164 73 }
+				color2={ 255 255 255 }
+				
+				b_arnhem = {
+				}
+				b_dorestad = {
+				}
+				b_utrech = {
+				}
+				b_cleves = {
+				}
+				b_doesburg = {
+				}
+				b_rees = {
+				}
+			}
+		}
+	}
+}
+k_angleterre = {
+	color={ 12 49 70 }
+	color2={ 255 255 255 }
+	
+	capital = 93 # c_essex
+	culture = saxon
+	
+	d_essex = {
+		color={ 248 69 60 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 93 province_id = 94 } }
+			}
+		}
+		capital = 93 # c_essex
+		
+		c_essex = { # 93
+			color={ 238 79 55 }
+			color2={ 255 255 255 }
+			
+			b_westminster = {
+			}
+			b_londre = {
+			}
+			b_waltham = {
+			}
+			b_tottenham = {
+			}
+			b_hertford = {
+			}
+			b_saint_paul = {
+			}
+			b_colchester = {
+			}
+		}
+		c_hampshire = { # 94
+			color={ 28 115 6 }
+			color2={ 255 255 255 }
+			
+			b_winchester = {
+			}
+			b_oxford = {
+			}
+			b_dunstable = {
+			}
+			b_windsor = {
+			}
+			b_southampton = {
+			}
+			b_aylesbury = {
+			}
+		}
+	}
+	d_east_anglia = {
+		color={ 6 50 8 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 99 province_id = 100 } }
+			}
+		}
+		capital = 99 # c_suffolk
+		
+		c_suffolk = { # 99
+			color={ 252 60 3 }
+			color2={ 255 255 255 }
+			
+			b_ipswich = {
+			}
+			b_bury = {
+			}
+			b_ely = {
+			}
+			b_lowesroft = {
+			}
+			b_dunwich = {
+			}
+			b_stow = {
+			}
+		}
+		c_norfolk = { # 100
+			color={ 238 105 17 }
+			color2={ 255 255 255 }
+			
+			b_thetford = {
+			}
+			b_lynn = {
+			}
+			b_elmhan = {
+			}
+			b_buckenham = {
+			}
+			b_norwich = {
+			}
+			b_chatteris = {
+			}
+		}
+	}
+	d_sussex = {
+		color={ 245 174 97 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 95 province_id = 96 } }
+			}
+		}
+		capital = 95 # c_kent
+		
+		c_kent = { # 95
+			color={ 255 164 102 }
+			color2={ 255 255 255 }
+			
+			b_dover = {
+			}
+			b_sandwich = {
+			}
+			b_cantorbery = {
+			}
+			b_rochester = {
+			}
+		}
+		c_sussex = { # 96
+			color={ 255 127 39 }
+			color2={ 255 255 255 }
+			
+			b_lambeth = {
+			}
+			b_lewes = {
+			}
+			b_chichester = {
+			}
+			b_arundel = {
+			}
+			b_woking = {
+			}
+			b_southwark = {
+			}
+		}
+	}
+	d_york = {
+		color={ 218 206 7 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 97 province_id = 98 } }
+			}
+		}
+		capital = 97 # c_york
+		
+		c_york = { # 97
+			color={ 228 196 12 }
+			color2={ 255 255 255 }
+			
+			b_york = {
+			}
+			b_scarborough = {
+			}
+			b_st_peters = {
+			}
+			b_richmond = {
+			}
+			b_nottingham = {
+			}
+		}
+		c_leicester = { # 98
+			color={ 255 242 0 }
+			color2={ 255 255 255 }
+			
+			b_leicester = {
+			}
+			b_boston = {
+			}
+			b_lincoln = {
+			}
+			b_southwell = {
+			}
+			b_hucknall = {
+			}
+			b_newark = {
+			}
+		}
+	}
+}
+k_la_marche_de_louest = {
+	color={ 0 214 195 }
+	color2={ 255 255 255 }
+	
+	capital = 242 # c_la_porte_de_louest
+	culture = reachmen
+	
+	d_la_marche = {
+		color={ 20 194 205 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 242 province_id = 243 province_id = 244 } }
+			}
+		}
+		capital = 242 # c_la_porte_de_louest
+		
+		c_la_porte_de_louest = { # 242
+			color={ 30 184 210 }
+			color2={ 255 255 255 }
+			
+			b_nezuand_chel = {
+			}
+			b_la_porte = {
+			}
+			b_harfreusechute = {
+			}
+			b_volfreux = {
+			}
+		}
+		c_konakri = { # 243
+			color={ 106 215 234 }
+			color2={ 255 255 255 }
+			
+			b_konakri = {
+			}
+			b_velog = {
+			}
+			b_arste = {
+			}
+			b_mazzug_lurr = {
+			}
+		}
+		c_raidlorn = { # 244
+			color={ 31 237 248 }
+			color2={ 255 255 255 }
+			
+			b_raidolia = {
+			}
+			b_kalast = {
+			}
+			b_binou = {
+			}
+			b_nobor = {
+			}
+		}
+	}
+	d_cotes_dargent = {
+		color={ 46 64 209 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 248 province_id = 249 province_id = 250 } }
+			}
+		}
+		capital = 248 # c_la_cote_blanche
+		
+		c_la_cote_blanche = { # 248
+			color={ 36 74 204 }
+			color2={ 255 255 255 }
+			
+			b_port_blanc = {
+			}
+			b_fortefallaise = {
+			}
+			b_eclats_blanc = {
+			}
+		}
+		c_la_cote_grise = { # 249
+			color={ 33 109 237 }
+			color2={ 255 255 255 }
+			
+			b_port_gris = {
+			}
+			b_port_druh = {
+			}
+			b_morneterre = {
+			}
+		}
+		c_terre_humide = { # 250
+			color={ 33 142 207 }
+			color2={ 255 255 255 }
+			
+			b_embourbe = {
+			}
+			b_pluieverte = {
+			}
+			b_epissons = {
+			}
+			b_beves = {
+			}
+		}
+	}
+	d_druadach = {
+		color={ 153 61 107 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 245 province_id = 246 province_id = 247 } }
+			}
+		}
+		capital = 245 # c_druadach
+		
+		c_druadach = { # 245
+			color={ 143 71 102 }
+			color2={ 255 255 255 }
+			
+			b_druadach = {
+			}
+			b_bellesource = {
+			}
+			b_verte_vallee = {
+			}
+			b_chutepierre = {
+			}
+		}
+		c_balach = { # 247
+			color={ 199 141 166 }
+			color2={ 255 255 255 }
+			
+			b_balach = {
+			}
+			b_balach_dur = {
+			}
+			b_calacta = {
+			}
+			b_druccar = {
+			}
+		}
+		c_orsimer = { # 246
+			color={ 197 18 148 }
+			color2={ 255 255 255 }
+			
+			b_fort_malacath = {
+			}
+			b_orcville = {
+			}
+			b_temple_de_malacath = {
+			}
+			b_fort_bourru = {
+			}
+			b_villepierre = {
+			}
+			b_gardemort = {
+			}
+		}
+	}
+}
+k_luxembourg = {
+	color={ 71 197 150 }
+	color2={ 255 255 255 }
+	
+	capital = 101 # c_luxembourg
+	culture = frankish
+	
+	d_luxembourg = {
+		color={ 91 177 160 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { province_id = 101 }
+			}
+		}
+		capital = 101 # c_luxembourg
+		
+		c_luxembourg = { # 101
+			color={ 101 167 165 }
+			color2={ 255 255 255 }
+			
+			b_luxembourg = {
+			}
+			b_longwy = {
+			}
+			b_saint_vith = {
+			}
+			b_arlon = {
+			}
+		}
+	}
+}
+k_titonia = {
+	color={ 22 254 157 }
+	color2={ 255 255 255 }
+	
+	capital = 194 # c_antionine
+	culture = frankish
+	
+	d_antiore = {
+		color={ 42 234 167 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 194 province_id = 195 province_id = 196 province_id = 197 } }
+			}
+		}
+		capital = 194 # c_antionine
+		
+		c_antionine = { # 194
+			color={ 52 224 172 }
+			color2={ 255 255 255 }
+			
+			b_antoininople = {
+			}
+			b_antoinesbourg = {
+			}
+			b_antionine = {
+			}
+			b_antionine_2 = {
+			}
+		}
+		c_antotonie = { # 197
+			color={ 157 88 184 }
+			color2={ 255 255 255 }
+			
+			b_antotone = {
+			}
+			b_antotonie = {
+			}
+			b_antotonie_2 = {
+			}
+			b_antotonie_3 = {
+			}
+		}
+		c_papohaille = { # 196
+			color={ 184 230 79 }
+			color2={ 255 255 255 }
+			
+			b_kerkourouaille = {
+			}
+			b_papohaille = {
+			}
+			b_papohaille_2 = {
+			}
+			b_papohaille_3 = {
+			}
+		}
+		c_toinyriance = { # 195
+			color={ 82 226 223 }
+			color2={ 255 255 255 }
+			
+			b_toinyriance = {
+			}
+			b_toinyriance_2 = {
+			}
+			b_toinyriance_3 = {
+			}
+			b_toinyriance_4 = {
+			}
+		}
+	}
+	d_nouvelle_titonia = {
+		color={ 200 110 229 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 202 province_id = 203 province_id = 204 } }
+			}
+		}
+		capital = 202 # c_nouvelle_antionine
+		
+		c_nouvelle_antionine = { # 202
+			color={ 210 100 234 }
+			color2={ 255 255 255 }
+			
+			b_nouvelle_antoininople = {
+			}
+			b_nouvelle_antionine = {
+			}
+			b_nouvelle_antionine_2 = {
+			}
+			b_nouvelle_antionine_3 = {
+			}
+		}
+		c_la_seconde_toyniriance = { # 203
+			color={ 241 92 197 }
+			color2={ 255 255 255 }
+			
+			b_toyniriance_2 = {
+			}
+			b_la_seconde_toyniriance = {
+			}
+			b_la_seconde_toyniriance_2 = {
+			}
+			b_la_seconde_toyniriance_3 = {
+			}
+		}
+		c_nouvelle_kartoffelie = { # 204
+			color={ 226 10 226 }
+			color2={ 255 255 255 }
+			
+			b_kartofellsbourg = {
+			}
+			b_nouvelle_kartoffelie = {
+			}
+			b_nouvelle_kartoffelie_2 = {
+			}
+			b_nouvelle_kartoffelie_3 = {
+			}
+		}
+	}
+	d_patateland = {
+		color={ 251 21 36 }
+		color2={ 255 255 255 }
+		
+		allow = {
+			OR = {
+				lower_tier_than = KING
+				any_demesne_province = { OR = { province_id = 198 province_id = 199 province_id = 200 province_id = 201 } }
+			}
+		}
+		capital = 198 # c_patatonie
+		
+		c_patatonie = { # 198
+			color={ 241 31 31 }
+			color2={ 255 255 255 }
+			
+			b_patatofour = {
+			}
+			b_patatonie = {
+			}
+			b_patatonie_2 = {
+			}
+			b_patatonie_3 = {
+			}
+		}
+		c_clorec = { # 201
+			color={ 192 248 24 }
+			color2={ 255 255 255 }
+			
+			b_clorec = {
+			}
+			b_clorec_2 = {
+			}
+			b_clorec_3 = {
+			}
+			b_clorec_4 = {
+			}
+		}
+		c_kartofia = { # 199
+			color={ 235 116 37 }
+			color2={ 255 255 255 }
+			
+			b_achtung_kartoffel = {
+			}
+			b_kartofia = {
+			}
+			b_kartofia_2 = {
+			}
+			b_kartofia_3 = {
+			}
+		}
+		c_terres_de_pommes = { # 200
+			color={ 235 190 37 }
+			color2={ 255 255 255 }
+			
+			b_mousseline = {
+			}
+			b_terres_de_pommes = {
+			}
+			b_terres_de_pommes_2 = {
+			}
+			b_terres_de_pommes_3 = {
+			}
+		}
+	}
+}
