@@ -1,0 +1,5 @@
+# k_la_marche_de_louest
+500.1.1={
+	law = agnatic_succession
+	law = succ_primogeniture
+}

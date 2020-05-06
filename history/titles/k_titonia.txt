@@ -1,0 +1,8 @@
+# k_titonia
+480.1.1 = {
+	holder = 2000
+}
+500.1.1={
+	law = enatic_succession
+	law = succ_primogeniture
+}

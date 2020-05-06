@@ -1,0 +1,9 @@
+# k_skyrim
+
+499.12.15={
+	holder = 1001
+}
+500.1.1={
+	law = cognatic_succession
+	law = succ_feudal_elective
+}

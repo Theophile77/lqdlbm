@@ -1,0 +1,12 @@
+# k_skyrim
+
+450.1.1={
+	liege=k_stormcloaks
+}
+480.1.1 = {
+		holder = 1007
+}
+500.1.1={
+	law = cognatic_succession
+	law = succ_primogeniture
+}
