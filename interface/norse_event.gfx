@@ -1,0 +1,22 @@
+spriteTypes ={
+	spriteType ={
+		name = "GFX_evt_dragonborn"
+		texturefile = "gfx\\event_pictures_skyrim\\s_dragonborn.tga"
+	}
+	spriteType ={
+		name = "GFX_evt_rift_scape"
+		texturefile = "gfx\\event_pictures_skyrim\\rift_scape.tga"
+	}
+	spriteType ={
+		name = "GFX_evt_mountains_0"
+		texturefile = "gfx\\event_pictures_skyrim\\mountains_0.tga"
+	}
+	spriteType ={
+		name = "GFX_evt_two_moon_aurora"
+		texturefile = "gfx\\event_pictures_skyrim\\two_moon_aurora.tga"
+	}
+	spriteType ={
+		name = "GFX_evt_forest_mountains"
+		texturefile = "gfx\\event_pictures_skyrim\\forest_mountains.tga"
+	}	
+}

@@ -1,0 +1,40 @@
+spriteTypes = {
+	##### Companions #####
+	spriteType = {
+		name = "GFX_companions_society_ranks"
+		texturefile = "gfx\\interface\\societies\\rank_icons_companions.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_companions_society_ranks_highlight"
+		texturefile = "gfx\\interface\\societies\\rank_icons_companions_highlight.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_companions_society_ranks_locked"
+		texturefile = "gfx\\interface\\societies\\rank_icons_companions_locked.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_society_main_background_companions_tamriel"
+		texturefile = "gfx\\interface\\societies\\society_bg_companions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_small_companions_tamriel"
+		texturefile = "gfx\\interface\\societies\\symbol_small_companions.dds"
+		noOfFrames = 2
+	}
+	##### Greybeards #####
+	spriteType = {
+		name = "GFX_society_main_background_greybeards_tamriel"
+		texturefile = "gfx\\interface\\societies\\society_bg_greybeards_tamriel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_small_greybeards_tamriel"
+		texturefile = "gfx\\interface\\societies\\symbol_small_greybeards_tamriel.dds"
+		noOfFrames = 2
+	}
+}
