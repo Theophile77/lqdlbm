@@ -1,0 +1,11 @@
+# k_skyrim
+450.1.1 = {
+	holder = 1010
+}
+500.1.1={
+	law = cognatic_succession
+	law = succ_primogeniture
+}
+500.1.1={
+	liege=d_whiterun
+}
