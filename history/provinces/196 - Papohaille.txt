@@ -1,0 +1,18 @@
+# c_papohaille
+
+# County Title
+title = c_papohaille
+
+# Settlements
+max_settlements = 4
+
+b_kerkourouaille = castle
+b_papohaille = city
+#b_papohaille_2 = temple
+#b_papohaille_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

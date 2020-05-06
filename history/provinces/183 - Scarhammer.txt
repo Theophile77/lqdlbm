@@ -1,0 +1,11 @@
+title = c_scarhammer
+
+max_settlements = 4
+
+b_scarhammer = tribal
+
+culture = reachmen
+religion = forsworn_heresy
+terrain=hills
+
+#History

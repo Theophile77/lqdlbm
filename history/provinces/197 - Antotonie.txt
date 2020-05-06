@@ -1,0 +1,18 @@
+# c_antotonie
+
+# County Title
+title = c_antotonie
+
+# Settlements
+max_settlements = 4
+
+b_antotone = castle
+b_antotonie = city
+#b_antotonie_2 = temple
+#b_antotonie_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

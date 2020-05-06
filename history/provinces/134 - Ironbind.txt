@@ -1,0 +1,14 @@
+# County Title
+title = c_ironbind
+
+# Settlements
+max_settlements = 4
+
+b_ironbind = castle
+
+# Misc
+culture = nord
+religion = nine_divines
+terrain = arctic
+
+# History

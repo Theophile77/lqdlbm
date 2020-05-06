@@ -1,0 +1,18 @@
+# c_kartofia
+
+# County Title
+title = c_kartofia
+
+# Settlements
+max_settlements = 4
+
+b_achtung_kartoffel = castle
+b_kartofia = city
+#b_kartofia_2 = temple
+#b_kartofia_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

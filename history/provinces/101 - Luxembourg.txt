@@ -1,0 +1,18 @@
+# c_luxembourg
+
+# County Title
+title = c_luxembourg
+
+# Settlements
+max_settlements = 4
+
+b_luxembourg = castle
+b_longwy = city
+b_saint_vith = temple
+#b_arlon = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# County Title
+title = c_winterhold
+
+# Settlements
+max_settlements = 5
+
+b_winterhold = castle
+b_skytemple = temple
+b_hagsfjord = city
+#b_japhetsfolly = city
+#b_pilgrimstrench = temple
+#b_bleakcoast = castle
+#b_snowveil = castle
+
+# Misc
+culture = nord
+religion = nine_divines
+terrain = arctic
+
+# History
+

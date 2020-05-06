@@ -1,0 +1,18 @@
+# c_terres_de_pommes
+
+# County Title
+title = c_terres_de_pommes
+
+# Settlements
+max_settlements = 4
+
+b_mousseline = castle
+b_terres_de_pommes = city
+#b_terres_de_pommes_2 = temple
+#b_terres_de_pommes_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,14 @@
+# County Title
+title = c_haalfingar
+
+# Settlements
+max_settlements = 4
+
+b_haalfingar = castle
+
+# Misc
+culture = nord
+religion = eight_divines
+terrain = forest
+
+# History

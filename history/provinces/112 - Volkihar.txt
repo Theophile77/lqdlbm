@@ -1,0 +1,10 @@
+title = c_volkihar
+
+max_settlements = 3
+
+b_volkiharkeep = castle
+b_volkiharcathedral = temple
+
+culture = nord
+religion = eight_divines
+terrain = arctic #I DON'T WANNA MISS AAAAAAA

@@ -1,0 +1,9 @@
+title = c_whiteflow
+
+max_settlements = 4
+
+b_whiteflow = city
+
+culture = nord
+religion = eight_divines
+terrain = arctic

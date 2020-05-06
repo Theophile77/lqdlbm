@@ -1,0 +1,16 @@
+# County Title
+title = c_windhelm
+
+# Settlements
+max_settlements = 6
+
+b_palaceofthekings = castle
+b_windhelm = city
+b_ysgramsholl = temple
+b_yorgrim = city
+
+# Misc
+culture = nord
+religion = nine_divines
+terrain = forest
+

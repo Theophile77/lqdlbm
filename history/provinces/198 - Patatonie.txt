@@ -1,0 +1,18 @@
+# c_patatonie
+
+# County Title
+title = c_patatonie
+
+# Settlements
+max_settlements = 4
+
+b_patatofour = castle
+b_patatonie = city
+#b_patatonie_2 = temple
+#b_patatonie_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History
