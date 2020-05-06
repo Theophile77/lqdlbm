@@ -1,0 +1,20 @@
+# c_la_route_jaune
+
+# County Title
+title = c_la_route_jaune
+
+# Settlements
+max_settlements = 6
+
+b_fort_cedrian = castle
+b_fort_culture = city
+b_chapelle_de_cadlew = temple
+#b_aurus = castle
+#b_griet = city
+#b_flecia = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

@@ -1,0 +1,16 @@
+# c_naso
+
+# County Title
+title = c_naso
+
+# Settlements
+max_settlements = 2
+
+b_fort_naso = castle
+#b_malard = city
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

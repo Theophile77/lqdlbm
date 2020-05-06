@@ -1,0 +1,18 @@
+# c_konakri
+
+# County Title
+title = c_konakri
+
+# Settlements
+max_settlements = 3
+
+b_konakri = castle
+b_velog = city
+#b_arste = temple
+#b_mazzug_lurr = castle
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

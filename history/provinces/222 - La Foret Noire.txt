@@ -1,0 +1,19 @@
+# c_la_foret_noire
+
+# County Title
+title = c_la_foret_noire
+
+# Settlements
+max_settlements = 4
+
+b_fort_cendre = castle
+b_brisecou = city
+#b_narfinsel = temple
+#b_fort_nickel = castle
+#b_fort_carmala = city
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

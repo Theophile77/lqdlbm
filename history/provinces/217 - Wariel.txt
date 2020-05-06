@@ -1,0 +1,17 @@
+# c_wariel
+
+# County Title
+title = c_wariel
+
+# Settlements
+max_settlements = 3
+
+b_fort_warriel = castle
+b_rochefriable = city
+#b_trimble = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

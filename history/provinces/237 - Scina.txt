@@ -1,0 +1,16 @@
+# c_scina
+
+# County Title
+title = c_scina
+
+# Settlements
+max_settlements = 2
+
+b_scina = castle
+b_colline_des_heros = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

@@ -1,0 +1,17 @@
+# c_la_route_de_lor
+
+# County Title
+title = c_la_route_de_lor
+
+# Settlements
+max_settlements = 3
+
+b_fort_vlasturus = castle
+#b_silorn = city
+#b_nornolhorst = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

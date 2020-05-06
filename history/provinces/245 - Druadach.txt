@@ -1,0 +1,18 @@
+# c_druadach
+
+# County Title
+title = c_druadach
+
+# Settlements
+max_settlements = 4
+
+b_druadach = castle
+b_bellesource = city
+b_verte_vallee = temple
+#b_chutepierre = castle
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

@@ -1,0 +1,18 @@
+# c_balach
+
+# County Title
+title = c_balach
+
+# Settlements
+max_settlements = 3
+
+b_balach = castle
+b_balach_dur = city
+#b_calacta = temple
+#b_druccar = castle
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

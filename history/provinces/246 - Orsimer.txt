@@ -1,0 +1,20 @@
+# c_orsimer
+
+# County Title
+title = c_orsimer
+
+# Settlements
+max_settlements = 6
+
+b_fort_malacath = castle
+b_orcville = city
+b_temple_de_malacath = temple
+#b_fort_bourru = castle
+#b_villepierre = city
+#b_gardemort = temple
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

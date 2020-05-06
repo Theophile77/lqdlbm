@@ -1,0 +1,18 @@
+# c_la_porte_de_louest
+
+# County Title
+title = c_la_porte_de_louest
+
+# Settlements
+max_settlements = 4
+
+b_nezuand_chel = castle
+b_la_porte = city
+b_harfreusechute = temple
+#b_volfreux = castle
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

@@ -1,0 +1,17 @@
+# c_facian
+
+# County Title
+title = c_facian
+
+# Settlements
+max_settlements = 3
+
+b_fort_facian = castle
+#b_sercen_2 = city
+#b_trossan = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

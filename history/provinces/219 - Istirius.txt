@@ -1,0 +1,17 @@
+# c_istirius
+
+# County Title
+title = c_istirius
+
+# Settlements
+max_settlements = 3
+
+b_fort_istirius = castle
+b_shetcombe = city
+#b_triompecarte = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

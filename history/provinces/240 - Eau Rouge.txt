@@ -1,0 +1,18 @@
+# c_eau_rouge
+
+# County Title
+title = c_eau_rouge
+
+# Settlements
+max_settlements = 4
+
+b_fort_eau_rouge = castle
+b_coursang = city
+#b_seran = temple
+#b_welke = castle
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

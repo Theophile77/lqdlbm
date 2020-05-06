@@ -1,0 +1,17 @@
+# c_skingrad
+
+# County Title
+title = c_skingrad
+
+# Settlements
+max_settlements = 3
+
+b_chateau_de_skingrad = castle
+b_ville_de_skingrad = city
+b_chapelle_de_julianos = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

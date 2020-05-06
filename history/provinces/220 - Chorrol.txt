@@ -1,0 +1,20 @@
+# c_chorrol
+
+# County Title
+title = c_chorrol
+
+# Settlements
+max_settlements = 6
+
+b_chateau_de_chorrol = castle
+b_ville_de_chorrol = city
+b_chapelle_de_stendarr = temple
+#b_gardabre = castle
+#b_hrotanda = city
+#b_prieure_de_weynon = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

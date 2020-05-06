@@ -1,0 +1,17 @@
+# c_lit_de_roche
+
+# County Title
+title = c_lit_de_roche
+
+# Settlements
+max_settlements = 3
+
+b_cuptor = castle
+b_lit_de_roche = city
+#b_malanda = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

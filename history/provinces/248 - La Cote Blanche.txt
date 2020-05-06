@@ -1,0 +1,17 @@
+# c_la_cote_blanche
+
+# County Title
+title = c_la_cote_blanche
+
+# Settlements
+max_settlements = 3
+
+b_port_blanc = castle
+b_fortefallaise = city
+#b_eclats_blanc = temple
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

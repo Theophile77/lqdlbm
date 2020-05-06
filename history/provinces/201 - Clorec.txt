@@ -1,0 +1,18 @@
+# c_clorec
+
+# County Title
+title = c_clorec
+
+# Settlements
+max_settlements = 4
+
+b_clorec = castle
+b_clorec_2 = city
+#b_clorec_3 = temple
+#b_clorec_4 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

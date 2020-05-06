@@ -1,0 +1,19 @@
+# c_cheydinhal
+
+# County Title
+title = c_cheydinhal
+
+# Settlements
+max_settlements = 5
+
+b_chateau_de_cheydinhal = castle
+b_ville_de_cheydinhal = city
+b_chapelle_darkay = temple
+#b_fort_farragut = castle
+#b_loge_de_thorn = city
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

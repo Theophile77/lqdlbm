@@ -1,0 +1,18 @@
+# c_linchal
+
+# County Title
+title = c_linchal
+
+# Settlements
+max_settlements = 4
+
+b_fort_linchal = castle
+b_tesson_de_roche = city
+#b_dirich = temple
+#b_talwinque = castle
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

@@ -1,0 +1,18 @@
+# c_terre_humide
+
+# County Title
+title = c_terre_humide
+
+# Settlements
+max_settlements = 4
+
+b_embourbe = castle
+#b_pluieverte = city
+#b_epissons = temple
+#b_beves = castle
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

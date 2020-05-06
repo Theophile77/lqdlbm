@@ -1,0 +1,16 @@
+# c_sutch
+
+# County Title
+title = c_sutch
+
+# Settlements
+max_settlements = 2
+
+b_fort_sutch = castle
+b_morne_mine = city
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

@@ -1,0 +1,17 @@
+# c_boisnoir
+
+# County Title
+title = c_boisnoir
+
+# Settlements
+max_settlements = 3
+
+b_croix_double = castle
+b_marche_de_blanken = city
+#b_veyond_2 = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

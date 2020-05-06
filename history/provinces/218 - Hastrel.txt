@@ -1,0 +1,17 @@
+# c_hastrel
+
+# County Title
+title = c_hastrel
+
+# Settlements
+max_settlements = 3
+
+b_fort_hastrel = castle
+b_bierecamps = city
+#b_varondo = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

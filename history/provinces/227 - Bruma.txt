@@ -1,0 +1,20 @@
+# c_bruma
+
+# County Title
+title = c_bruma
+
+# Settlements
+max_settlements = 6
+
+b_chateau_de_bruma = castle
+b_ville_de_bruma = city
+b_temple_de_talos = temple
+#b_griffe_dragon = castle
+#b_gardepomme = city
+#b_maitre_des_nuages = temple
+
+# Misc
+culture = roman
+religion = nine_divines
+
+#History

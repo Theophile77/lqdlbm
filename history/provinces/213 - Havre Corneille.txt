@@ -1,0 +1,17 @@
+# c_havre_corneille
+
+# County Title
+title = c_havre_corneille
+
+# Settlements
+max_settlements = 3
+
+b_havre_corneille = castle
+b_drad = city
+#b_beldaburo = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

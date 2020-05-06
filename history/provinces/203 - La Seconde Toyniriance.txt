@@ -1,0 +1,18 @@
+# c_la_seconde_toyniriance
+
+# County Title
+title = c_la_seconde_toyniriance
+
+# Settlements
+max_settlements = 4
+
+b_toyniriance_2 = castle
+b_la_seconde_toyniriance = city
+#b_la_seconde_toyniriance_2 = temple
+#b_la_seconde_toyniriance_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

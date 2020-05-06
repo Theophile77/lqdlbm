@@ -1,0 +1,17 @@
+# c_la_route_noire
+
+# County Title
+title = c_la_route_noire
+
+# Settlements
+max_settlements = 3
+
+b_fort_carmala_2 = castle
+b_coupeterre = city
+#b_wendir = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

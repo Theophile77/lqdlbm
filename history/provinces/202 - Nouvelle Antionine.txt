@@ -1,0 +1,18 @@
+# c_nouvelle_antionine
+
+# County Title
+title = c_nouvelle_antionine
+
+# Settlements
+max_settlements = 4
+
+b_nouvelle_antoininople = castle
+b_nouvelle_antionine = city
+#b_nouvelle_antionine_2 = temple
+#b_nouvelle_antionine_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

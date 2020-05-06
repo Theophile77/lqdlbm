@@ -1,0 +1,19 @@
+# c_la_riviere_blanche
+
+# County Title
+title = c_la_riviere_blanche
+
+# Settlements
+max_settlements = 5
+
+b_fort_roebeck = castle
+b_porte_de_pell = city
+#b_vindasel = temple
+#b_fort_alessia = castle
+#b_fort_bourgmaison = city
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

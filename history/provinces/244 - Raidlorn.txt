@@ -1,0 +1,18 @@
+# c_raidlorn
+
+# County Title
+title = c_raidlorn
+
+# Settlements
+max_settlements = 3
+
+b_raidolia = castle
+b_kalast = city
+#b_binou = temple
+#b_nobor = castle
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

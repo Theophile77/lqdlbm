@@ -1,0 +1,17 @@
+# c_epis_froid
+
+# County Title
+title = c_epis_froid
+
+# Settlements
+max_settlements = 3
+
+b_epis_froid = castle
+#b_galdemist = city
+#b_lindai = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

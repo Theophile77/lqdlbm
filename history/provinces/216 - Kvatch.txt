@@ -1,0 +1,17 @@
+# c_kvatch
+
+# County Title
+title = c_kvatch
+
+# Settlements
+max_settlements = 3
+
+b_chateau_de_kvatch = castle
+b_ville_de_kvatch = city
+b_chapelle_dakatosh = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

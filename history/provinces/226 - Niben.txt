@@ -1,0 +1,17 @@
+# c_niben
+
+# County Title
+title = c_niben
+
+# Settlements
+max_settlements = 3
+
+b_fort_ironie = castle
+#b_gue_de_bawn = city
+#b_bawn = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

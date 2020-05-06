@@ -1,0 +1,18 @@
+# c_nouvelle_kartoffelie
+
+# County Title
+title = c_nouvelle_kartoffelie
+
+# Settlements
+max_settlements = 4
+
+b_kartofellsbourg = castle
+b_nouvelle_kartoffelie = city
+#b_nouvelle_kartoffelie_2 = temple
+#b_nouvelle_kartoffelie_3 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

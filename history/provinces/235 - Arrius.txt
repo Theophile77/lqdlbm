@@ -1,0 +1,17 @@
+# c_arrius
+
+# County Title
+title = c_arrius
+
+# Settlements
+max_settlements = 3
+
+b_arrius = castle
+b_la_folie_de_harm = city
+#b_belda = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

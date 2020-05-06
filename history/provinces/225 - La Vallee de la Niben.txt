@@ -1,0 +1,17 @@
+# c_la_vallee_de_la_niben
+
+# County Title
+title = c_la_vallee_de_la_niben
+
+# Settlements
+max_settlements = 3
+
+b_fort_valeria = castle
+#b_veyond = city
+#b_harcane = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

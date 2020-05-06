@@ -1,0 +1,17 @@
+# c_la_cite_imperiale
+
+# County Title
+title = c_la_cite_imperiale
+
+# Settlements
+max_settlements = 3
+
+b_la_tour_dor_blanc = castle
+b_la_cite_imperiale = city
+b_le_grand_temple_des_divins = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

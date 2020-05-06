@@ -1,0 +1,17 @@
+# c_urasek
+
+# County Title
+title = c_urasek
+
+# Settlements
+max_settlements = 3
+
+b_fort_urasek = castle
+#b_viverin = city
+#b_nagastani = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

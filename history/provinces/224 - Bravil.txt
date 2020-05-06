@@ -1,0 +1,20 @@
+# c_bravil
+
+# County Title
+title = c_bravil
+
+# Settlements
+max_settlements = 3
+
+b_chateau_d_ebravil = castle
+b_ville_de_bravil = city
+b_chapelle_de_mara = temple
+#b_tour_de_fathis_aren = castle
+#b_baie_de_roan = city
+#b_anatwyll = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

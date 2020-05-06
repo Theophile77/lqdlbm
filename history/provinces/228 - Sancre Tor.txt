@@ -1,0 +1,20 @@
+# c_sancre_tor
+
+# County Title
+title = c_sancre_tor
+
+# Settlements
+max_settlements = 5
+
+b_chateau_du_sancre_tor = castle
+b_ville_du_sancre_tor = city
+#b_fort_tarn = temple
+#b_moranda = castle
+#b_ninendava = city
+#b_autel_dhermaus_mora = temple
+
+# Misc
+culture = nord
+religion = nine_divines
+
+#History

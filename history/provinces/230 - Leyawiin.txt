@@ -1,0 +1,20 @@
+# c_leyawiin
+
+# County Title
+title = c_leyawiin
+
+# Settlements
+max_settlements = 6
+
+b_chateau_de_leyawiin = castle
+b_ville_de_leyawiin = city
+b_chapelle_de_zenithar = temple
+#b_sangbleu = castle
+#b_srey = city
+#b_amelion = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

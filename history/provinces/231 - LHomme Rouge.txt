@@ -1,0 +1,18 @@
+# c_lhomme_rouge
+
+# County Title
+title = c_lhomme_rouge
+
+# Settlements
+max_settlements = 4
+
+b_lhomme_rouge = castle
+b_chute_deau = city
+#b_telepe = temple
+#b_garde_frontiere = castle
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

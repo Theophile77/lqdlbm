@@ -1,0 +1,17 @@
+# c_strand
+
+# County Title
+title = c_strand
+
+# Settlements
+max_settlements = 3
+
+b_fort_strand = castle
+b_gweden = city
+#b_fumee_creuse = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

@@ -1,0 +1,17 @@
+# c_la_cote_grise
+
+# County Title
+title = c_la_cote_grise
+
+# Settlements
+max_settlements = 3
+
+b_port_gris = castle
+b_port_druh = city
+#b_morneterre = temple
+
+# Misc
+culture = reachmen
+religion = old_gods
+
+#History

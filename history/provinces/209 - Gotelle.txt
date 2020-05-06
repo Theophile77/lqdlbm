@@ -1,0 +1,19 @@
+# c_gotelle
+
+# County Title
+title = c_gotelle
+
+# Settlements
+max_settlements = 5
+
+b_chateau_de_gotellle = castle
+b_mornetemps = city
+b_prieure_de_gotelle = temple
+#b_elenglynn = castle
+#b_ceyatatar = city
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History

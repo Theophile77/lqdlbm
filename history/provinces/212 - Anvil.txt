@@ -1,0 +1,17 @@
+# c_anvil
+
+# County Title
+title = c_anvil
+
+# Settlements
+max_settlements = 3
+
+b_chateau_danvil = castle
+b_ville_danvil = city
+b_chapelle_de_dibella = temple
+
+# Misc
+culture = roman
+religion = eight_divines
+
+#History
