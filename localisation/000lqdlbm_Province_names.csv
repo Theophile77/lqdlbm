@@ -1,0 +1,305 @@
+PROV1;Camelot;Camelot;Camelot;;;;;;;;;x
+PROV2;Galles;Galles;Galles;;;;;;;;;x
+PROV3;Lancashire;Lancashire;Lancashire;;;;;;;;;x
+PROV4;Cumbria;Cumbria;Cumbria;;;;;;;;;x
+PROV5;Manchester;Manchester;Manchester;;;;;;;;;x
+PROV6;Avalon;Avalon;Avalon;;;;;;;;;x
+PROV7;Cornouaille;Cornouaille;Cornouaille;;;;;;;;;x
+PROV8;Sommerset;Sommerset;Sommerset;;;;;;;;;x
+PROV9;Dorset;Dorset;Dorset;;;;;;;;;x
+PROV10;Wiltshire;Wiltshire;Wiltshire;;;;;;;;;x
+PROV11;Northumberland;Northumberland;Northumberland;;;;;;;;;x
+PROV12;Durham;Durham;Durham;;;;;;;;;x
+PROV13;Cleveland;Cleveland;Cleveland;;;;;;;;;x
+PROV14;Hawick;Hawick;Hawick;;;;;;;;;x
+PROV15;Glasgow;Glasgow;Glasgow;;;;;;;;;x
+PROV16;Galloway;Galloway;Galloway;;;;;;;;;x
+PROV17;Highland;Highland;Highland;;;;;;;;;x
+PROV18;Skye;Skye;Skye;;;;;;;;;x
+PROV19;Orcanie;Orcanie;Orcanie;;;;;;;;;x
+PROV20;Tayside;Tayside;Tayside;;;;;;;;;x
+PROV21;Lothian;Lothian;Lothian;;;;;;;;;x
+PROV22;Dún na nGall;Dún na nGall;Dún na nGall;;;;;;;;;x
+PROV23;Tír Eoghain;Tír Eoghain;Tír Eoghain;;;;;;;;;x
+PROV24;Gaillimh;Gaillimh;Gaillimh;;;;;;;;;x
+PROV25;Liatroim;Liatroim;Liatroim;;;;;;;;;x
+PROV26;Clár;Clár;Clár;;;;;;;;;x
+PROV27;Corcaigh;Corcaigh;Corcaigh;;;;;;;;;x
+PROV28;Mí;Mí;Mí;;;;;;;;;x
+PROV29;Baile Átha Cliath;Baile Átha Cliath;Baile Átha Cliath;;;;;;;;;x
+PROV30;Poher;Poher;Poher;;;;;;;;;x
+PROV31;Cornouailles;Cornouailles;Cornouailles;;;;;;;;;x
+PROV32;Nantes;Nantes;Nantes;;;;;;;;;x
+PROV33;Porhoët;Porhoët;Porhoët;;;;;;;;;x
+PROV34;Guyenne;Guyenne;Guyenne;;;;;;;;;x
+PROV35;Saintonge;Saintonge;Saintonge;;;;;;;;;x
+PROV36;Périgord;Périgord;Périgord;;;;;;;;;x
+PROV37;Angoulème;Angoulème;Angoulème;;;;;;;;;x
+PROV38;Lusignan;Lusignan;Lusignan;;;;;;;;;x
+PROV39;Béarn;Béarn;Béarn;;;;;;;;;x
+PROV40;Tarbes;Tarbes;Tarbes;;;;;;;;;x
+PROV41;Toulouse;Toulouse;Toulouse;;;;;;;;;x
+PROV42;Carcassonne;Carcassonne;Carcassonne;;;;;;;;;x
+PROV43;Roussillon;Roussillon;Roussillon;;;;;;;;;x
+PROV44;Nîmes;Nîmes;Nîmes;;;;;;;;;x
+PROV45;Gévaudan;Gévaudan;Gévaudan;;;;;;;;;x
+PROV46;Auvergne;Auvergne;Auvergne;;;;;;;;;x
+PROV47;Limousin;Limousin;Limousin;;;;;;;;;x
+PROV48;La Marche;La Marche;La Marche;;;;;;;;;x
+PROV49;Paris;Paris;Paris;;;;;;;;;x
+PROV50;Orléans;Orléans;Orléans;;;;;;;;;x
+PROV51;Blois;Blois;Blois;;;;;;;;;x
+PROV52;Dreux;Dreux;Dreux;;;;;;;;;x
+PROV53;Vendée;Vendée;Vendée;;;;;;;;;x
+PROV54;Poitou;Poitou;Poitou;;;;;;;;;x
+PROV55;Tourraine;Tourraine;Tourraine;;;;;;;;;x
+PROV56;Brie;Brie;Brie;;;;;;;;;x
+PROV57;Troyes;Troyes;Troyes;;;;;;;;;x
+PROV58;Sens;Sens;Sens;;;;;;;;;x
+PROV59;Reims;Reims;Reims;;;;;;;;;x
+PROV60;Montois;Montois;Montois;;;;;;;;;x
+PROV61;Rouen;Rouen;Rouen;;;;;;;;;x
+PROV62;Bayeux;Bayeux;Bayeux;;;;;;;;;x
+PROV63;Mortain;Mortain;Mortain;;;;;;;;;x
+PROV64;Anjou;Anjou;Anjou;;;;;;;;;x
+PROV65;Maine;Maine;Maine;;;;;;;;;x
+PROV66;Alençon;Alençon;Alençon;;;;;;;;;x
+PROV67;Chartres;Chartres;Chartres;;;;;;;;;x
+PROV68;Amiens;Amiens;Amiens;;;;;;;;;x
+PROV69;Artois;Artois;Artois;;;;;;;;;x
+PROV70;Ponthieu;Ponthieu;Ponthieu;;;;;;;;;x
+PROV71;Lorraine;Lorraine;Lorraine;;;;;;;;;x
+PROV72;Metz;Metz;Metz;;;;;;;;;x
+PROV73;Verdun;Verdun;Verdun;;;;;;;;;x
+PROV74;Alsace;Alsace;Alsace;;;;;;;;;x
+PROV75;Dijon;Dijon;Dijon;;;;;;;;;x
+PROV76;Auxerre;Auxerre;Auxerre;;;;;;;;;x
+PROV77;Macon;Macon;Macon;;;;;;;;;x
+PROV78;Savoie;Savoie;Savoie;;;;;;;;;x
+PROV79;Genevois;Genevois;Genevois;;;;;;;;;x
+PROV80;Tarentaise;Tarentaise;Tarentaise;;;;;;;;;x
+PROV81;Aoste;Aoste;Aoste;;;;;;;;;x
+PROV82;Lyon;Lyon;Lyon;;;;;;;;;x
+PROV83;Provence;Provence;Provence;;;;;;;;;x
+PROV84;Viennois;Viennois;Viennois;;;;;;;;;x
+PROV85;Forez;Forez;Forez;;;;;;;;;x
+PROV86;Avignon;Avignon;Avignon;;;;;;;;;x
+PROV87;Brabant;Brabant;Brabant;;;;;;;;;x
+PROV88;Bruge;Bruge;Bruge;;;;;;;;;x
+PROV89;Liège;Liège;Liège;;;;;;;;;x
+PROV90;Hollande;Hollande;Hollande;;;;;;;;;x
+PROV91;Frise;Frise;Frise;;;;;;;;;x
+PROV92;Gueldre;Gueldre;Gueldre;;;;;;;;;x
+PROV93;Essex;Essex;Essex;;;;;;;;;x
+PROV94;Hampshire;Hampshire;Hampshire;;;;;;;;;x
+PROV95;Kent;Kent;Kent;;;;;;;;;x
+PROV96;Sussex;Sussex;Sussex;;;;;;;;;x
+PROV97;York;York;York;;;;;;;;;x
+PROV98;Leicester;Leicester;Leicester;;;;;;;;;x
+PROV99;Suffolk;Suffolk;Suffolk;;;;;;;;;x
+PROV100;Norfolk;Norfolk;Norfolk;;;;;;;;;x
+PROV101;Luxembourg;Luxembourg;Luxembourg;;;;;;;;;x
+PROV102;Solitude;Solitude;Solitude;;;;;;;;;x
+PROV103;Ravenscar;Cormarque;Ravenscar;;;;;;;;;x
+PROV104;Dragonbridge;Pont-Dragon;Dragonbridge;;;;;;;;;x
+PROV105;Coldstone;Froidepierre;Coldstone;;;;;;;;;x
+PROV106;Whiteflow;Souffleblanc;Whiteflow;;;;;;;;;x
+PROV107;Volskygge;Volskygge;Volskygge;;;;;;;;;x
+PROV108;Hraggstad;Hraggstad;Hraggstad;;;;;;;;;x
+PROV109;Ustunhall;Ustunhall;Ustunhall;;;;;;;;;x
+PROV110;Northwatch;Nordguet;Northwatch;;;;;;;;;x
+PROV111;Haalfingar;Haalfingar;Haalfingar;;;;;;;;;x
+PROV112;Volkihar;Volkihar;Volkihar;;;;;;;;;x
+PROV113;Greymarch;Marchegrise;Greymarch;;;;;;;;;x
+PROV114;Rorikstead;Rorikbourg;Rorikstead;;;;;;;;;x
+PROV115;Greymoor;Griselande;Greymoor;Moriart;;;;;;;;x
+PROV116;Whiterun;Blancherive;Whiterun;;;;;;;;;x
+PROV117;Greywinter;Mornhiver;Greywinter;;;;;;;;;x
+PROV118;Riverwood;Rivebois;Riverwood;;;;;;;;;x
+PROV119;Whitewatch;Blanchevue;Whitewatch;;;;;;;;;x
+PROV120;Scarstone;Marqueroche;Scarstone;;;;;;;;;x
+PROV121;Morthal;Morthal;Morthal;;;;;;;;;x
+PROV122;Snowhawk;Froidebuse;Snowhawk;;;;;;;;;x
+PROV123;Ustungrav;Ustungrav;Ustungrav;;;;;;;;;x
+PROV124;Eldersblood;Antésang;Eldersblood;;;;;;;;;x
+PROV125;Coldwind;Ventfroid;Coldwind;;;;;;;;;x
+PROV126;Coldrock;Rochefroide;Coldrock;;;;;;;;;x
+PROV127;Skyborn;Volciel;Skyborn;;;;;;;;;x
+PROV128;Orotheim;Orotheim;Orotheim;;;;;;;;;x
+PROV129;Winterhold;Fordhiver;Winterhold;;;;;;;;;x
+PROV130;Alftand;Alftand;Alftand;;;;;;;;;x
+PROV131;Kastav;Kastav;Kastav;;;;;;;;;x
+PROV132;Saarthal;Saarthal;Saarthal;;;;;;;;;x
+PROV133;Bannerwatch;Gardeban;Bannerwatch;;;;;;;;;x
+PROV134;Ironbind;Ferlié;Ironbind;;;;;;;;;x
+PROV135;Fellhammer;Fiermartel;Fellhammer;;;;;;;;;x
+PROV136;Frostflow;Hiveronde;Frostflow;;;;;;;;;x
+PROV137;Windhelm;Vendeaume;Windhelm;;;;;;;;;x
+PROV138;Eastmarch;Estemarche;Eastmarch;;;;;;;;;x
+PROV139;Shearstone;Entailleroche;Shearstone;;;;;;;;;x
+PROV140;Shorflow;Souffle de Shor;Shorflow;;;;;;;;;x
+PROV141;Coldwinter;Froidhiver;Coldwinter;;;;;;;;;x
+PROV142;Bleakrock;Mornepierre;Bleakrock;;;;;;;;;x
+PROV143;Morvunskar;Morvunskar;Morvunskar;;;;;;;;;x
+PROV144;Mistwatch;Gardebrume;Mistwatch;;;;;;;;;x
+PROV145;Valtheim;Valtheim;Valtheim;;;;;;;;;x
+PROV146;Amol;Amol;Amol;;;;;;;;;x
+PROV147;Winterwind;Vendhiver;Winterwind;;;;;;;;;x
+PROV148;Ansilvund;Ansilvund;Ansilvund;;;;;;;;;x
+PROV149;Falkhammer;Frappaigle;Falkhammer;;;;;;;;;x
+PROV150;Bleakwall;Sombremur;Bleakwall;;;;;;;;;x
+PROV151;Falkreath;Épervine;Falkreath;;;;;;;;;x
+PROV152;Helgen;Helgen;Helgen;;;;;;;;;x
+PROV153;Bannermist;Brumaille;Bannermist;;;;;;;;;x
+PROV154;Morgate;Portemere;Morgate;;;;;;;;;x
+PROV155;Ironpoint;Ferépée;Ironpoint;;;;;;;;;x
+PROV156;Neugrad;Neugrad;Neugrad;;;;;;;;;x
+PROV157;Brittleshin;La Brissure;Brittleshin;;;;;;;;;x
+PROV158;Dunmarch;Dunmarche;Dunmarch;;;;;;;;;x
+PROV159;Sunderstone;Scindepierre;Sunderstone;;;;;;;;;x
+PROV160;Glenmoril;Glenmoril;Glenmoril;;;;;;;;;x
+PROV161;Skymarch;Marcheciel;Skymarch;;;;;;;;;x
+PROV162;Riften;Faillaise;Riften;;;;;;;;;x
+PROV163;Forelhost;Forelhost;Forelhost;;;;;;;;;x
+PROV164;Ravenstead;Forjais;Ravenstead;;;;;;;;;x
+PROV165;Ustunpass;Ustunpass;Ustunpass;;;;;;;;;x
+PROV166;Rkund;Rkund;Rkund;;;;;;;;;x
+PROV167;Shorstone;Pierre-de-Shor;Shorstone;;;;;;;;;x
+PROV168;Nilheim;Nilheim;Nilheim;;;;;;;;;x
+PROV169;Snowgrad;Flograd;Snowgrad;;;;;;;;;x
+PROV170;Bthalft;Bthalft;Bthalft;;;;;;;;;x
+PROV171;Valtgard;Valtgarde;Valtgard;;;;;;;;;x
+PROV172;Ivarstead;Fort-ivar;Ivarstead;;;;;;;;;x
+PROV173;Markarth;Markarth;Markarth;;;;;;;;;x
+PROV174;Karthwasten;Folperpuis;Karthwasten;;;;;;;;;x
+PROV175;Karthspire;Karthecime;Karthspire;;;;;;;;;x
+PROV176;Harmugstalh;Harmugstalh;Harmugstalh;;;;;;;;;x
+PROV177;Reachcliff;Longmur;Reachcliff;;;;;;;;;x
+PROV178;Ravenhall;Passage des Freux;Ravenhall;;;;;;;;;x
+PROV179;Westmarch;La Marche de l'Ouest;Westmarch;;;;;;;;;x
+PROV180;Skyhammer;Frappreciel;Skyhammer;;;;;;;;;x
+PROV181;Sungard;Gardesol;Sungard;;;;;;;;;x
+PROV182;Bleakwind;Mornevent;Bleakwind;;;;;;;;;x
+PROV183;Scarhammer;Marteaubrisé;Scarhammer;;;;;;;;;x
+PROV184;Hraggen;Hraggen;Hraggen;;;;;;;;;x
+PROV185;Ironheim;Fermonde;Ironheim;;;;;;;;;x
+PROV186;Dawnstar;Aubétoile;Dawnstar;;;;;;;;;x
+PROV187;Highgate;Grande Porte;Highgate;;;;;;;;;x
+PROV188;Dunstad;Dunstad;Dunstad;;;;;;;;;x
+PROV189;Volunruud;Volunruud;Volunruud;;;;;;;;;x
+PROV190;Morvunhall;Morvunhall;Morvunhall;;;;;;;;;x
+PROV191;Shearpoint;Cisaille;Shearpoint;;;;;;;;;x
+PROV192;Korvanjund;Korvanjund;Korvanjund;;;;;;;;;x
+PROV193;Fellglow;Clairlande;Fellglow;;;;;;;;;x
+PROV194;Antionine;Antionine;Antionine;;;;;;;;;x
+PROV195;Toinyriance;Toinyriance;Toinyriance;;;;;;;;;x
+PROV196;Papohaille;Papohaille;Papohaille;;;;;;;;;x
+PROV197;Antotonie;Antotonie;Antotonie;;;;;;;;;x
+PROV198;Patatonie;Patatonie;Patatonie;;;;;;;;;x
+PROV199;Kartofia;Kartofia;Kartofia;;;;;;;;;x
+PROV200;Terres de Pommes;Terres de Pommes;Terres de Pommes;;;;;;;;;x
+PROV201;Clorec;Clorec;Clorec;;;;;;;;;x
+PROV202;Nouvelle Antionine;Nouvelle Antionine;Nouvelle Antionine;;;;;;;;;x
+PROV203;La Seconde Toyniriance;La Seconde Toyniriance;La Seconde Toyniriance;;;;;;;;;x
+PROV204;Nouvelle Kartoffelie;Nouvelle Kartoffelie;Nouvelle Kartoffelie;;;;;;;;;x
+PROV205;La Cité Impériale;La Cité Impériale;La Cité Impériale;;;;;;;;;x
+PROV206;La Rivière Blanche;La Rivière Blanche;La Rivière Blanche;;;;;;;;;x
+PROV207;L'Anneau Rouge;L'Anneau Rouge;L'Anneau Rouge;;;;;;;;;x
+PROV208;Skingrad;Skingrad;Skingrad;;;;;;;;;x
+PROV209;Gotelle;Gotelle;Gotelle;;;;;;;;;x
+PROV210;La Route de l'Or;La Route de l'Or;La Route de l'Or;;;;;;;;;x
+PROV211;Linchal;Linchal;Linchal;;;;;;;;;x
+PROV212;Anvil;Anvil;Anvil;;;;;;;;;x
+PROV213;Havre Corneille;Havre Corneille;Havre Corneille;;;;;;;;;x
+PROV214;Sutch;Sutch;Sutch;;;;;;;;;x
+PROV215;Strand;Strand;Strand;;;;;;;;;x
+PROV216;Kvatch;Kvatch;Kvatch;;;;;;;;;x
+PROV217;Wariel;Wariel;Wariel;;;;;;;;;x
+PROV218;Hastrel;Hastrel;Hastrel;;;;;;;;;x
+PROV219;Istirius;Istirius;Istirius;;;;;;;;;x
+PROV220;Chorrol;Chorrol;Chorrol;;;;;;;;;x
+PROV221;Epis-Froid;Epis-Froid;Epis-Froid;;;;;;;;;x
+PROV222;La Forêt Noire;La Forêt Noire;La Forêt Noire;;;;;;;;;x
+PROV223;La Route Noire;La Route Noire;La Route Noire;;;;;;;;;x
+PROV224;Bravil;Bravil;Bravil;;;;;;;;;x
+PROV225;La Vallée de la Niben;La Vallée de la Niben;La Vallée de la Niben;;;;;;;;;x
+PROV226;Niben;Niben;Niben;;;;;;;;;x
+PROV227;Bruma;Bruma;Bruma;;;;;;;;;x
+PROV228;Sancre Tor;Sancre Tor;Sancre Tor;;;;;;;;;x
+PROV229;La Route d'Argent;La Route d'Argent;La Route d'Argent;;;;;;;;;x
+PROV230;Leyawiin;Leyawiin;Leyawiin;;;;;;;;;x
+PROV231;L'Homme Rouge;L'Homme Rouge;L'Homme Rouge;;;;;;;;;x
+PROV232;Boisnoir;Boisnoir;Boisnoir;;;;;;;;;x
+PROV233;La Route Jaune;La Route Jaune;La Route Jaune;;;;;;;;;x
+PROV234;Cheydinhal;Cheydinhal;Cheydinhal;;;;;;;;;x
+PROV235;Arrius;Arrius;Arrius;;;;;;;;;x
+PROV236;Urasek;Urasek;Urasek;;;;;;;;;x
+PROV237;Scina;Scina;Scina;;;;;;;;;x
+PROV238;Naso;Naso;Naso;;;;;;;;;x
+PROV239;Facian;Facian;Facian;;;;;;;;;x
+PROV240;Eau Rouge;Eau Rouge;Eau Rouge;;;;;;;;;x
+PROV241;Lit de Roche;Lit de Roche;Lit de Roche;;;;;;;;;x
+PROV242;La Porte de l'Ouest;La Porte de l'Ouest;La Porte de l'Ouest;;;;;;;;;x
+PROV243;Konakri;Konakri;Konakri;;;;;;;;;x
+PROV244;Raidlorn;Raidlorn;Raidlorn;;;;;;;;;x
+PROV245;Druadach;Druadach;Druadach;;;;;;;;;x
+PROV246;Orsimer;Orsimer;Orsimer;;;;;;;;;x
+PROV247;Balach;Balach;Balach;;;;;;;;;x
+PROV248;La Côte Blanche;La Côte Blanche;La Côte Blanche;;;;;;;;;x
+PROV249;La Côte Grise;La Côte Grise;La Côte Grise;;;;;;;;;x
+PROV250;Terre Humide;Terre Humide;Terre Humide;;;;;;;;;x
+PROV251;Haut Hrothgar;Haut Hrothgar;Haut Hrothgar;;;;;;;;;x
+PROV252;Lake Illinalta;Lac Illinalta;Lake Illinalta;;;;;;;;;x
+PROV253;Lake Geir;Lac Geir;Lake Geir;;;;;;;;;x
+PROV254;Lake Honrich;Lac Honrich;Lake Honrich;;;;;;;;;x
+PROV255;Lake Yorgrim;Lac Yorgrim;Lake Yorgrim;;;;;;;;;x
+PROV256;Mer Égée Nord;Mer Égée Nord;Mer Égée Nord;;;;;;;;;x
+PROV257;Mer Égée Sud;Mer Égée Sud;Mer Égée Sud;;;;;;;;;x
+PROV258;Est Grèce;Est Grèce;Est Grèce;;;;;;;;;x
+PROV259;Côte Turque;Côte Turque;Côte Turque;;;;;;;;;x
+PROV260;Côte Athénienne;Côte Athénienne;Côte Athénienne;;;;;;;;;x
+PROV261;Mer du Péloponnese;Mer du Péloponnese;Mer du Péloponnese;;;;;;;;;x
+PROV262;Mer de Chypres;Mer de Chypres;Mer de Chypres;;;;;;;;;x
+PROV263;Mer de Syrie;Mer de Syrie;Mer de Syrie;;;;;;;;;x
+PROV264;Mer de Palestines;Mer de Palestines;Mer de Palestines;;;;;;;;;x
+PROV265;Détroit de la Mer Rouge;Détroit de la Mer Rouge;Détroit de la Mer Rouge;;;;;;;;;x
+PROV266;Delta du Nil;Delta du Nil;Delta du Nil;;;;;;;;;x
+PROV267;Golfe de Sparte;Golfe de Sparte;Golfe de Sparte;;;;;;;;;x
+PROV268;Ouest Grèce;Ouest Grèce;Ouest Grèce;;;;;;;;;x
+PROV269;Mer de Macédoine;Mer de Macédoine;Mer de Macédoine;;;;;;;;;x
+PROV270;Mer d'Albanie;Mer d'Albanie;Mer d'Albanie;;;;;;;;;x
+PROV271;Mer de Serbie;Mer de Serbie;Mer de Serbie;;;;;;;;;x
+PROV272;Adriatique Sud;Adriatique Sud;Adriatique Sud;;;;;;;;;x
+PROV273;Adriatique Centre;Adriatique Centre;Adriatique Centre;;;;;;;;;x
+PROV274;Adriatique Nord;Adriatique Nord;Adriatique Nord;;;;;;;;;x
+PROV275;Mer Slavo-Italienne;Mer Slavo-Italienne;Mer Slavo-Italienne;;;;;;;;;x
+PROV276;Mer de la Pointe;Mer de la Pointe;Mer de la Pointe;;;;;;;;;x
+PROV277;Méditerranée Intérieur Est;Méditerranée Intérieur Est;Méditerranée Intérieur Est;;;;;;;;;x
+PROV278;Méditerranée Intérieur Ouest;Méditerranée Intérieur Ouest;Méditerranée Intérieur Ouest;;;;;;;;;x
+PROV279;Mer d’Égypte;Mer d’Égypte;Mer d’Égypte;;;;;;;;;x
+PROV280;Golfe de Tripolie;Golfe de Tripolie;Golfe de Tripolie;;;;;;;;;x
+PROV281;Baie de Djerba;Baie de Djerba;Baie de Djerba;;;;;;;;;x
+PROV282;Mer de Tunis;Mer de Tunis;Mer de Tunis;;;;;;;;;x
+PROV283;Mer du Sud Italien;Mer du Sud Italien;Mer du Sud Italien;;;;;;;;;x
+PROV284;Baie de Sicile;Baie de Sicile;Baie de Sicile;;;;;;;;;x
+PROV285;Mer de Sicile;Mer de Sicile;Mer de Sicile;;;;;;;;;x
+PROV286;Détroit de Malte;Détroit de Malte;Détroit de Malte;;;;;;;;;x
+PROV287;Mer Sardaigno-Sicilienne;Mer Sardaigno-Sicilienne;Mer Sardaigno-Sicilienne;;;;;;;;;x
+PROV288;Mer Napolitaine;Mer Napolitaine;Mer Napolitaine;;;;;;;;;x
+PROV289;Mare Nostrum;Mare Nostrum;Mare Nostrum;;;;;;;;;x
+PROV290;Golfe de Gênes;Golfe de Gênes;Golfe de Gênes;;;;;;;;;x
+PROV291;Mer Provençal;Mer Provençal;Mer Provençal;;;;;;;;;x
+PROV292;Golfe du Lyon;Golfe du Lyon;Golfe du Lyon;;;;;;;;;x
+PROV293;Mer Corso-Sardaignoise;Mer Corso-Sardaignoise;Mer Corso-Sardaignoise;;;;;;;;;x
+PROV294;Mer de Sardaigne;Mer de Sardaigne;Mer de Sardaigne;;;;;;;;;x
+PROV295;Mer de Barcelone;Mer de Barcelone;Mer de Barcelone;;;;;;;;;x
+PROV296;Mer de Valence;Mer de Valence;Mer de Valence;;;;;;;;;x
+PROV297;Mer du Magrheb;Mer du Magrheb;Mer du Magrheb;;;;;;;;;x
+PROV298;Mer de Grenade;Mer de Grenade;Mer de Grenade;;;;;;;;;x
+PROV299;Détroit de Gibraltar;Détroit de Gibraltar;Détroit de Gibraltar;;;;;;;;;x
+PROV300;Mer d'alger;Mer d'alger;Mer d'alger;;;;;;;;;x
+PROV301;Mer du maroc;Mer du maroc;Mer du maroc;;;;;;;;;x
+PROV302;Mer Fantôme;Mer Fantôme;Mer Fantôme;;;;;;;;;x
+PROV303;Atlantique;Atlantique;Atlantique;;;;;;;;;x
+PROV304;Pacifique;Pacifique;Pacifique;;;;;;;;;x
+PROV305;Black Sea;Mer Noire;;;;;;;;;;;x
