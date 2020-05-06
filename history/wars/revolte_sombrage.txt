@@ -1,0 +1,22 @@
+name = "Révolte Sombrage"
+
+casus_belli = {
+	actor = 1000
+	recipient = 1001
+	casus_belli = revolte_sombrage
+	landed_title = k_skyrim
+	date = 499.12.15
+}
+
+499.12.15 = {
+	add_attacker = 1000
+	add_attacker = 1006
+	add_attacker = 1007
+	add_attacker = 1008
+	add_defender = 1001
+}
+
+450.1.1 = {
+	rem_attacker = 1000
+	rem_defender = 1001
+}
