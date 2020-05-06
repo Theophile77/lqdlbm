@@ -1,0 +1,8 @@
+# k_skyrim
+500.1.1={
+	law = enatic_succession
+	law = succ_primogeniture
+}
+500.1.1={
+	liege=k_skyrim
+}
