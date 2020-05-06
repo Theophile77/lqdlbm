@@ -1,0 +1,19 @@
+# c_lancashire
+
+# County Title
+title = c_lancashire
+
+# Settlements
+max_settlements = 5
+
+b_lancaster = castle
+b_lancashire = city
+#b_lancashire_2 = temple
+#b_lancashire_3 = castle
+#b_lancashire_4 = city
+
+# Misc
+culture = breton
+religion = catholic
+
+#History

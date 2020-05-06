@@ -1,0 +1,17 @@
+# c_orleans
+
+# County Title
+title = c_orleans
+
+# Settlements
+max_settlements = 3
+
+b_orleans = castle
+b_gien = city
+#b_fleury = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

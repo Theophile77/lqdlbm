@@ -1,0 +1,20 @@
+# c_leicester
+
+# County Title
+title = c_leicester
+
+# Settlements
+max_settlements = 5
+
+b_leicester = castle
+b_boston = city
+b_lincoln = temple
+#b_southwell = castle
+#b_hucknall = city
+#b_newark = temple
+
+# Misc
+culture = english
+religion = norse_pagan
+
+#History

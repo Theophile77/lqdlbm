@@ -1,0 +1,18 @@
+# c_kent
+
+# County Title
+title = c_kent
+
+# Settlements
+max_settlements = 3
+
+b_dover = castle
+b_sandwich = city
+b_cantorbery = temple
+#b_rochester = castle
+
+# Misc
+culture = saxon
+religion = norse_pagan
+
+#History

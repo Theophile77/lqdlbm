@@ -1,0 +1,15 @@
+# c_avalon
+
+# County Title
+title = c_avalon
+
+# Settlements
+max_settlements = 1
+
+b_avalon = temple
+
+# Misc
+culture = breton
+religion = catholic
+
+#History

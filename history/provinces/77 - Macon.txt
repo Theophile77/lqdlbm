@@ -1,0 +1,20 @@
+# c_macon
+
+# County Title
+title = c_macon
+
+# Settlements
+max_settlements = 6
+
+b_macon = castle
+b_semur_2 = city
+b_cluny = temple
+b_charolles = castle
+#b_beaujeu = city
+#b_perrecy = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

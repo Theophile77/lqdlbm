@@ -1,0 +1,16 @@
+# c_highland
+
+# County Title
+title = c_highland
+
+# Settlements
+max_settlements = 2
+
+b_iverness = castle
+#b_ratagan = city
+
+# Misc
+culture = pictish
+religion = pagan
+
+#History

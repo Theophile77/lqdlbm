@@ -1,0 +1,20 @@
+# c_sens
+
+# County Title
+title = c_sens
+
+# Settlements
+max_settlements = 6
+
+b_sens = temple
+b_nemours = city
+b_joigny = castle
+b_pithiviers = castle
+b_montargis = temple
+b_villefranche_le_roy = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

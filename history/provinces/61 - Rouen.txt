@@ -1,0 +1,18 @@
+# c_rouen
+
+# County Title
+title = c_rouen
+
+# Settlements
+max_settlements = 4
+
+b_rouen = castle
+b_arques = city
+b_fecamps = temple
+#b_rouen_2 = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

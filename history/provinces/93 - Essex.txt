@@ -1,0 +1,21 @@
+# c_essex
+
+# County Title
+title = c_essex
+
+# Settlements
+max_settlements = 6
+
+b_westminster = castle
+b_londre = city
+#b_waltham = temple
+#b_tottenham = castle
+#b_hertford = city
+#b_saint_paul = temple
+#b_colchester = castle
+
+# Misc
+culture = saxon
+religion = norse_pagan
+
+#History

@@ -1,0 +1,20 @@
+# c_lorraine
+
+# County Title
+title = c_lorraine
+
+# Settlements
+max_settlements = 6
+
+b_nancy = castle
+b_sarrebourg = city
+b_toul = temple
+b_saintois = temple
+b_vaudemont = castle
+b_brixey = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

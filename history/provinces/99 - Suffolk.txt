@@ -1,0 +1,20 @@
+# c_suffolk
+
+# County Title
+title = c_suffolk
+
+# Settlements
+max_settlements = 4
+
+b_ipswich = castle
+b_bury = city
+#b_ely = temple
+#b_lowesroft = castle
+#b_dunwich = city
+#b_stow = temple
+
+# Misc
+culture = english
+religion = norse_pagan
+
+#History

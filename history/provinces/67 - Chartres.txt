@@ -1,0 +1,18 @@
+# c_chartres
+
+# County Title
+title = c_chartres
+
+# Settlements
+max_settlements = 4
+
+b_bretigny = castle
+b_chartres = city
+#b_dreux_2 = temple
+#b_nogent = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

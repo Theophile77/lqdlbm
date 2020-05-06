@@ -1,0 +1,18 @@
+# c_northumberland
+
+# County Title
+title = c_northumberland
+
+# Settlements
+max_settlements = 4
+
+b_craster = castle
+b_chatton = city
+#b_northumberland = temple
+#b_northumberland_2 = castle
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

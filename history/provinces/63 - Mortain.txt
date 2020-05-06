@@ -1,0 +1,19 @@
+# c_mortain
+
+# County Title
+title = c_mortain
+
+# Settlements
+max_settlements = 5
+
+b_mortain = castle
+b_barfleur = city
+#b_avranche = temple
+#b_mortain_2 = castle
+#b_mortain_3 = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

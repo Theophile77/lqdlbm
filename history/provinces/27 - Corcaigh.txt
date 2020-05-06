@@ -1,0 +1,16 @@
+# c_corcaigh
+
+# County Title
+title = c_corcaigh
+
+# Settlements
+max_settlements = 2
+
+b_corcaigh = castle
+#b_corcaigh_2 = city
+
+# Misc
+culture = irish
+religion = pagan
+
+#History

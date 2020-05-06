@@ -1,0 +1,20 @@
+# c_frise
+
+# County Title
+title = c_frise
+
+# Settlements
+max_settlements = 6
+
+b_groningue = castle
+b_aurich = city
+b_dokkun = temple
+#b_norden = castle
+#b_stavoren = city
+#b_deventer = temple
+
+# Misc
+culture = frisian
+religion = norse_pagan
+
+#History

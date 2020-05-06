@@ -1,0 +1,17 @@
+# c_baile_atha_cliath
+
+# County Title
+title = c_baile_atha_cliath
+
+# Settlements
+max_settlements = 3
+
+b_dublin = castle
+b_baile_atha_cliath = city
+#b_baile_atha_cliath_2 = temple
+
+# Misc
+culture = irish
+religion = pagan
+
+#History

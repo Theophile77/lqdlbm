@@ -1,0 +1,19 @@
+# c_blois
+
+# County Title
+title = c_blois
+
+# Settlements
+max_settlements = 3
+
+b_blois = castle
+b_beaugency = city
+#b_saint_aignan = temple
+#b_chateaudun = castle
+#b_cloyes = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,18 @@
+# c_tarbes
+
+# County Title
+title = c_tarbes
+
+# Settlements
+max_settlements = 4
+
+b_tarbes = castle
+b_bigorre = city
+#b_lourdes = temple
+#b_auch = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

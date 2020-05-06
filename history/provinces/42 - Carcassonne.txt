@@ -1,0 +1,18 @@
+# c_carcassonne
+
+# County Title
+title = c_carcassonne
+
+# Settlements
+max_settlements = 4
+
+b_carcassonne = castle
+b_foix = castle
+b_saint_gaudens = temple
+#b_carcassonne_2 = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

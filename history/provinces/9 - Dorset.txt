@@ -1,0 +1,19 @@
+# c_dorset
+
+# County Title
+title = c_dorset
+
+# Settlements
+max_settlements = 5
+
+b_weymouth = castle
+b_bridport = city
+#b_yeovil = temple
+#b_dorset = castle
+#b_dorset_2 = city
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

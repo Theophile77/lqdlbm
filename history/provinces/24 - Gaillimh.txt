@@ -1,0 +1,18 @@
+# c_gaillimh
+
+# County Title
+title = c_gaillimh
+
+# Settlements
+max_settlements = 4
+
+b_gaillimh = castle
+#b_gaillimh_2 = city
+#b_gaillimh_3 = temple
+#b_gaillimh_4 = castle
+
+# Misc
+culture = irish
+religion = pagan
+
+#History

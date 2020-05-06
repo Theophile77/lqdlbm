@@ -1,0 +1,19 @@
+# c_york
+
+# County Title
+title = c_york
+
+# Settlements
+max_settlements = 4
+
+b_york = castle
+b_scarborough = city
+#b_st_peters = temple
+#b_richmond = castle
+#b_nottingham = city
+
+# Misc
+culture = english
+religion = norse_pagan
+
+#History

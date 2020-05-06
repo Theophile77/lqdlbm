@@ -1,0 +1,20 @@
+# c_angouleme
+
+# County Title
+title = c_angouleme
+
+# Settlements
+max_settlements = 5
+
+b_jarnac = castle
+b_angouleme = city
+#b_bassac = temple
+#b_cognac = castle
+#b_larochefoucaud = city
+#b_richemont = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

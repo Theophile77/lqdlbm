@@ -1,0 +1,17 @@
+# c_cleveland
+
+# County Title
+title = c_cleveland
+
+# Settlements
+max_settlements = 2
+
+b_yarm = castle
+b_hartle = city
+#b_aycliff = temple
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

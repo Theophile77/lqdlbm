@@ -1,0 +1,17 @@
+# c_camelot
+
+# County Title
+title = c_camelot
+
+# Settlements
+max_settlements = 3
+
+b_kaamelot = castle
+b_camelot = city
+#b_camelot_2 = temple
+
+# Misc
+culture = breton
+religion = catholic
+
+#History

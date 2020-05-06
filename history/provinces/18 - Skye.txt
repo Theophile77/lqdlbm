@@ -1,0 +1,17 @@
+# c_skye
+
+# County Title
+title = c_skye
+
+# Settlements
+max_settlements = 2
+
+b_skye = castle
+#b_peinchorran = city
+#b_ashaig = temple
+
+# Misc
+culture = pictish
+religion = pagan
+
+#History

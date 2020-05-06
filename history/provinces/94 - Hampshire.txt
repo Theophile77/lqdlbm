@@ -1,0 +1,20 @@
+# c_hampshire
+
+# County Title
+title = c_hampshire
+
+# Settlements
+max_settlements = 5
+
+b_winchester = castle
+b_oxford = city
+#b_dunstable = temple
+#b_windsor = castle
+#b_southampton = city
+#b_aylesbury = temple
+
+# Misc
+culture = saxon
+religion = norse_pagan
+
+#History

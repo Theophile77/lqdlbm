@@ -1,0 +1,20 @@
+# c_gueldre
+
+# County Title
+title = c_gueldre
+
+# Settlements
+max_settlements = 5
+
+b_arnhem = castle
+b_dorestad = city
+#b_utrech = temple
+#b_cleves = castle
+#b_doesburg = city
+#b_rees = temple
+
+# Misc
+culture = frisian
+religion = norse_pagan
+
+#History

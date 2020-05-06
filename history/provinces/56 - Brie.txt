@@ -1,0 +1,20 @@
+# c_brie
+
+# County Title
+title = c_brie
+
+# Settlements
+max_settlements = 6
+
+b_provins = castle
+b_montmirail = castle
+b_champ_benoit = city
+b_meaux = city
+b_melun = castle
+b_sezanne = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

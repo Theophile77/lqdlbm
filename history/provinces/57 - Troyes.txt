@@ -1,0 +1,18 @@
+# c_troyes
+
+# County Title
+title = c_troyes
+
+# Settlements
+max_settlements = 4
+
+b_troyes = castle
+b_chaumont = city
+b_langres = temple
+#b_brienne = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

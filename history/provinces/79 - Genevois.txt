@@ -1,0 +1,17 @@
+# c_genevois
+
+# County Title
+title = c_genevois
+
+# Settlements
+max_settlements = 3
+
+b_geneve = castle
+b_nyon = city
+#b_lausanne = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

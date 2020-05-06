@@ -1,0 +1,21 @@
+# c_lyon
+
+# County Title
+title = c_lyon
+
+# Settlements
+max_settlements = 5
+
+b_pusignan = castle
+b_lyon = city
+b_saint_jean_baptiste = temple
+b_brindas = castle
+#b_anse = city
+#b_chessy = temple
+#b_lacenas = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

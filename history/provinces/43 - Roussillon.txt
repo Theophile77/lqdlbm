@@ -1,0 +1,18 @@
+# c_roussillon
+
+# County Title
+title = c_roussillon
+
+# Settlements
+max_settlements = 4
+
+b_perpignan = castle
+b_narbonne = castle
+b_beziers = city
+b_saint_pons = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

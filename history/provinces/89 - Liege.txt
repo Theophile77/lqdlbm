@@ -1,0 +1,20 @@
+# c_liege
+
+# County Title
+title = c_liege
+
+# Settlements
+max_settlements = 6
+
+b_namur = castle
+b_valencienne = city
+b_liege = temple
+#b_ath = castle
+#b_dinant = city
+#b_cambrai = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

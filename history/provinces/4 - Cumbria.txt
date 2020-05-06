@@ -1,0 +1,19 @@
+# c_cumbria
+
+# County Title
+title = c_cumbria
+
+# Settlements
+max_settlements = 5
+
+b_carlisle = castle
+b_cumbria = city
+b_cumbria_2 = temple
+#b_cumbria_3 = castle
+#b_cumbria_4 = city
+
+# Misc
+culture = breton
+religion = catholic
+
+#History

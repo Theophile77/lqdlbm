@@ -1,0 +1,21 @@
+# c_provence
+
+# County Title
+title = c_provence
+
+# Settlements
+max_settlements = 7
+
+b_arles = castle
+b_marseille = city
+b_aix = temple
+b_monaco = castle
+b_menton = city
+b_nice = temple
+#b_grimaud = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

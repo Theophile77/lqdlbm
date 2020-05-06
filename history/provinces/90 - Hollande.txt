@@ -1,0 +1,20 @@
+# c_hollande
+
+# County Title
+title = c_hollande
+
+# Settlements
+max_settlements = 5
+
+b_vlardingen = castle
+b_hoorn = city
+#b_haarlem = temple
+#b_middlebourg = castle
+#b_dordrecht = city
+#b_tholen = temple
+
+# Misc
+culture = frisian
+religion = norse_pagan
+
+#History

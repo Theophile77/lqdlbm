@@ -1,0 +1,19 @@
+# c_sommerset
+
+# County Title
+title = c_sommerset
+
+# Settlements
+max_settlements = 5
+
+b_taunton = castle
+b_bridgewater = city
+#b_sommerset = temple
+#b_sommerset_2 = castle
+#b_sommerset_3 = city
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

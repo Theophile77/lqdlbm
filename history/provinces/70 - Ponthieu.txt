@@ -1,0 +1,19 @@
+# c_ponthieu
+
+# County Title
+title = c_ponthieu
+
+# Settlements
+max_settlements = 5
+
+b_abbeville = castle
+b_forges = city
+b_ardres = temple
+#b_boulogne = castle
+#b_montreuil = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

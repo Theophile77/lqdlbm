@@ -1,0 +1,19 @@
+# c_la_marche
+
+# County Title
+title = c_la_marche
+
+# Settlements
+max_settlements = 5
+
+b_bourges = castle
+b_aubussons = city
+#b_souvigny = temple
+#b_bourbon = castle
+#b_moulin = city
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

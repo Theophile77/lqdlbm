@@ -1,0 +1,16 @@
+# c_orcanie
+
+# County Title
+title = c_orcanie
+
+# Settlements
+max_settlements = 2
+
+b_aberdeen = castle
+b_aviemore = city
+
+# Misc
+culture = pictish
+religion = pagan
+
+#History

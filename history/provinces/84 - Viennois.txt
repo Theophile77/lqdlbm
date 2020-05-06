@@ -1,0 +1,20 @@
+# c_viennois
+
+# County Title
+title = c_viennois
+
+# Settlements
+max_settlements = 6
+
+b_forcalquier = castle
+b_grenoble = city
+b_vienne = temple
+#b_albon = castle
+#b_apt = city
+#b_embrun = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

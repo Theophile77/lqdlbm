@@ -1,0 +1,20 @@
+# c_perigord
+
+# County Title
+title = c_perigord
+
+# Settlements
+max_settlements = 4
+
+b_sarlat = castle
+b_bergerac = city
+#b_chancelade = temple
+#b_auberoche = castle
+#b_baneuil = city
+#b_perigueux = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

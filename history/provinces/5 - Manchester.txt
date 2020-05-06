@@ -1,0 +1,18 @@
+# c_manchester
+
+# County Title
+title = c_manchester
+
+# Settlements
+max_settlements = 4
+
+b_manchester = castle
+b_manchester_2 = city
+#b_manchester_3 = temple
+#b_manchester_4 = castle
+
+# Misc
+culture = breton
+religion = catholic
+
+#History

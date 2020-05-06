@@ -1,0 +1,20 @@
+# c_bruge
+
+# County Title
+title = c_bruge
+
+# Settlements
+max_settlements = 6
+
+b_cassel = castle
+b_bruges = city
+b_tournai = temple
+#b_audenarde = castle
+#b_gand = city
+#b_damme = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

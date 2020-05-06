@@ -1,0 +1,19 @@
+# c_forez
+
+# County Title
+title = c_forez
+
+# Settlements
+max_settlements = 5
+
+b_couzan = castle
+b_montbrison = city
+b_charlieu = temple
+#b_roannes = castle
+#b_saint_etienne = city
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

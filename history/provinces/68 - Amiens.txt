@@ -1,0 +1,19 @@
+# c_amiens
+
+# County Title
+title = c_amiens
+
+# Settlements
+max_settlements = 5
+
+b_rethel_2 = castle
+b_amiens = city
+b_beauvais = temple
+#b_peronne = castle
+#b_saint_quentin = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,21 @@
+# c_guyenne
+
+# County Title
+title = c_guyenne
+
+# Settlements
+max_settlements = 5
+
+b_bordeaux = castle
+b_la_sauve = city
+#b_blaye = temple
+#b_castillon = castle
+#b_stemillion = city
+#b_bourg = temple
+#b_libourne = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

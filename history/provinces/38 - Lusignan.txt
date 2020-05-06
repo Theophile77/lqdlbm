@@ -1,0 +1,20 @@
+# c_lusignan
+
+# County Title
+title = c_lusignan
+
+# Settlements
+max_settlements = 3
+
+b_lusignan = castle
+b_niort = city
+#b_charroux = temple
+#b_melle = castle
+#b_maillezais = city
+#b_civray = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

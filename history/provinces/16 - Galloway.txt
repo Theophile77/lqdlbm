@@ -1,0 +1,17 @@
+# c_galloway
+
+# County Title
+title = c_galloway
+
+# Settlements
+max_settlements = 3
+
+b_dumfries = castle
+b_bargrennan = city
+#b_carsphairn = temple
+
+# Misc
+culture = scottish
+religion = pagan
+
+#History

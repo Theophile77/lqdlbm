@@ -1,0 +1,19 @@
+# c_gevaudan
+
+# County Title
+title = c_gevaudan
+
+# Settlements
+max_settlements = 5
+
+b_aubenas = castle
+b_marjevols = city
+#b_viviers = temple
+#b_grezes = castle
+#b_segualieres = city
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

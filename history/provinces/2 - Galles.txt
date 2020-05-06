@@ -1,0 +1,18 @@
+# c_galles
+
+# County Title
+title = c_galles
+
+# Settlements
+max_settlements = 4
+
+b_carleon = castle
+b_galles = city
+#b_galles_2 = temple
+#b_galles_3 = castle
+
+# Misc
+culture = breton
+religion = catholic
+
+#History

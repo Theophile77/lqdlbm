@@ -1,0 +1,19 @@
+# c_auxerre
+
+# County Title
+title = c_auxerre
+
+# Settlements
+max_settlements = 5
+
+b_auxerre = castle
+b_chateauroux = city
+b_pontigny = temple
+#b_guedelon = castle
+#b_courtenay = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

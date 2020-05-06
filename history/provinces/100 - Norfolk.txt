@@ -1,0 +1,20 @@
+# c_norfolk
+
+# County Title
+title = c_norfolk
+
+# Settlements
+max_settlements = 4
+
+b_thetford = castle
+b_lynn = city
+#b_elmhan = temple
+#b_buckenham = castle
+#b_norwich = city
+#b_chatteris = temple
+
+# Misc
+culture = english
+religion = norse_pagan
+
+#History

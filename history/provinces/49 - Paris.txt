@@ -1,0 +1,17 @@
+# c_paris
+
+# County Title
+title = c_paris
+
+# Settlements
+max_settlements = 3
+
+b_paris = castle
+b_paris_2 = city
+b_saint_denis = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

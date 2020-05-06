@@ -1,0 +1,20 @@
+# c_toulouse
+
+# County Title
+title = c_toulouse
+
+# Settlements
+max_settlements = 6
+
+b_toulouse = castle
+b_millau = city
+b_lavaur = temple
+b_castelnaudary = castle
+b_najac = castle
+b_muret = city
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

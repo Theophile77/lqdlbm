@@ -1,0 +1,19 @@
+# c_avignon
+
+# County Title
+title = c_avignon
+
+# Settlements
+max_settlements = 5
+
+b_avignon = temple
+b_carpentras = city
+b_orange = castle
+b_aubenas_2 = castle
+b_viviers_2 = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

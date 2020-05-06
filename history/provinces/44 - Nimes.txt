@@ -1,0 +1,18 @@
+# c_nimes
+
+# County Title
+title = c_nimes
+
+# Settlements
+max_settlements = 4
+
+b_nimes = castle
+b_montpellier = city
+#b_vabres = temple
+#b_rodez = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

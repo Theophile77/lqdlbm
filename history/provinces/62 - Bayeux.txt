@@ -1,0 +1,19 @@
+# c_bayeux
+
+# County Title
+title = c_bayeux
+
+# Settlements
+max_settlements = 5
+
+b_bayeux = castle
+b_caen = city
+b_marvieux = temple
+#b_creuilly = castle
+#b_bayeux_2 = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,19 @@
+# c_alsace
+
+# County Title
+title = c_alsace
+
+# Settlements
+max_settlements = 5
+
+b_eguisheim = castle
+b_colmar = city
+b_stratsbourg = temple
+#b_ferrete = castle
+#b_lauterbourg = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

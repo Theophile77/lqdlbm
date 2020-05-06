@@ -1,0 +1,19 @@
+# c_vendee
+
+# County Title
+title = c_vendee
+
+# Settlements
+max_settlements = 5
+
+b_cugand = castle
+b_la_roche = castle
+b_olonne_sur_mer = city
+b_les_sables_dolonne = temple
+b_aizenay = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

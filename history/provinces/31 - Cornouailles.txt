@@ -1,0 +1,18 @@
+# c_cornouailles
+
+# County Title
+title = c_cornouailles
+
+# Settlements
+max_settlements = 4
+
+b_vannes = castle
+b_quimper = city
+#b_cornouailles = temple
+#b_cornouailles_2 = castle
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

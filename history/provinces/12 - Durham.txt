@@ -1,0 +1,19 @@
+# c_durham
+
+# County Title
+title = c_durham
+
+# Settlements
+max_settlements = 5
+
+b_durham = castle
+b_stanhope = city
+#b_consett = temple
+#b_durham_2 = castle
+#b_durham_3 = city
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

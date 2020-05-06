@@ -1,0 +1,16 @@
+# c_liatroim
+
+# County Title
+title = c_liatroim
+
+# Settlements
+max_settlements = 2
+
+b_liatroim = castle
+#b_liatroim_2 = city
+
+# Misc
+culture = irish
+religion = pagan
+
+#History

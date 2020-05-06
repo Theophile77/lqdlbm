@@ -1,0 +1,18 @@
+# c_limousin
+
+# County Title
+title = c_limousin
+
+# Settlements
+max_settlements = 4
+
+b_turenne = castle
+b_cahort = city
+#b_limoges = temple
+#b_comborn = castle
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

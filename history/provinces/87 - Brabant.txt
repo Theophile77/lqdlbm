@@ -1,0 +1,20 @@
+# c_brabant
+
+# County Title
+title = c_brabant
+
+# Settlements
+max_settlements = 6
+
+b_breda = castle
+b_bruxelles = city
+b_tilburg = temple
+#b_louvain = castle
+#b_hasselt = city
+#b_tongres = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

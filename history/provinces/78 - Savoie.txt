@@ -1,0 +1,18 @@
+# c_savoie
+
+# County Title
+title = c_savoie
+
+# Settlements
+max_settlements = 4
+
+b_annecy = castle
+b_chambery = city
+#b_faucigny = temple
+#b_conflens = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

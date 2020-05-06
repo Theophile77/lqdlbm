@@ -1,0 +1,16 @@
+# c_dun_na_ngall
+
+# County Title
+title = c_dun_na_ngall
+
+# Settlements
+max_settlements = 2
+
+b_dun_na_ngall = castle
+#b_dun_na_ngall_2 = city
+
+# Misc
+culture = irish
+religion = pagan
+
+#History

@@ -1,0 +1,18 @@
+# c_bearn
+
+# County Title
+title = c_bearn
+
+# Settlements
+max_settlements = 4
+
+b_dax = castle
+b_pau = city
+#b_aire = temple
+b_bayonne = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

@@ -1,0 +1,17 @@
+# c_tir_eoghain
+
+# County Title
+title = c_tir_eoghain
+
+# Settlements
+max_settlements = 3
+
+b_tir_eoghain = castle
+#b_tir_eoghain_2 = city
+#b_tir_eoghain_3 = temple
+
+# Misc
+culture = irish
+religion = pagan
+
+#History

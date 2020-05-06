@@ -1,0 +1,17 @@
+# c_tayside
+
+# County Title
+title = c_tayside
+
+# Settlements
+max_settlements = 3
+
+b_dundee = castle
+#b_perth = city
+#b_tayside = temple
+
+# Misc
+culture = pictish
+religion = pagan
+
+#History

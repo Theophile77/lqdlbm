@@ -1,0 +1,21 @@
+# c_anjou
+
+# County Title
+title = c_anjou
+
+# Settlements
+max_settlements = 5
+
+b_anger = castle
+b_lude = city
+b_graon = castle
+#b_montsoreau = castle
+#b_vihiers = city
+#b_chateaugontier = temple
+#b_treves = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,18 @@
+# c_porhoet
+
+# County Title
+title = c_porhoet
+
+# Settlements
+max_settlements = 4
+
+b_rennes = castle
+b_porhoet = city
+#b_saint_dol = temple
+#b_porhoet_2 = castle
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

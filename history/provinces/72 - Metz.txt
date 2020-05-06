@@ -1,0 +1,18 @@
+# c_metz
+
+# County Title
+title = c_metz
+
+# Settlements
+max_settlements = 4
+
+b_laroche = castle
+b_briey = city
+b_metz = temple
+#b_thionville = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,20 @@
+# c_poitou
+
+# County Title
+title = c_poitou
+
+# Settlements
+max_settlements = 5
+
+b_poitiers = castle
+b_chatellerault = city
+b_saint_savin = temple
+#b_thouars = castle
+#b_melle_2 = city
+#b_bressuires = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

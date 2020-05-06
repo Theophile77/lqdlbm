@@ -1,0 +1,20 @@
+# c_verdun
+
+# County Title
+title = c_verdun
+
+# Settlements
+max_settlements = 6
+
+b_douaumont = castle
+b_joudreville = city
+b_verdun = temple
+b_bar = castle
+#b_etain = city
+#b_saint_dizier = temple
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

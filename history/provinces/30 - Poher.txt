@@ -1,0 +1,18 @@
+# c_poher
+
+# County Title
+title = c_poher
+
+# Settlements
+max_settlements = 4
+
+b_carhaix = castle
+b_guingand = city
+#b_poher = temple
+#b_poher_2 = castle
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

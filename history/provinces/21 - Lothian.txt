@@ -1,0 +1,16 @@
+# c_lothian
+
+# County Title
+title = c_lothian
+
+# Settlements
+max_settlements = 2
+
+b_edimburg = castle
+#b_dalkeith = city
+
+# Misc
+culture = scottish
+religion = pagan
+
+#History

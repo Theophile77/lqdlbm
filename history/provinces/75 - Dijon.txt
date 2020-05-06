@@ -1,0 +1,19 @@
+# c_dijon
+
+# County Title
+title = c_dijon
+
+# Settlements
+max_settlements = 5
+
+b_dijon = castle
+b_semur = city
+b_tournus = temple
+#b_tonnerre = castle
+#b_avalon_2 = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

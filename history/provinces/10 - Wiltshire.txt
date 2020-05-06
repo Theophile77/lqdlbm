@@ -1,0 +1,17 @@
+# c_wiltshire
+
+# County Title
+title = c_wiltshire
+
+# Settlements
+max_settlements = 3
+
+b_cranborne = castle
+b_swindon = city
+#b_wiltshire = temple
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

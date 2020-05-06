@@ -1,0 +1,19 @@
+# c_auvergne
+
+# County Title
+title = c_auvergne
+
+# Settlements
+max_settlements = 5
+
+b_clermont = castle
+b_bioude = city
+#b_aurillac = temple
+#b_yssingeaux = castle
+b_la_chaise_dieu = temple
+
+# Misc
+culture = occitan
+religion = catholic
+
+#History

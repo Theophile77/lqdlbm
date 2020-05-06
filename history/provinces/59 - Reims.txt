@@ -1,0 +1,21 @@
+# c_reims
+
+# County Title
+title = c_reims
+
+# Settlements
+max_settlements = 7
+
+b_reims = temple
+b_chalon = castle
+b_attigny = city
+b_chatillon = castle
+b_rethel = city
+b_laon = temple
+b_epernay = city
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

@@ -1,0 +1,18 @@
+# c_tourraine
+
+# County Title
+title = c_tourraine
+
+# Settlements
+max_settlements = 4
+
+b_tours = castle
+b_amboise = city
+#b_chinon = temple
+#b_sainte_maure = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History

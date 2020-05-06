@@ -1,0 +1,19 @@
+# c_cornouaille
+
+# County Title
+title = c_cornouaille
+
+# Settlements
+max_settlements = 5
+
+b_tintagel = castle
+b_cornouaille = city
+#b_cornouaille_2 = temple
+#b_cornouaille_3 = castle
+#b_cornouaille_4 = city
+
+# Misc
+culture = breton
+religion = pagan
+
+#History

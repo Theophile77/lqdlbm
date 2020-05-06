@@ -1,0 +1,20 @@
+# c_montois
+
+# County Title
+title = c_montois
+
+# Settlements
+max_settlements = 6
+
+b_monthesy = castle
+b_thenisy_plage = city
+b_donnemarie = temple
+b_dontilly = city
+b_preuilly = temple
+b_lizine = castle
+
+# Misc
+culture = frankish
+religion = catholic
+
+#History
